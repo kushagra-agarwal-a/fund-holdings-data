@@ -1,19 +1,21 @@
 # fund-holdings-data
 
-Public AMFI mutual-fund holdings snapshots (zero paid cloud).
+Public AMFI mutual-fund holdings (zero paid cloud).
 
-## Layout
+## Dedup model
 
-- `holdings/latest/{amfi}.json` — shaped holdings payload
-- `catalog/amfi-lookup.json` — scheme index (`github_key` / `github_url`)
-- `holdings/asof/{yyyy-mm}/{amfi}.json` — optional dated snapshots
-- `meta.json` — last sync summary
+- **Portfolios** — one JSON per unique book: `portfolios/latest/{portfolio_id}.json`
+- **Catalog** — all AMFI schemes; holdings rows link via `portfolio_id`
 
-## CDN (jsDelivr)
+Sibling share-classes share one portfolio object.
+
+## CDN
 
 ```
-https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/holdings/latest/{amfi}.json
 https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/catalog/amfi-lookup.json
+https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/portfolios/latest/{portfolio_id}.json
 ```
 
-Synced from the fund-disclosures pipeline via `scripts/sync-holdings-to-github.mjs`.
+Resolve: catalog[amfi].portfolio_id → portfolios/latest/{id}.json
+
+Synced via `scripts/sync-holdings-to-github.mjs`.
