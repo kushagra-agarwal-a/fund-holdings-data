@@ -1,1 +1,19 @@
-{"generated_at": "2026-08-23T15:12:30.681Z", "owner": "subscriptionmanager26-png", "repo": "fund-holdings-data", "branch": "main", "model": "deduped-portfolios", "portfolios_written": 2104, "portfolios_failed": 0, "unique_portfolios_in_catalog": 2104, "catalog_schemes": 8607, "schemes_with_portfolio_link": 8592, "filings_count": 0, "cdn_catalog": "https://cdn.jsdelivr.net/gh/subscriptionmanager26-png/fund-holdings-data@30e0d0d1fb74c91429b38df111d237974a148971/catalog/amfi-lookup.json", "cdn_filings": "https://cdn.jsdelivr.net/gh/subscriptionmanager26-png/fund-holdings-data@30e0d0d1fb74c91429b38df111d237974a148971/catalog/filings.json", "cdn_portfolio_template": "https://cdn.jsdelivr.net/gh/subscriptionmanager26-png/fund-holdings-data@30e0d0d1fb74c91429b38df111d237974a148971/portfolios/latest/{portfolio_id}.json", "cdn_asof_template": "https://cdn.jsdelivr.net/gh/subscriptionmanager26-png/fund-holdings-data@30e0d0d1fb74c91429b38df111d237974a148971/portfolios/asof/{as_of}/{portfolio_id}.json", "commit": "30e0d0d1fb74c91429b38df111d237974a148971", "raw_base": "https://raw.githubusercontent.com/subscriptionmanager26-png/fund-holdings-data/30e0d0d1fb74c91429b38df111d237974a148971"}
+{
+  "generated_at": "2026-08-23T15:12:30.681Z",
+  "owner": "kushagra-agarwal-a",
+  "repo": "fund-holdings-data",
+  "branch": "main",
+  "model": "deduped-portfolios",
+  "portfolios_written": 2104,
+  "portfolios_failed": 0,
+  "unique_portfolios_in_catalog": 2104,
+  "catalog_schemes": 8607,
+  "schemes_with_portfolio_link": 8592,
+  "filings_count": 0,
+  "cdn_catalog": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@39b9f9c7e003003b1a7a0fefd5b433f46034e9ca/catalog/amfi-lookup.json",
+  "cdn_filings": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@39b9f9c7e003003b1a7a0fefd5b433f46034e9ca/catalog/filings.json",
+  "cdn_portfolio_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@39b9f9c7e003003b1a7a0fefd5b433f46034e9ca/portfolios/latest/{portfolio_id}.json",
+  "cdn_asof_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@39b9f9c7e003003b1a7a0fefd5b433f46034e9ca/portfolios/asof/{as_of}/{portfolio_id}.json",
+  "commit": "39b9f9c7e003003b1a7a0fefd5b433f46034e9ca",
+  "raw_base": "https://raw.githubusercontent.com/kushagra-agarwal-a/fund-holdings-data/39b9f9c7e003003b1a7a0fefd5b433f46034e9ca"
+}
