@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T06:33:32.762456Z",
+  "generated_at": "2026-08-29T04:51:14.861Z",
   "owner": "kushagra-agarwal-a",
   "repo": "fund-holdings-data",
   "branch": "main",
@@ -9,7 +9,7 @@
   "unique_portfolios_in_catalog": 2104,
   "catalog_schemes": 8607,
   "schemes_with_portfolio_link": 8592,
-  "filings_count": 5,
+  "filings_count": 4,
   "cdn_catalog": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@23e51c72c3b949c0457fe94e940daa0362b36d66/catalog/amfi-lookup.json",
   "cdn_filings": "https://raw.githubusercontent.com/kushagra-agarwal-a/fund-holdings-data/62445365ee51eb8fab0bd12e5060f514956bbfa4/catalog/filings.json",
   "cdn_portfolio_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@23e51c72c3b949c0457fe94e940daa0362b36d66/portfolios/asof/{as_of}/{portfolio_id}.json",
@@ -17,10 +17,10 @@
   "commit": "62445365ee51eb8fab0bd12e5060f514956bbfa4",
   "raw_base": "https://raw.githubusercontent.com/kushagra-agarwal-a/fund-holdings-data/62445365ee51eb8fab0bd12e5060f514956bbfa4",
   "last_asof_sync": {
-    "as_of": "2026-06-15",
-    "cadence": "fortnightly",
-    "source_period": "2026-06",
+    "as_of": "2026-07-31",
+    "cadence": "monthly",
+    "source_period": "2026-07",
     "update_latest": false
   },
-  "filings_refreshed_at": "2026-08-25T05:56:30.866Z"
+  "filings_refreshed_at": "2026-08-29T04:51:33.839Z"
 }
