@@ -1,59 +1,75 @@
-# Cursor Cloud — automated holdings update
+# Cursor Cloud — daily holdings update
 
-Run from **`kushagra-agarwal-a/fund-disclosures`** (preferred) or `subscriptionmanager26-png/fund-disclosures` — same parser, mirrored.
+Run from **`kushagra-agarwal-a/fund-holdings-data`** → work in **`pipeline/`**.
 
-Holdings publish **only** to `kushagra-agarwal-a/fund-holdings-data` (OpenFin’s sole data source).
+Holdings publish to **repo root** (`catalog/`, `portfolios/`, `meta.json`). OpenFin reads only those paths.
 
-## Required secrets (Cursor Cloud → Agent secrets)
+## Cursor Automation
+
+| Setting | Value |
+|---------|--------|
+| **Repo** | `kushagra-agarwal-a/fund-holdings-data` |
+| **Branch** | `main` |
+| **Working dir** | `pipeline/` |
+| **Schedule** | Daily 6:30 AM IST → cron `0 1 * * *` (UTC) |
+| **Runtime** | Cloud Agent |
+
+Command the agent runs after setup:
+
+```bash
+cd pipeline
+npm ci
+python3 -m venv .venv && .venv/bin/pip install -q -r requirements.txt
+export GH_TOKEN="$HOLDINGS_GH_TOKEN"
+npm run holdings:cloud -- --push
+```
+
+## Required secrets (Cloud Agent dashboard)
 
 | Secret | Purpose |
 |--------|---------|
-| `HOLDINGS_GH_TOKEN` | Push to `kushagra-agarwal-a/fund-holdings-data` |
-| `EDELWEISS_API_SECRET` | Edelweiss AMC statutory fetch |
-| `GH_TOKEN` | Optional; defaults to `HOLDINGS_GH_TOKEN` for git operations |
+| `HOLDINGS_GH_TOKEN` | `kushagra-agarwal-a` PAT with `repo` on `fund-holdings-data` |
+| `EDELWEISS_API_SECRET` | Edelweiss AMC fetch |
 
-Never commit tokens. `.env` is gitignored.
+Optional env (defaults are fine):
 
-## One-command update
+| Var | Default | Purpose |
+|-----|---------|---------|
+| `FETCH_TIMEOUT_MS` | `180000` | Per-request timeout (avoids false errors on slow AMC sites) |
+| `FETCH_CONCURRENCY` | `4` | Parallel AMC fetches (lower = fewer timeouts) |
 
-```bash
-npm ci
-python3 -m venv .venv && .venv/bin/pip install -q -r requirements.txt
-export GH_TOKEN="${HOLDINGS_GH_TOKEN:-$GH_TOKEN}"
-node scripts/cloud-holdings-update.mjs --push
-```
+## What `holdings:cloud` does
 
-`--push` publishes to GitHub. Omit for a dry run (fetch/parse/sync locally only).
+1. Fetch **monthly + fortnightly** for the last **3 calendar months**
+2. Parse all AMCs (`--all`)
+3. Enrich identifiers (`--allow-incomplete` — partial months are normal early in the month)
+4. **Merge-sync** to GitHub (never deletes existing portfolio files)
+5. Refresh `catalog/filings.json` + pin `meta.json`
+6. Verify `https://openfin.pocketedge.in/api/v1/filings`
+7. Write JSON report under `pipeline/data/probes/cloud-holdings-report-*.json`
 
-## What the script does
+## Safety rules
 
-1. **Fetch** — current and previous calendar month (`monthly` + `fortnightly` AMC packs)
-2. **Parse** — resume-safe parse for those periods
-3. **Enrich + locks** — `holdings:enrich`, `holdings:assert-locks`
-4. **Sync** — `holdings:sync-window` for a rolling 3-month window → `kushagra-agarwal-a/fund-holdings-data`
-5. **Catalog** — `holdings:refresh-filings --push`
-6. **Verify** — `GET https://openfin.pocketedge.in/api/v1/filings` and spot-check one AMFI code
+- **Never** use `--allow-regression` or prune scripts in the daily job
+- Sync always uses `--merge` (additive fortnightly; monthly only replaces schemes present in the new parse)
+- If regression guard blocks a push, investigate — do not bypass
 
-Regression guards block accidental portfolio deletions. If sync fails with a regression error, **do not** use `--allow-regression` unless the drop is intentional.
+## Interpreting fetch results
 
-## Manual month-end (first weekday of month)
+| Status | Meaning |
+|--------|---------|
+| **ok** | Files downloaded for this period |
+| **empty** | Scraper ran; AMC has not published this period yet (common early in the month) |
+| **error** | Request failed (timeout, network) — retry next day or lower concurrency |
 
-On the first run of each month, also run the full mapping loop from `docs/PIPELINE.md` steps 3–6 (`amfi:catalog`, `amfi:match:reuse`, `holdings:catalog`, `registry:persist`) before the cloud script.
+`empty` is not a bug. Most AMCs publish month-end monthly 3–7 days after month close.
 
-## Troubleshooting
+## Slack report (automation prompt)
 
-| Symptom | Fix |
-|---------|-----|
-| `403` pushing holdings | `HOLDINGS_GH_TOKEN` must be a `kushagra-agarwal-a` PAT with `repo` scope |
-| `Holdings data regression blocked` | Parsed data missing vs repo; re-fetch/parse or investigate — never force-push |
-| OpenFin API stale | Wait 2 min (CDN TTL) or confirm `pocketedge` deploy has meta.json commit pinning |
-| `.venv` missing | Re-run `python3 -m venv .venv && pip install -r requirements.txt` |
+After the run, DM a short summary: periods fetched, AMC ok/empty/error counts, new portfolio files, new as-of dates, OpenFin filings list, and any push failures.
 
-## Canonical repos (OpenFin)
+## Canonical repo
 
-| Repo | Account |
-|------|---------|
-| Data | `kushagra-agarwal-a/fund-holdings-data` |
-| Parser | `kushagra-agarwal-a/fund-disclosures` (mirror: `subscriptionmanager26-png/fund-disclosures`) |
+**Only** `kushagra-agarwal-a/fund-holdings-data` — data + parser. No holdings on other accounts.
 
-No holdings data on subscriptionmanager26-png.
+`subscriptionmanager26-png/fund-disclosures` is an optional parser mirror (`npm run parser:mirror-subscriptionmanager`).
