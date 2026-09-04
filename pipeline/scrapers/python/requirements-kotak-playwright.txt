@@ -1,0 +1,2 @@
+# Optional: Kotak MF browser automation (Radware / SPA)
+playwright>=1.49.0

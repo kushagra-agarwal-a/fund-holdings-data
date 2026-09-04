@@ -1,0 +1,310 @@
+{
+  "360-one-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "abakkus-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "aditya-birla-sun-life-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "angel-one-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "axis-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "bajaj-finserv-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "bandhan-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "bank-of-india-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "baroda-bnp-paribas-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "canara-robeco-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "capitalmind-mutual-fund": {
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "choice-mutual-fund": {
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "dsp-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "edelweiss-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true,
+    "include_options_in_cash_book": true
+  },
+  "franklin-templeton-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "groww-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "hdfc-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "helios-mutual-fund": {
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "hsbc-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "icici-prudential-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": false,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "il-fs-mutual-fund-idf": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "invesco-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "iti-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "jio-blackrock-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "jm-financial-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "kotak-mahindra-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "lic-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "mahindra-manulife-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "mirae-asset-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "motilal-oswal-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "navi-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "nippon-india-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true,
+    "include_irs_in_cash_book": true
+  },
+  "nj-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "old-bridge-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "pgim-india-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "ppfas-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "quant-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "quantum-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "samco-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "sbi-mutual-fund": {
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "shriram-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "sundaram-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "tata-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "taurus-mutual-fund": {
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "the-wealth-company-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "trust-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "unifi-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "union-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "uti-mutual-fund": {
+    "family": "uti_mega",
+    "prefer_leading_code": false,
+    "multi_sheet": true,
+    "skip_mega": true
+  },
+  "whiteoak-capital-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  },
+  "zerodha-mutual-fund": {
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "skip_mega": true
+  }
+}

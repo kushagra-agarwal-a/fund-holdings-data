@@ -1,0 +1,2 @@
+# Fixture: dry-run with real kotakmf.com-shaped URL (file need not exist for --dry-run)
+2026-01	https://www.kotakmf.com/Files/Example/Monthly_Portfolio_January_2026_Consolidated.xlsx

@@ -1,0 +1,39 @@
+---
+description: Always report three portfolio allocation %NAV totals when QC'ing holdings
+alwaysApply: true
+---
+
+# Portfolio allocation totals (three ways)
+
+Whenever summing or judging whether a scheme's holdings "add to 100% NAV", **always compute and report these**:
+
+1. **`all` (include everything)** — sum every numeric `%NAV` (cash + futures/options, positives + negatives).
+2. **`exclude_negatives`** — sum only holdings with `%NAV >= 0` (drops short futures and negative NCA).
+3. **`exclude_futures`** — cash-market book only: drop futures/options rows, **keep** other negatives (e.g. negative NCA). This is the metric that usually matches scheme AUM / "sums to 100" on the SEBI sheet.
+4. **`exclude_short_futures`** — drop only *short* futures/options (keep long futures / NIFTY longs). Matches GRAND TOTAL when sleeve totals count arb cash-longs only while short legs are still listed (DSP Value / Multi Asset).
+
+Use helpers in `scripts/amc_parsers/common.py`: `allocation_totals()`, `allocation_totals_for_amc()`, `is_futures_holding()`, `meets_allocation_100()`, `meets_allocation_qc()`.
+
+Default "meets 100%" band unless the user says otherwise: **99.90–100.10** (`tol=0.10`).
+
+**QC pass:** use `meets_allocation_qc(totals)` — prefer `exclude_futures` (arb books), also accept `all` when futures sit inside GRAND TOTAL (equity long hedges), and accept `exclude_short_futures` for DSP-style arb sleeve totals.
+
+**Interest-rate swaps (IRS):** treated as futures (dropped from `exclude_futures`) by default — matches ICICI. Nippon sets `include_irs_in_cash_book: true` in `amc_parser_families.json` so IRS stays in the cash book.
+
+**Index/stock options:** treated as futures by default. Edelweiss sets `include_options_in_cash_book: true` (option premiums are inside GRAND TOTAL; stock/index *futures* % are an overlay beyond 100%). Prefer `allocation_totals_for_amc(amc_id, holdings)` when scoring.
+
+Do not treat a single number as authoritative for arbitrage / equity-savings style funds — they often fail `all` (~long − short) while passing `exclude_futures` / `exclude_negatives`.
+
+## Zero-AUM / segregated junk portfolios
+
+Some segregated side schemes (e.g. UTI Credit Risk / Medium Term Segregated -06032020) hold only written-down junk with **market value = 0** and scheme **TOTAL / NAV = 0**. Until recovery, there is no real mark.
+
+**Rule:** when the **whole book** has no positive market value (zero AUM shell), for every holding with MV written as 0 and a non-zero quantity, set:
+
+`synthetic_MV = 0.01 × |quantity|`
+
+(using the same units as the disclosure MV column). Then:
+
+`%NAV = synthetic_MV / sum(synthetic_MV) × 100`
+
+Do **not** apply this to normal funds that merely have a few zero-MV lines among positive assets. Implementation: `apply_zero_aum_junk_weights()` in `scripts/amc_parsers/common.py`.

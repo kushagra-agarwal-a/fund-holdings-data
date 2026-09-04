@@ -1,0 +1,71 @@
+node_modules/
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.log
+__pycache__/
+*.pyc
+*.bak_pre_clean
+
+# Raw / derived blobs (regenerate locally)
+data/disclosures/fortnightly/**
+!data/disclosures/fortnightly/.gitkeep
+data/disclosures/monthly/**
+!data/disclosures/monthly/.gitkeep
+data/probes/
+data/staging/
+data/parsed/**
+!data/parsed/.gitkeep
+data/amfi/*.txt
+data/amfi/NAVHistory_*.txt
+
+# Lab scratch
+tmp/
+tmp-*/
+tmp-dsp-inspect/
+tmp-nj-inspect/
+tmp-uti-inspect/
+
+# Duplicates after promotion (canonical copies live under scrapers/ / parsers/)
+reference/python-fetchers/**
+!reference/python-fetchers/MOVED.md
+scripts/amc_parsers/
+
+# Leftover pre-clean duplicates (canonical under scrapers/node, qc/web, exports/)
+src/adapters/
+src/lib/
+web/
+data/exports/
+scripts/*.mjs
+!scripts/upload-holdings-to-b2.mjs
+!scripts/sync-holdings-to-github.mjs
+!scripts/sync-asof-holdings-to-github.mjs
+!scripts/prune-retention-asof.mjs
+!scripts/sync-asof-window.mjs
+!scripts/refresh-filings-catalog.mjs
+!scripts/cloud-holdings-update.mjs
+!scripts/push-parser-both.mjs
+!scripts/lib/resolve-holdings-out-dir.mjs
+
+# Local wrangler / probe AMC scratch (never ship)
+.wrangler/
+amcs/
+scrapers/amcs/
+
+
+# Optional large duplicate baseline JSON (Excel + FREEZE kept)
+exports/baseline/disclosure_to_amfi_global_mapping.json
+exports/baseline/amfi_navall_to_disclosure_global_mapping.json
+exports/baseline/disclosure_shortcode_map.json
+
+# Large regenerable AMFI dumps
+data/sources/NAVAll.txt
+data/sources/amfi_scheme_data.jsonl
+data/sources/amfi_schemes.json
+data/sources/amfi_schemes_names.txt
+data/sources/amfi_scheme_id_to_name.json
+data/amfi/
+.tmp/

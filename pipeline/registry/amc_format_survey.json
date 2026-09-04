@@ -1,0 +1,5704 @@
+{
+  "360-one-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "IN_MF_MONTHLY_PORTFOLIO_June2026_Final_8ded2027a1.xls",
+        "nsheets": 12,
+        "scheme_tabs": 12,
+        "sheet_names": [
+          "Dynamic Bond",
+          "Liquid Fund",
+          "Focused Fund",
+          "Quant Fund",
+          "ELSS Tax Saver Nifty 50 Index",
+          "Flexicap Fund",
+          "Hybrid Fund",
+          "GOLDETF",
+          "SILVERETF",
+          "Overnight"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "~YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Dynamic Bond",
+        "as_of": "June 302026",
+        "holdings_code": 35,
+        "holdings_plain": 35,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 269670,
+        "cadence": "monthly"
+      },
+      {
+        "path": "360_ONE_Fortnightly_Disclosure_31_07_2026_Final_1b2cd4c414.xlsx",
+        "nsheets": 4,
+        "scheme_tabs": 4,
+        "sheet_names": [
+          "YY07",
+          "YY09",
+          "YY14",
+          "YY19"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "~YTC (AT1/Tier 2 bonds)",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "YY07",
+        "as_of": null,
+        "holdings_code": 34,
+        "holdings_plain": 34,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 148627,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "360_ONE_Fortnightly_Disclosure_15_07_2026_Final_c0e1fb01ed.xlsx",
+        "nsheets": 4,
+        "scheme_tabs": 4,
+        "sheet_names": [
+          "YY07",
+          "YY09",
+          "YY14",
+          "YY19"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "~YTC (AT1/Tier 2 bonds)",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "YY07",
+        "as_of": null,
+        "holdings_code": 34,
+        "holdings_plain": 34,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 150266,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "abakkus-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "Final_Monthly_Portfolio_Jul_31_a313e9e6dd.xls",
+        "nsheets": 4,
+        "scheme_tabs": 3,
+        "sheet_names": [
+          "ABAFC",
+          "ABALI",
+          "ABASC"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Abakkus Flexi Cap Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 46,
+        "holdings_plain": 46,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 215476,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Final_Portfolio_Jul31_Fortntly_3603a16dc8.xls",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "ABALI"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Abakkus Liquid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 29,
+        "holdings_plain": 29,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 137731,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Abakkus_MF_July_15_2026_4d50735aa6.xls",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "ABALI"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Abakkus Liquid Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 27,
+        "holdings_plain": 27,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 163842,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "aditya-birla-sun-life-mutual-fund": {
+    "monthly_files": 0,
+    "fortnightly_files": 1,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 1
+    },
+    "samples": [
+      {
+        "path": "sebifortnightlyportfolioreport150726.xls",
+        "nsheets": 38,
+        "scheme_tabs": 37,
+        "sheet_names": [
+          "PLUS",
+          "BSLIF",
+          "CASH",
+          "BSLCM",
+          "INV",
+          "BBP",
+          "BSLSTF",
+          "BBIF",
+          "BFL",
+          "BFS"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "ADITYA BIRLA SUN LIFE INCOME FUND",
+        "as_of": "July 15 2026",
+        "holdings_code": 61,
+        "holdings_plain": 61,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1553920,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "angel-one-mutual-fund": {
+    "monthly_files": 11,
+    "fortnightly_files": 0,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 2
+    },
+    "samples": [
+      {
+        "path": "Monthly-Portfolio-June-2026-Angel-One-Nifty-50-ETF.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Angel One Nifty 50 ETF"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Angel One Nifty 50 ETF",
+        "as_of": "30-JUN-2026",
+        "holdings_code": 51,
+        "holdings_plain": 51,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 139239,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Monthly-Portfolio-June-2026-Angel-One-Nifty-Total-Market-Momentum-Quality-50-Index-Fund.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Angel One Nifty Total Market Mo"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Angel One Nifty Total Market Momentum Quality 50 INDEX",
+        "as_of": "30-JUN-2026",
+        "holdings_code": 51,
+        "holdings_plain": 51,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 163519,
+        "cadence": "monthly"
+      }
+    ]
+  },
+  "axis-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "Monthly_Portfolio_31_07_2026.xlsx",
+        "nsheets": 87,
+        "scheme_tabs": 86,
+        "sheet_names": [
+          "AXIS500",
+          "AXISASD",
+          "AXISBCF",
+          "AXISBDF",
+          "AXISBETF",
+          "AXISBLI",
+          "AXISBTF",
+          "AXISCDL",
+          "AXISCETF",
+          "AXISCFS"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Axis Nifty 500 Index Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 501,
+        "holdings_plain": 501,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1297475,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Fortnightly_Portfolio_31_07_2026.xlsx",
+        "nsheets": 28,
+        "scheme_tabs": 27,
+        "sheet_names": [
+          "AXISASD",
+          "AXISBDF",
+          "AXISCDL",
+          "AXISCFS",
+          "AXISCIB",
+          "AXISCIG",
+          "AXISCOF",
+          "AXISCSDL",
+          "AXISDBF",
+          "AXISFLO"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Axis Income Plus Arbitrage Active FOF",
+        "as_of": "July 31 2026",
+        "holdings_code": 8,
+        "holdings_plain": 8,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 550475,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Fortnightly_Portfolio_15_07_2026.xlsx",
+        "nsheets": 29,
+        "scheme_tabs": 28,
+        "sheet_names": [
+          "AXIS113",
+          "AXISASD",
+          "AXISBDF",
+          "AXISCDL",
+          "AXISCFS",
+          "AXISCIB",
+          "AXISCIG",
+          "AXISCOF",
+          "AXISCSDL",
+          "AXISDBF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "AXIS113",
+        "as_of": "July 15 2026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 550715,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "bajaj-finserv-mutual-fund": {
+    "monthly_files": 42,
+    "fortnightly_files": 42,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "Bajaj-Finserv-Banking-and-PSU-Fund_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "BFBPSU"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bajaj Finserv Banking and PSU Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 22,
+        "holdings_plain": 22,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 99001,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Bajaj-Finserv-Nifty-Bank-ETF_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "NBANKETF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bajaj Finserv Nifty Bank ETF",
+        "as_of": "July 31 2026",
+        "holdings_code": 14,
+        "holdings_plain": 14,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 157566,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Bajaj-Finserv-Banking-and-PSU-Fund_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "BFBPSU"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bajaj Finserv Banking and PSU Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 22,
+        "holdings_plain": 22,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 99001,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Bajaj-Finserv-Nifty-Bank-ETF_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "NBANKETF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bajaj Finserv Nifty Bank ETF",
+        "as_of": "July 31 2026",
+        "holdings_code": 14,
+        "holdings_plain": 14,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 157566,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "bandhan-mutual-fund": {
+    "monthly_files": 103,
+    "fortnightly_files": 103,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "809bb088-bandhan-gold-etf_7caaffd4-055b-40d0-b6f6-de20340e7c7e_31-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "IDF316"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bandhan Gold ETF",
+        "as_of": "July 312026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 63041,
+        "cadence": "monthly"
+      },
+      {
+        "path": "c16b2375-bandhan-crisil-ibx-9010-sdl-plus-gilt-april-2032-index-fund_6a73f5b4-0e88-4150-8d3c-30b8169eab16_31-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "IDF287"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bandhan CRISIL IBX 90:10 SDL Plus Gilt April 2032 Index Fund",
+        "as_of": "July 312026",
+        "holdings_code": 32,
+        "holdings_plain": 32,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 68162,
+        "cadence": "monthly"
+      },
+      {
+        "path": "809bb088-bandhan-gold-etf_7caaffd4-055b-40d0-b6f6-de20340e7c7e_31-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "IDF316"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bandhan Gold ETF",
+        "as_of": "July 312026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 63041,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "c16b2375-bandhan-crisil-ibx-9010-sdl-plus-gilt-april-2032-index-fund_6a73f5b4-0e88-4150-8d3c-30b8169eab16_31-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "IDF287"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Bandhan CRISIL IBX 90:10 SDL Plus Gilt April 2032 Index Fund",
+        "as_of": "July 312026",
+        "holdings_code": 32,
+        "holdings_plain": 32,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 68162,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "bank-of-india-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 0,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 1
+    },
+    "samples": [
+      {
+        "path": "monthly-portfolio---30-june-2026.xlsx",
+        "nsheets": 26,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "YB01",
+          "YB02",
+          "YB04",
+          "YB06",
+          "YB07",
+          "YB08",
+          "YB09",
+          "YB21",
+          "YB26",
+          "YB30"
+        ],
+        "header_aliases": [
+          "col",
+          "\u2022 Income over short term         \n\u2022 Investment in Debt and Money Market Instruments.",
+          "col_2",
+          "col_3",
+          "col_4",
+          "col_5",
+          "col_6",
+          "col_7"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Risk-o-meter based on Benchmark\nCRISIL Liquid Debt A-I Index\nas on June 30, 2026",
+        "as_of": "June 30 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 594805,
+        "cadence": "monthly"
+      }
+    ]
+  },
+  "baroda-bnp-paribas-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 26,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "BOBBNPMF_Monthly_Portfolio_30-06-2026_18982.xlsx",
+        "nsheets": 49,
+        "scheme_tabs": 48,
+        "sheet_names": [
+          "T0MD09",
+          "T0MD12",
+          "T0MD13",
+          "T0MD27",
+          "T0ME04",
+          "T0MD28",
+          "T0ME02",
+          "T0ME05",
+          "T0ME08",
+          "T0ME18"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Baroda BNP Paribas Low Duration Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 32,
+        "holdings_plain": 32,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 810413,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Fortnightly Portfolio for Baroda BNP Paribas Conservative Hybrid Fund as on 15th July 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "T0ME08"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Baroda BNP Paribas Conservative Hybrid Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 110,
+        "holdings_plain": 110,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 325122,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Fortnightly Portfolio for Baroda BNP Paribas NIFTY SDL December 2026 Index Fund as on 15th July 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "T0MD27"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Baroda BNP Paribas NIFTY SDL December 2026 Index Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 6,
+        "holdings_plain": 6,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 369417,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "canara-robeco-mutual-fund": {
+    "monthly_files": 27,
+    "fortnightly_files": 10,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "BF---Canara-Robeco-Banking-and-Financial-Services-Fund---July-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "BF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Market Capitalization",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "CANARA ROBECO BANKING AND FINANCIAL SERVICES FUND",
+        "as_of": "July 31 2026",
+        "holdings_code": 28,
+        "holdings_plain": 28,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 99708,
+        "cadence": "monthly"
+      },
+      {
+        "path": "OF---Canara-Robeco-Overnight-Fund-July-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "OF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield %",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "CANARA ROBECO OVERNIGHT FUND",
+        "as_of": "July 31 2026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 132406,
+        "cadence": "monthly"
+      },
+      {
+        "path": "OF---Canara-Robeco-Overnight-Fund---31st-July-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "OF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield %",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "CANARA ROBECO OVERNIGHT FUND",
+        "as_of": "July 31 2026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 131269,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "CY---Canara-Robeco-Short-Duration-Fund---31st-July-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CY"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield %",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "CANARA ROBECO SHORT DURATION FUND",
+        "as_of": "July 31 2026",
+        "holdings_code": 16,
+        "holdings_plain": 16,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 851459,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "capitalmind-mutual-fund": {
+    "monthly_files": 4,
+    "fortnightly_files": 2,
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "cams": 4
+    },
+    "samples": [
+      {
+        "path": "CMFLEXI_Monthly_Portfolio_Disclosure_July_31_2026_2dad58d22b.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CMFLEXI_July 31, 2026"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Capitalmind Flexi Cap Fund\n(An open-ended dynamic equity scheme investing across large cap, mid cap, small cap stocks)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "August 04 2025",
+        "holdings_code": 34,
+        "holdings_plain": 34,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 155519,
+        "cadence": "monthly"
+      },
+      {
+        "path": "CMARB_Monthly_Portfolio_Disclosure_July_31_2026_3e5349f8ff.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CMARB_July 31, 2026"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Capitalmind Arbitrage Fund\n(An open-ended scheme investing in arbitrage opportunities)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "March 16 2026",
+        "holdings_code": 95,
+        "holdings_plain": 95,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 232501,
+        "cadence": "monthly"
+      },
+      {
+        "path": "CMLIQ_Fortnightly_Portfolio_Disclosure_July_31_2026_819c518b74.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CMLF_July 31, 2026"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Capitalmind Liquid Fund\n(An open-ended Liquid scheme. A relatively low-interest rate risk and relatively low credit risk fund)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "November 28 2025",
+        "holdings_code": 22,
+        "holdings_plain": 22,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 581888,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "CMLIQ_Fortnightly_Portfolio_Disclosure_July_15_2026_35a74a2d21.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CMLF_July 15, 2026"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Capitalmind Liquid Fund\n(An open-ended Liquid scheme. A relatively low-interest rate risk and relatively low credit risk fund)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "November 28 2025",
+        "holdings_code": 21,
+        "holdings_plain": 21,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 582387,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "choice-mutual-fund": {
+    "monthly_files": 4,
+    "fortnightly_files": 4,
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "cams": 4
+    },
+    "samples": [
+      {
+        "path": "1786098863-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Nifty_50.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CH002"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Choice Nifty 50 Index Fund",
+        "title_scheme": "Back to Index",
+        "as_of": "2026-07-31",
+        "holdings_code": 51,
+        "holdings_plain": 51,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 237573,
+        "cadence": "monthly"
+      },
+      {
+        "path": "1786098827-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Gold_ETF.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CGETF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Choice Gold ETF",
+        "title_scheme": "Back to Index",
+        "as_of": "2026-07-31",
+        "holdings_code": 3,
+        "holdings_plain": 3,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 257526,
+        "cadence": "monthly"
+      },
+      {
+        "path": "1786098863-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Nifty_50.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CH002"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Choice Nifty 50 Index Fund",
+        "title_scheme": "Back to Index",
+        "as_of": "2026-07-31",
+        "holdings_code": 51,
+        "holdings_plain": 51,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 237573,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "1786098827-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Gold_ETF.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CGETF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Choice Gold ETF",
+        "title_scheme": "Back to Index",
+        "as_of": "2026-07-31",
+        "holdings_code": 3,
+        "holdings_plain": 3,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 257526,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "dsp-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "dsp-isin-debt-portfolio-as-on-30-jun-2026.xlsx",
+        "nsheets": 25,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "LIQUID",
+          "ULTRA",
+          "CREDITRISK",
+          "LDF",
+          "SHORT",
+          "STR",
+          "BOND",
+          "GILT",
+          "SAVINGS",
+          "REGULARSAVINGS"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "DSP Liquidity Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 125,
+        "holdings_plain": 125,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 443056,
+        "cadence": "monthly"
+      },
+      {
+        "path": "dsp-isin-debt-portfolio-as-on-31-jul-2026.xlsx",
+        "nsheets": 25,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "LIQUID",
+          "ULTRA",
+          "CREDITRISK",
+          "LDF",
+          "SHORT",
+          "STR",
+          "BOND",
+          "GILT",
+          "SAVINGS",
+          "REGULARSAVINGS"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "DSP Liquidity Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 138,
+        "holdings_plain": 138,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 450580,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "dsp-isin-debt-fortnightly-portfolio-as-on-15-jul-2026.xlsx",
+        "nsheets": 25,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "LIQUID",
+          "ULTRA",
+          "CREDITRISK",
+          "LDF",
+          "SHORT",
+          "STR",
+          "BOND",
+          "GILT",
+          "SAVINGS",
+          "REGULARSAVINGS"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "DSP Liquidity Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 121,
+        "holdings_plain": 121,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 459184,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "edelweiss-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "EDEL_Portfolio_Monthly_Notes_30Jun2026_10072026123257.xlsx",
+        "nsheets": 72,
+        "scheme_tabs": 71,
+        "sheet_names": [
+          "EDBPDF",
+          "EDCSDF",
+          "EEIF30",
+          "EELMFE",
+          "EEMOF1",
+          "EEX50E",
+          "EOCHIF",
+          "EODWHF",
+          "EDACBF",
+          "EDBE33"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "YIELD"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "EDBPDF",
+        "as_of": "JUNE 30 2026",
+        "holdings_code": 59,
+        "holdings_plain": 59,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 942572,
+        "cadence": "monthly"
+      },
+      {
+        "path": "EDEL_Fortnightly_Disclosure_15Jul2026_20072026150534.xlsx",
+        "nsheets": 23,
+        "scheme_tabs": 22,
+        "sheet_names": [
+          "EDACBF",
+          "EDBE30",
+          "EDBE31",
+          "EDBE32",
+          "EDBE33",
+          "EDBPDF",
+          "EDCF27",
+          "EDCF28",
+          "EDCG27",
+          "EDCG28"
+        ],
+        "header_aliases": [
+          "(An open-ended debt scheme investing in money market instruments)",
+          "col",
+          "col_2",
+          "col_3",
+          "col_4",
+          "col_5",
+          "col_6"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "EDACBF",
+        "as_of": "JULY 15 2026",
+        "holdings_code": 39,
+        "holdings_plain": 39,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 348466,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "EDEL_Fortnightly_Disclosure_31Jul2026_05082026154010.xlsx",
+        "nsheets": 23,
+        "scheme_tabs": 22,
+        "sheet_names": [
+          "EDACBF",
+          "EDBE30",
+          "EDBE31",
+          "EDBE32",
+          "EDBE33",
+          "EDBPDF",
+          "EDCF27",
+          "EDCF28",
+          "EDCG27",
+          "EDCG28"
+        ],
+        "header_aliases": [
+          "(An open-ended debt scheme investing in money market instruments)",
+          "col",
+          "col_2",
+          "col_3",
+          "col_4",
+          "col_5",
+          "col_6"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "EDACBF",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 37,
+        "holdings_plain": 37,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 350320,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "franklin-templeton-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "Monthly-Portfolio-ISIN-31-Jul-2026.xlsx",
+        "nsheets": 40,
+        "scheme_tabs": 40,
+        "sheet_names": [
+          "FILF",
+          "FIONF",
+          "FIMMF",
+          "FIFRF",
+          "FICDF",
+          "FBPF",
+          "FIUSDF",
+          "FIMLDF",
+          "FILWD",
+          "FILNGDF"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Franklin India Liquid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 77,
+        "holdings_plain": 77,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1141986,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Fortnightly-Portfolio-ISIN-31-July-2026.xlsx",
+        "nsheets": 16,
+        "scheme_tabs": 16,
+        "sheet_names": [
+          "FILF",
+          "FIONF",
+          "FIMMF",
+          "FIFRF",
+          "FICDF",
+          "FBPF",
+          "FIUSDF",
+          "FIMLDF",
+          "FILWD",
+          "FILNGDF"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Franklin India Liquid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 77,
+        "holdings_plain": 77,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 588362,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Fortnightly-Portfolio-ISIN-15-July-2026.xlsx",
+        "nsheets": 17,
+        "scheme_tabs": 17,
+        "sheet_names": [
+          "FILF",
+          "FIONF",
+          "FIMMF",
+          "FIFRF",
+          "FICDF",
+          "FBPF",
+          "FIUSDF",
+          "FIMLDF",
+          "FILWD",
+          "FILNGDF"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Franklin India Liquid Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 72,
+        "holdings_plain": 72,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 603915,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "groww-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "Monthly Portfolio- June 30_ 2026.xlsx",
+        "nsheets": 62,
+        "scheme_tabs": 62,
+        "sheet_names": [
+          "IB01",
+          "IB02",
+          "IB03",
+          "IB05",
+          "IB10",
+          "IB11",
+          "IB13",
+          "IB16",
+          "IB18",
+          "IB19"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "IB01-Groww Large Cap Fund",
+        "as_of": "30-JUN-2026",
+        "holdings_code": 41,
+        "holdings_plain": 41,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 3088108,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Fortnightly Portfolio- Jul 15_ 2026.xlsx",
+        "nsheets": 8,
+        "scheme_tabs": 8,
+        "sheet_names": [
+          "LF",
+          "DB",
+          "ST",
+          "OF",
+          "LE",
+          "GL",
+          "MM",
+          "XDO_METADATA"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "IB02-Groww Liquid Fund",
+        "as_of": "15-JUL-2026",
+        "holdings_code": 17,
+        "holdings_plain": 17,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 751378,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Fortnightly Portfolio - July 31_ 2026.xlsx",
+        "nsheets": 8,
+        "scheme_tabs": 8,
+        "sheet_names": [
+          "LF",
+          "DB",
+          "ST",
+          "OF",
+          "LE",
+          "GL",
+          "MM",
+          "XDO_METADATA"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "IB02-Groww Liquid Fund",
+        "as_of": "31-JUL-2026",
+        "holdings_code": 19,
+        "holdings_plain": 19,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 752050,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "hdfc-mutual-fund": {
+    "monthly_files": 109,
+    "fortnightly_files": 74,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "Monthly HDFC NIFTY 1D RATE LIQUID ETF - 31 July 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HDFC1DLETF"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "Coupon (%)",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield",
+          "~YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "HDFC1DLETF",
+        "as_of": "31-Jul-2026",
+        "holdings_code": 0,
+        "holdings_plain": 0,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 144306,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Monthly HDFC Nifty India Digital Index Fund - 31 July 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HDFCNYDGTF"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "Coupon (%)",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield",
+          "~YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "HDFCNYDGTF",
+        "as_of": "31-Jul-2026",
+        "holdings_code": 51,
+        "holdings_plain": 51,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 152004,
+        "cadence": "monthly"
+      },
+      {
+        "path": "HDFC NIFTY 1D RATE LIQUID ETF - 15-July-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HDFC1DLETF"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "Coupon (%)",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield",
+          "~YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "HDFC1DLETF",
+        "as_of": "15-Jul-2026",
+        "holdings_code": 0,
+        "holdings_plain": 0,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 45285,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "HDFC Overnight Fund - 31-July-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HDFCMC"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "Coupon (%)",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield",
+          "~YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "HDFCMC",
+        "as_of": "31-Jul-2026",
+        "holdings_code": 4,
+        "holdings_plain": 4,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 48599,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "helios-mutual-fund": {
+    "monthly_files": 8,
+    "fortnightly_files": 2,
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "cams": 4
+    },
+    "samples": [
+      {
+        "path": "helios-financial-services-fund-monthly-portfolio-as-on-31st-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HFSF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Helios Financial Services Fund (An open-ended equity scheme investing in financial services sector)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "2026-07-31",
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 167426,
+        "cadence": "monthly"
+      },
+      {
+        "path": "helios-arbitrage-fund-monthly-portfolio-as-on-31st-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HARF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Helios Arbitrage Fund (An open-ended scheme investing in arbitrage opportunities)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "2026-07-31",
+        "holdings_code": 32,
+        "holdings_plain": 32,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 173769,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Helios-Overnight-Fund-Fortnightly-Portfolio-as-on-15th-July-2026.xls",
+        "nsheets": 2,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HOF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Helios Overnight Fund (An open ended debt scheme investing in overnight securities. Relatively low interest rate risk and relatively low credit risk.)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "March 24 2021",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 292352,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "helios-overnight-fund-fortnightly-portfolio-as-on-31st-july-2026.xls",
+        "nsheets": 2,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "HOF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Helios Overnight Fund (An open ended debt scheme investing in overnight securities. Relatively low interest rate risk and relatively low credit risk.)",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "March 24 2021",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 292352,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "hsbc-mutual-fund": {
+    "monthly_files": 45,
+    "fortnightly_files": 45,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "hsbc-income-plus-arbitrage-active-fof-31-jul-2026.xlsx",
+        "nsheets": 3,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "HOMSCS",
+          "Disclaimer"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "Percentage to Net Assets",
+          "Yield of the Instrument (%)",
+          "ytc",
+          "col",
+          "Maturity Date"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "HSBC Income Plus Arbitrage Active FOF",
+        "as_of": "July 31 2026",
+        "holdings_code": 5,
+        "holdings_plain": 5,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 311005,
+        "cadence": "monthly"
+      },
+      {
+        "path": "hsbc-value-fund-31-jul-2026.xlsx",
+        "nsheets": 3,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "HELVF",
+          "Disclaimer"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "Percentage to Net Assets",
+          "Yield of the Instrument (%)",
+          "ytc",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "HSBC Value Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 85,
+        "holdings_plain": 85,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 341596,
+        "cadence": "monthly"
+      },
+      {
+        "path": "hsbc-income-plus-arbitrage-active-fof-31-jul-2026.xlsx",
+        "nsheets": 3,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "HOMSCS",
+          "Disclaimer"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "Percentage to Net Assets",
+          "Yield of the Instrument (%)",
+          "ytc",
+          "col",
+          "Maturity Date"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "HSBC Income Plus Arbitrage Active FOF",
+        "as_of": "July 31 2026",
+        "holdings_code": 5,
+        "holdings_plain": 5,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 311005,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "hsbc-value-fund-31-jul-2026.xlsx",
+        "nsheets": 3,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "HELVF",
+          "Disclaimer"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "Percentage to Net Assets",
+          "Yield of the Instrument (%)",
+          "ytc",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "HSBC Value Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 85,
+        "holdings_plain": 85,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 341596,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "icici-prudential-mutual-fund": {
+    "monthly_files": 0,
+    "fortnightly_files": 0,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {},
+    "samples": []
+  },
+  "il-fs-mutual-fund-idf": {
+    "monthly_files": 1,
+    "fortnightly_files": 1,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 2
+    },
+    "samples": [
+      {
+        "path": "ILFS_Portfolio_TransactionReports_July_2026.xlsx",
+        "nsheets": 16,
+        "scheme_tabs": 16,
+        "sheet_names": [
+          "Portfolio 2A 15 July 2026",
+          "2B_PORTFOLIO_15_July_2026",
+          "2C_PORTFOLIO_15_July_2026",
+          "Portfolio 2A 31 July 2026",
+          "Portfolio 2B 31 July 2026",
+          "Portfolio 2C 31 July 2026",
+          "Transaction Report",
+          "Scheme AUM",
+          "NAV",
+          "Investment Objective"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "industry",
+          "isin",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "IL&FS Infrastructure Debt Fund Series 2A",
+        "as_of": "15-Jul-2026",
+        "holdings_code": 6,
+        "holdings_plain": 6,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 172309,
+        "cadence": "monthly"
+      },
+      {
+        "path": "ILFS_Portfolio_TransactionReports_July_2026.xlsx",
+        "nsheets": 16,
+        "scheme_tabs": 16,
+        "sheet_names": [
+          "Portfolio 2A 15 July 2026",
+          "2B_PORTFOLIO_15_July_2026",
+          "2C_PORTFOLIO_15_July_2026",
+          "Portfolio 2A 31 July 2026",
+          "Portfolio 2B 31 July 2026",
+          "Portfolio 2C 31 July 2026",
+          "Transaction Report",
+          "Scheme AUM",
+          "NAV",
+          "Investment Objective"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "industry",
+          "isin",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "IL&FS Infrastructure Debt Fund Series 2A",
+        "as_of": "15-Jul-2026",
+        "holdings_code": 6,
+        "holdings_plain": 6,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 172309,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "invesco-mutual-fund": {
+    "monthly_files": 45,
+    "fortnightly_files": 26,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "invesco-india-gold-exchange-traded-fund_jun_2026_exchange_traded_fund.xlsx",
+        "nsheets": 2,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "GOLD ETF",
+          "RGOLDETF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "GOLD ETF",
+        "as_of": "June 30 2026",
+        "holdings_code": 0,
+        "holdings_plain": 0,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 97545,
+        "cadence": "monthly"
+      },
+      {
+        "path": "invesco-india-nifty-g-sec-jul-2027-index-fund_jun_2026_fixed_income.xlsx",
+        "nsheets": 2,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "Nifty G-sec Jul 2027",
+          "INGJ27"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Invesco India Nifty G-sec Jul 2027 Index Fund\n (An open-ended Target Maturity Index Fund tracking Nifty G-sec Jul 2027 Index. A relatively high interest rate risk and relatively low credit risk.)",
+        "as_of": "June 30 2026",
+        "holdings_code": 3,
+        "holdings_plain": 3,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 102856,
+        "cadence": "monthly"
+      },
+      {
+        "path": "overnight-fund18bbfd07eee8616aaa28ff00007d74af.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Overnight Fund"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Overnight Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 4,
+        "holdings_plain": 4,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 107892,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "low-duration23bafd07eee8616aaa28ff00007d74af.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Low Duration"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Low Duration",
+        "as_of": "July 15 2026",
+        "holdings_code": 53,
+        "holdings_plain": 53,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 116668,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "iti-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "1783684259-ITIMF_Monthly_portfolio_30.06.2026.xlsx",
+        "nsheets": 22,
+        "scheme_tabs": 21,
+        "sheet_names": [
+          "ITIAF",
+          "ITIBAF",
+          "ITIBCF",
+          "ITIBCL",
+          "ITIBFS",
+          "ITIBPSU",
+          "ITIDYBF",
+          "ITIFCF",
+          "ITIFEF",
+          "ITILCF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield of the Instrument",
+          "Notes & Symbols"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "ITI MUTUAL FUND (LIVE SCHEMES)",
+        "as_of": "June 302026",
+        "holdings_code": 34,
+        "holdings_plain": 34,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1730767,
+        "cadence": "monthly"
+      },
+      {
+        "path": "1784282344-Fortnightly_Debt_Portfolio_Disclosures_15.07.2026.xlsx",
+        "nsheets": 6,
+        "scheme_tabs": 5,
+        "sheet_names": [
+          "ITIBPSU",
+          "ITIDYBF",
+          "ITILF",
+          "ITIONF",
+          "ITIUSDF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield of the Instrument",
+          "Notes & Symbols"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "ITI MUTUAL FUND (LIVE SCHEMES)",
+        "as_of": "July 152026",
+        "holdings_code": 16,
+        "holdings_plain": 16,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 426162,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "1785844122-Fortnightly_Debt_Portfolio_Disclosures_31.07.2026.xlsx",
+        "nsheets": 6,
+        "scheme_tabs": 5,
+        "sheet_names": [
+          "ITIBPSU",
+          "ITIDYBF",
+          "ITILF",
+          "ITIONF",
+          "ITIUSDF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield of the Instrument",
+          "Notes & Symbols",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "ITI MUTUAL FUND (LIVE SCHEMES)",
+        "as_of": "July 312026",
+        "holdings_code": 16,
+        "holdings_plain": 16,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 426738,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "jio-blackrock-mutual-fund": {
+    "monthly_files": 30,
+    "fortnightly_files": 21,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "jioblackro-msjawxdy-8d632c.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JBN8-13"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "JioBlackRock Nifty 8-13 yr G-Sec Index Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 3,
+        "holdings_plain": 3,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 91075,
+        "cadence": "monthly"
+      },
+      {
+        "path": "jioblackro-mrbwn7oo-a3f3a2.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JBN50"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "JioBlackRock Nifty 50 Index Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 50,
+        "holdings_plain": 50,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 119803,
+        "cadence": "monthly"
+      },
+      {
+        "path": "jioblackro-mse9df01-264747.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JBN8-13"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "JioBlackRock Nifty 8-13 yr G-Sec Index Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 3,
+        "holdings_plain": 3,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 91257,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "jioblackro-mr4lgbg7-daa4e2.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JBLOW"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "JioBlackRock Low Duration Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 21,
+        "holdings_plain": 21,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 104973,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "jm-financial-mutual-fund": {
+    "monthly_files": 17,
+    "fortnightly_files": 17,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "Monthly Portfolio - JM Focused Fund - July 31_ 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JM Focused Fund"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield",
+          "^YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "JM Focused Fund  (An open-ended equity scheme investing in maximum of 30 stocks of large cap, mid cap and small cap companies.)",
+        "as_of": null,
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 64845,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Monthly Portfolio - JM Flexicap Fund - July 31_ 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JM Flexicap Fund"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield",
+          "^YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "JM Flexicap Fund",
+        "as_of": null,
+        "holdings_code": 91,
+        "holdings_plain": 91,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 69142,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Monthly Portfolio - JM Focused Fund - July 31_ 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JM Focused Fund"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield",
+          "^YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "JM Focused Fund  (An open-ended equity scheme investing in maximum of 30 stocks of large cap, mid cap and small cap companies.)",
+        "as_of": null,
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 64845,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Monthly Portfolio - JM Flexicap Fund - July 31_ 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "JM Flexicap Fund"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield",
+          "^YTC (AT1/Tier 2 bonds)"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "JM Flexicap Fund",
+        "as_of": null,
+        "holdings_code": 91,
+        "holdings_plain": 91,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 69142,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "kotak-mahindra-mutual-fund": {
+    "monthly_files": 3,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "FortnightlyPortfolioJuly312026.xlsx",
+        "nsheets": 25,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "OVR",
+          "MDF",
+          "LIQ",
+          "LDT",
+          "KWD",
+          "KLD",
+          "KIP",
+          "KGS",
+          "KGI",
+          "KFL"
+        ],
+        "header_aliases": [
+          "instrument",
+          "col",
+          "col_2",
+          "isin",
+          "industry",
+          "Yield*",
+          "quantity",
+          "market_value",
+          "pct_nav"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Portfolio of Kotak Overnight Fund as on 31-Jul-2026",
+        "as_of": "31-Jul-2026",
+        "holdings_code": 6,
+        "holdings_plain": 6,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 2256731,
+        "cadence": "monthly"
+      },
+      {
+        "path": "FortnightlyPortfolioJuly152026.xlsx",
+        "nsheets": 25,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "OVR",
+          "MDF",
+          "LIQ",
+          "LDT",
+          "KWD",
+          "KLD",
+          "KIP",
+          "KGS",
+          "KGI",
+          "KFL"
+        ],
+        "header_aliases": [
+          "instrument",
+          "col",
+          "col_2",
+          "isin",
+          "industry",
+          "Yield*",
+          "quantity",
+          "market_value",
+          "pct_nav"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Portfolio of Kotak Overnight Fund as on 15-Jul-2026",
+        "as_of": "15-Jul-2026",
+        "holdings_code": 5,
+        "holdings_plain": 5,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 2259874,
+        "cadence": "monthly"
+      },
+      {
+        "path": "FortnightlyPortfolioJuly312026.xlsx",
+        "nsheets": 25,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "OVR",
+          "MDF",
+          "LIQ",
+          "LDT",
+          "KWD",
+          "KLD",
+          "KIP",
+          "KGS",
+          "KGI",
+          "KFL"
+        ],
+        "header_aliases": [
+          "instrument",
+          "col",
+          "col_2",
+          "isin",
+          "industry",
+          "Yield*",
+          "quantity",
+          "market_value",
+          "pct_nav"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Portfolio of Kotak Overnight Fund as on 31-Jul-2026",
+        "as_of": "31-Jul-2026",
+        "holdings_code": 6,
+        "holdings_plain": 6,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 2256731,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "FortnightlyPortfolioJuly152026.xlsx",
+        "nsheets": 25,
+        "scheme_tabs": 25,
+        "sheet_names": [
+          "OVR",
+          "MDF",
+          "LIQ",
+          "LDT",
+          "KWD",
+          "KLD",
+          "KIP",
+          "KGS",
+          "KGI",
+          "KFL"
+        ],
+        "header_aliases": [
+          "instrument",
+          "col",
+          "col_2",
+          "isin",
+          "industry",
+          "Yield*",
+          "quantity",
+          "market_value",
+          "pct_nav"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Portfolio of Kotak Overnight Fund as on 15-Jul-2026",
+        "as_of": "15-Jul-2026",
+        "holdings_code": 5,
+        "holdings_plain": 5,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 2259874,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "lic-mutual-fund": {
+    "monthly_files": 43,
+    "fortnightly_files": 1,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "LDMIPF04-08-2026-13_33_22.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "LDMIPF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "LIC MF CONSERVATIVE HYBRID FUND",
+        "as_of": "July 312026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 102639,
+        "cadence": "monthly"
+      },
+      {
+        "path": "LEMFGF07-08-2026-11_04_35.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "LEMFGF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "LIC MF MANUFACTURING FUND",
+        "as_of": "July 312026",
+        "holdings_code": 52,
+        "holdings_plain": 52,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 121498,
+        "cadence": "monthly"
+      },
+      {
+        "path": "LIC_MF_Fortnightly_Portfolio_Jul-26.xlsx",
+        "nsheets": 12,
+        "scheme_tabs": 12,
+        "sheet_names": [
+          "Sheet1",
+          "LDBOND",
+          "LDGETF",
+          "LDGSEC",
+          "LDINPF",
+          "LDMIPF",
+          "LDMNMF",
+          "LDONTF",
+          "LDSAPF",
+          "LDSTDF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "LIC MF MEDIUM TO LONG DURATION FUND",
+        "as_of": "July 152026",
+        "holdings_code": 18,
+        "holdings_plain": 18,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 504226,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "mahindra-manulife-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "592b0e39-1e0d-41d7-b0ef-c7fefecf9e2a.xlsx",
+        "nsheets": 27,
+        "scheme_tabs": 27,
+        "sheet_names": [
+          "MMF01",
+          "MMF02",
+          "MMF03",
+          "MMF04",
+          "MMF05",
+          "MMF07",
+          "MMF08",
+          "MMF09",
+          "MMF10",
+          "MMF11"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Mahindra Manulife Liquid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1789271,
+        "cadence": "monthly"
+      },
+      {
+        "path": "ca988235-f32d-473f-bb6d-596ddbf2e6f1.xlsx",
+        "nsheets": 6,
+        "scheme_tabs": 6,
+        "sheet_names": [
+          "MMF01",
+          "MMF04",
+          "MMF08",
+          "MMF12",
+          "MMF13",
+          "MMF17"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Mahindra Manulife Liquid Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 34,
+        "holdings_plain": 34,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 264680,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "944d372b-3dbd-4818-883c-19fb79e48bfa.xlsx",
+        "nsheets": 6,
+        "scheme_tabs": 6,
+        "sheet_names": [
+          "MMF01",
+          "MMF04",
+          "MMF08",
+          "MMF12",
+          "MMF13",
+          "MMF17"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Mahindra Manulife Liquid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1108213,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "mirae-asset-mutual-fund": {
+    "monthly_files": 93,
+    "fortnightly_files": 36,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "silvrfof-june2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "SILVRFOF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Mirae Asset Silver ETF FOF",
+        "as_of": "2026-06-30",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 96230,
+        "cadence": "monthly"
+      },
+      {
+        "path": "evetf-june2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "EVETF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Mirae Asset Nifty EV and New Age Automotive ETF",
+        "as_of": "2026-06-30",
+        "holdings_code": 38,
+        "holdings_plain": 38,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 114446,
+        "cadence": "monthly"
+      },
+      {
+        "path": "maonf_15072026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "MAONF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Mirae Asset Overnight Fund",
+        "as_of": "2026-07-15",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 351158,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "masht_31072026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "MASHT"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Mirae Asset Short Duration Fund",
+        "as_of": "2026-07-31",
+        "holdings_code": 41,
+        "holdings_plain": 41,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 384423,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "motilal-oswal-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 1,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 2
+    },
+    "samples": [
+      {
+        "path": "scheme portfolio details july 2026.xlsx",
+        "nsheets": 88,
+        "scheme_tabs": 87,
+        "sheet_names": [
+          "YO01",
+          "YO02",
+          "YO03",
+          "YO05",
+          "YO06",
+          "YO07",
+          "YO08",
+          "YO09",
+          "YO10",
+          "YO13"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "col",
+          "col_2",
+          "Sector / Rating"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Back to Index",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 50,
+        "holdings_plain": 50,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 2162373,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Fortnightly Portfolio Report -15th July 2026.xlsx",
+        "nsheets": 4,
+        "scheme_tabs": 4,
+        "sheet_names": [
+          "YO06",
+          "YO15",
+          "YO25",
+          "YO28"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "(Investment Manager for Motilal Oswal Mutual Fund)",
+        "as_of": "JULY 15 2026",
+        "holdings_code": 18,
+        "holdings_plain": 18,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 442880,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "navi-mutual-fund": {
+    "monthly_files": 17,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "Navi_Total_Stock_Market_US_Specific_Equity_Passive_FoF_1st_30th_June_2026_20260709194017.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Sheet1"
+        ],
+        "header_aliases": [
+          "col",
+          "Navi Total Stock Market US Specific Equity Passive FoF",
+          "col_2",
+          "col_3",
+          "col_4",
+          "col_5",
+          "col_6",
+          "col_7",
+          "col_8"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Sheet1",
+        "as_of": "30 Jun 2026",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 35268,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Navi_Flexi_Cap_Fund_1st_30th_June_2026_20260709194016.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Sheet1"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "YIELD",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Navi Flexi Cap Fund",
+        "as_of": "30 Jun 2026",
+        "holdings_code": 69,
+        "holdings_plain": 69,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 41045,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Navi_Liquid_Fund_1st_15th_July_2026_20260720121342.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "LQ"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "YIELD",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Navi Liquid Fund",
+        "as_of": "15 Jul 2026",
+        "holdings_code": 15,
+        "holdings_plain": 15,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 42326,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Navi_Liquid_Fund_16th_31st_July_2026_20260805162040.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Sheet1"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "YIELD",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Navi Liquid Fund",
+        "as_of": "31 Jul 2026",
+        "holdings_code": 15,
+        "holdings_plain": 15,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 43936,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "nippon-india-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "NIMF-MONTHLY-PORTFOLIO-31-July-26.xls",
+        "nsheets": 108,
+        "scheme_tabs": 107,
+        "sheet_names": [
+          "GF",
+          "GS",
+          "IP",
+          "IF",
+          "ST",
+          "BF",
+          "MI",
+          "PS",
+          "CP",
+          "PH"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "YIELD"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "GF",
+        "as_of": "July 312026",
+        "holdings_code": 100,
+        "holdings_plain": 100,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1355264,
+        "cadence": "monthly"
+      },
+      {
+        "path": "NIMF-FORTNIGHTLY-PORTFOLIO-15-July-26.xls",
+        "nsheets": 39,
+        "scheme_tabs": 38,
+        "sheet_names": [
+          "IP",
+          "IF",
+          "ST",
+          "MI",
+          "CP",
+          "NI",
+          "LF",
+          "FR",
+          "SD",
+          "LQ"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "YIELD"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "IP",
+        "as_of": "July 152026",
+        "holdings_code": 128,
+        "holdings_plain": 128,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 592024,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "NIMF-FORTNIGHTLY-PORTFOLIO-31-July-26.xls",
+        "nsheets": 39,
+        "scheme_tabs": 38,
+        "sheet_names": [
+          "IP",
+          "IF",
+          "ST",
+          "MI",
+          "CP",
+          "NI",
+          "LF",
+          "FR",
+          "SD",
+          "LQ"
+        ],
+        "header_aliases": [
+          "col",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "YIELD"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "IP",
+        "as_of": "July 312026",
+        "holdings_code": 134,
+        "holdings_plain": 134,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1010168,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "nj-mutual-fund": {
+    "monthly_files": 5,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 2,
+      "cams": 2
+    },
+    "samples": [
+      {
+        "path": "NJ-MF-Monthly-Portfolio-NJELSTCH-June-2026-20260709111208.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "NJELSTCH"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "NJ ELSS Tax Saver Scheme",
+        "as_of": "June 30 2026",
+        "holdings_code": 26,
+        "holdings_plain": 26,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 187357,
+        "cadence": "monthly"
+      },
+      {
+        "path": "NJ-MF-Monthly-Portfolio-NJBAF-June-2026-20260709111501.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "NJBAF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "NJ Balanced Advantage Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 257,
+        "holdings_plain": 257,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 331197,
+        "cadence": "monthly"
+      },
+      {
+        "path": "NJMF-Fortnightly-July-15-2026-20260717051951.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "NJOVERFD"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": "NJ Overnight Fund",
+        "title_scheme": "NJ Overnight Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 157232,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "NJMF-Fortnightly-July-31-2026-20260803111551.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "NJOVERFD"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": "NJ Overnight Fund",
+        "title_scheme": "NJ Overnight Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 157250,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "old-bridge-mutual-fund": {
+    "monthly_files": 3,
+    "fortnightly_files": 0,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 2
+    },
+    "samples": [
+      {
+        "path": "OBFX_c2050b88e7.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "OBFLX"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Old Bridge Flexi Cap Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 35,
+        "holdings_plain": 35,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 47454,
+        "cadence": "monthly"
+      },
+      {
+        "path": "OBFE_9d7d1d029f.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "OBFCE"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Old Bridge Focused Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 23,
+        "holdings_plain": 23,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 135741,
+        "cadence": "monthly"
+      }
+    ]
+  },
+  "pgim-india-mutual-fund": {
+    "monthly_files": 25,
+    "fortnightly_files": 25,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "PGIM INDIA OVERNIGHT FUND  Jul 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Overnight"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "% Yield",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "PGIM INDIA OVERNIGHT FUND",
+        "as_of": "July 312026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 73869,
+        "cadence": "monthly"
+      },
+      {
+        "path": "PGIM INDIA HEALTHCARE FUND  Jul 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Healthcare"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "% Yield",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "PGIM INDIA HEALTHCARE FUND",
+        "as_of": "July 312026",
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 83830,
+        "cadence": "monthly"
+      },
+      {
+        "path": "PGIM INDIA OVERNIGHT FUND  Jul 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Overnight"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "% Yield",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "PGIM INDIA OVERNIGHT FUND",
+        "as_of": "July 312026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 73869,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "PGIM INDIA HEALTHCARE FUND  Jul 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Healthcare"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "% Yield",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "PGIM INDIA HEALTHCARE FUND",
+        "as_of": "July 312026",
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 83830,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "ppfas-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 4,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "PPFAS_Monthly_Portfolio_Report_July_31_2026.xls",
+        "nsheets": 7,
+        "scheme_tabs": 7,
+        "sheet_names": [
+          "PPFCF",
+          "PPLF",
+          "PPTSF",
+          "PPCHF",
+          "PPAF",
+          "PPDAAF",
+          "PPLCF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Parag Parikh Flexi Cap Fund (An open-ended dynamic equity scheme investing across large cap, mid-cap, small-cap stocks)",
+        "as_of": "July 31 2026",
+        "holdings_code": 120,
+        "holdings_plain": 120,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 407676,
+        "cadence": "monthly"
+      },
+      {
+        "path": "PPLF_Fortnightly_Portfolio_Report_15-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "PPLF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "PPLF",
+        "as_of": "July 15 2026",
+        "holdings_code": 54,
+        "holdings_plain": 54,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 70189,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "PPCHF_Fortnightly_Portfolio_Report_31-july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "PPCHF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Parag Parikh Conservative Hybrid Fund (An open-ended hybrid scheme investing predominantly in debt instruments)",
+        "as_of": "July 31 2026",
+        "holdings_code": 87,
+        "holdings_plain": 87,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 85800,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "quant-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "Monthly_Portfolio_July26.xlsx",
+        "nsheets": 29,
+        "scheme_tabs": 29,
+        "sheet_names": [
+          "qAF",
+          "qMMO",
+          "qVF",
+          "qMAB",
+          "qMDA",
+          "qMGG",
+          "qMAF",
+          "qL&MF",
+          "qMMF",
+          "qTP"
+        ],
+        "header_aliases": [
+          "SR",
+          "isin",
+          "instrument",
+          "industry",
+          "INDUSTRY",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "quant Aggressive Hybrid Fund",
+        "as_of": "31 Jul 2026",
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 871524,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Portfolio_Debt_15072026.xlsx",
+        "nsheets": 3,
+        "scheme_tabs": 3,
+        "sheet_names": [
+          "qLF",
+          "qMON",
+          "qMGG"
+        ],
+        "header_aliases": [
+          "SR",
+          "isin",
+          "instrument",
+          "industry",
+          "ytm",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "quant Liquid Fund",
+        "as_of": "15 Jul 2026",
+        "holdings_code": 15,
+        "holdings_plain": 15,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 511332,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Portfolio_Debt_31072026.xlsx",
+        "nsheets": 3,
+        "scheme_tabs": 3,
+        "sheet_names": [
+          "qLF",
+          "qMON",
+          "qMGG"
+        ],
+        "header_aliases": [
+          "SR",
+          "isin",
+          "instrument",
+          "industry",
+          "ytm",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "quant Liquid Fund",
+        "as_of": "31 Jul 2026",
+        "holdings_code": 18,
+        "holdings_plain": 18,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 511502,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "quantum-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 1,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 2
+    },
+    "samples": [
+      {
+        "path": "5f6c4b6e-5264-472c-b378-d54727d45369.xlsx",
+        "nsheets": 15,
+        "scheme_tabs": 14,
+        "sheet_names": [
+          "QLTEVF",
+          "QLF",
+          "QGF",
+          "QNF",
+          "QTSF",
+          "QEFOF",
+          "QGSF",
+          "QMAFOF",
+          "QDBF",
+          "QESG"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "QLTEVF",
+        "as_of": "July 31 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 952771,
+        "cadence": "monthly"
+      },
+      {
+        "path": "5f6c4b6e-5264-472c-b378-d54727d45369.xlsx",
+        "nsheets": 15,
+        "scheme_tabs": 14,
+        "sheet_names": [
+          "QLTEVF",
+          "QLF",
+          "QGF",
+          "QNF",
+          "QTSF",
+          "QEFOF",
+          "QGSF",
+          "QMAFOF",
+          "QDBF",
+          "QESG"
+        ],
+        "header_aliases": [
+          "security_code",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "QLTEVF",
+        "as_of": "July 31 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 952771,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "samco-mutual-fund": {
+    "monthly_files": 14,
+    "fortnightly_files": 3,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "IN_MF_Portfolio_Monthly_Fortnightly_OvernightFund_30062026_1783059655.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "SAMONF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield of the Instrument",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "SAMONF",
+        "as_of": "JUNE 30 2026",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 169217,
+        "cadence": "monthly"
+      },
+      {
+        "path": "IN_MF_MONTHLY_PORTFOLIO_June_2026_SamcoELSSTaxSaverFund_1783666825.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "SAMTSF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_2"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "SAMTSF",
+        "as_of": "June 30 2026",
+        "holdings_code": 36,
+        "holdings_plain": 36,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 208359,
+        "cadence": "monthly"
+      },
+      {
+        "path": "IN_MF_Portfolio_Monthly_Fortnightly_OvernightFund_31072026_1785836948.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "SAMONF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield of the Instrument",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "SAMONF",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 147994,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "IN_MF_Portfolio_Monthly_Fortnightly_OvernightFund_31072026_1785836989.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "SAMONF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Yield of the Instrument",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "SAMONF",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 147994,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "sbi-mutual-fund": {
+    "monthly_files": 121,
+    "fortnightly_files": 101,
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "cams": 2
+    },
+    "samples": [
+      {
+        "error": "could not read sbi-children_39_s-fund-savings-plan-monthly-portfolio---july-2026.xlsx: File is not a zip file | Unsupported format, or corrupt file: Expected BO",
+        "path": "sbi-children_39_s-fund-savings-plan-monthly-portfolio---july-2026.xlsx",
+        "cadence": "monthly"
+      },
+      {
+        "path": "sbi-long-term-advantage-fund---series-vi-monthly-portfolio---july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "SLTAF-VI"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "SBI Long Term Advantage Fund - Series VI",
+        "title_scheme": "Back to Index",
+        "as_of": "2026-07-31",
+        "holdings_code": 35,
+        "holdings_plain": 35,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 88572,
+        "cadence": "monthly"
+      },
+      {
+        "error": "could not read sbi-children_39_s-fund-savings-plan-fortnightly-portfolio-as-on-15th-july-2026-fortnightly-portfolio---july-2026.xlsx: File is not a zip file | U",
+        "path": "sbi-children_39_s-fund-savings-plan-fortnightly-portfolio-as-on-15th-july-2026-fortnightly-portfolio---july-2026.xlsx",
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "sbi-crisil-ibx-1090-gilt-sdl-index---dec-2029-index-fund-fortnightly-portfolio---july-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "CRIIBX10-90GiltSDL29"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "SBI CRISIL-IBX 10:90 Gilt +SDL Index - Dec 2029 Index Fund",
+        "title_scheme": "Back to Index",
+        "as_of": "2026-07-15",
+        "holdings_code": 8,
+        "holdings_plain": 8,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 97941,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "shriram-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 4,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "Monthly-Portfolio-Shriram-Mutual-Fund-July-2026.xls",
+        "nsheets": 10,
+        "scheme_tabs": 10,
+        "sheet_names": [
+          "Shriram Aggressive Hybrid Fund",
+          "Shriram Flexi Cap Fund",
+          "Shriram ELSS Tax Saver Fund",
+          "Shriram Balanced Advantage Fund",
+          "Shriram Multi Asset Allocation",
+          "Shriram Multi Sector Rotation",
+          "Shriram Overnight Fund",
+          "Shriram Nifty1D Rate Liquid ETF",
+          "Shriram Liquid Fund",
+          "Shriram Money Market Fund"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "% Yield"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Shriram Aggressive Hybrid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 89,
+        "holdings_plain": 89,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 539136,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Portfolio-disclosure-issuer-sector-and-top-holdings-Jul-2026.xlsx",
+        "nsheets": 3,
+        "scheme_tabs": 3,
+        "sheet_names": [
+          "Top 7 Stocks",
+          "Top 4 Sectors",
+          "Top 7 Groups"
+        ],
+        "header_aliases": [
+          "Scheme Name",
+          "Stock Name/ Issuer Name",
+          "pct_nav",
+          "col",
+          "col_2",
+          "col_3",
+          "col_4"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Name and exposure to top 7 Securities as a % of NAV of the scheme for Index Funds/ETFs as on July 31, 2026",
+        "as_of": "July 31 2026",
+        "holdings_code": 1,
+        "holdings_plain": 1,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 15159,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Fortnightly-Portfolio-Shriram-Debt-Fund-15-July-2026.xlsx",
+        "nsheets": 4,
+        "scheme_tabs": 4,
+        "sheet_names": [
+          "Shriram Overnight Fund",
+          "Shriram Nifty1D Rate Liquid ETF",
+          "Shriram Liquid Fund",
+          "Shriram Money Market Fund"
+        ],
+        "header_aliases": [
+          "col",
+          "\u2022\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Investment in debt and money market instruments with overnight maturity.",
+          "col_2",
+          "col_3",
+          "col_4",
+          "col_5",
+          "col_6",
+          "col_7",
+          "col_8",
+          "col_9"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "Shriram Overnight Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 174630,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "sundaram-mutual-fund": {
+    "monthly_files": 2,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "monthlyportfolio_090726180824.xlsx",
+        "nsheets": 11,
+        "scheme_tabs": 10,
+        "sheet_names": [
+          "SFRLTP",
+          "SFRSTP",
+          "SMMF",
+          "SPLDF",
+          "SPMON",
+          "SPSDF",
+          "SPUSDF",
+          "SUNBDS",
+          "SUNMIA",
+          "SUNONF"
+        ],
+        "header_aliases": [
+          "SL No",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "% of Net Asset",
+          "ytm",
+          "ytc",
+          "col"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Sundaram Corporate Bond Fund",
+        "as_of": "30 June 2026",
+        "holdings_code": 34,
+        "holdings_plain": 34,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 567030,
+        "cadence": "monthly"
+      },
+      {
+        "path": "monthlyportfolio_090726191301.xlsx",
+        "nsheets": 31,
+        "scheme_tabs": 30,
+        "sheet_names": [
+          "CAPEXG",
+          "GLOB",
+          "MIDCAP",
+          "MULTIP",
+          "SLTADV3",
+          "SLTADV4",
+          "SLTAX3",
+          "SLTAX4",
+          "SLTAX5",
+          "SLTAX6"
+        ],
+        "header_aliases": [
+          "SL No",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "% of Net Asset",
+          "ytm",
+          "col",
+          "col_2"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Sundaram Infrastructure Advantage Fund",
+        "as_of": "30 June 2026",
+        "holdings_code": 53,
+        "holdings_plain": 53,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 655397,
+        "cadence": "monthly"
+      },
+      {
+        "path": "monthlyportfolio_200726124128.xlsx",
+        "nsheets": 11,
+        "scheme_tabs": 10,
+        "sheet_names": [
+          "SFRLTP",
+          "SFRSTP",
+          "SMMF",
+          "SPLDF",
+          "SPMON",
+          "SPSDF",
+          "SPUSDF",
+          "SUNBDS",
+          "SUNMIA",
+          "SUNONF"
+        ],
+        "header_aliases": [
+          "SL No",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "% of Net Asset",
+          "ytm",
+          "ytc",
+          "col"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Sundaram Corporate Bond Fund",
+        "as_of": "15 Jul 2026",
+        "holdings_code": 34,
+        "holdings_plain": 34,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 558469,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "monthlyportfolio_050826121339.xlsx",
+        "nsheets": 11,
+        "scheme_tabs": 10,
+        "sheet_names": [
+          "SFRLTP",
+          "SFRSTP",
+          "SMMF",
+          "SPLDF",
+          "SPMON",
+          "SPSDF",
+          "SPUSDF",
+          "SUNBDS",
+          "SUNMIA",
+          "SUNONF"
+        ],
+        "header_aliases": [
+          "SL No",
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "% of Net Asset",
+          "ytm",
+          "ytc",
+          "col"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Sundaram Corporate Bond Fund",
+        "as_of": "31 Jul 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 563115,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "tata-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 1,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 2
+    },
+    "samples": [
+      {
+        "path": "Monthly Portfolio as on 31st July 2026.xlsx",
+        "nsheets": 71,
+        "scheme_tabs": 70,
+        "sheet_names": [
+          "Tata Scheme Risk-o-Meter",
+          "Debt Replication Index",
+          "Dividend History",
+          "TSLVFOF",
+          "TGLDFOF",
+          "TIPAAFOF",
+          "TSLVETF",
+          "TGLDETF",
+          "TEQPEF",
+          "TSCAPF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "YIELD ( IN % )",
+          "industry",
+          "isin",
+          "quantity",
+          "MKT VAL(Rs. Lacs)",
+          "pct_nav",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "TATA SILVER ETF FUND OF FUND",
+        "as_of": null,
+        "holdings_code": 7,
+        "holdings_plain": 7,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1760778,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Monthly Portfolio as on 31st July 2026.xlsx",
+        "nsheets": 71,
+        "scheme_tabs": 70,
+        "sheet_names": [
+          "Tata Scheme Risk-o-Meter",
+          "Debt Replication Index",
+          "Dividend History",
+          "TSLVFOF",
+          "TGLDFOF",
+          "TIPAAFOF",
+          "TSLVETF",
+          "TGLDETF",
+          "TEQPEF",
+          "TSCAPF"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "YIELD ( IN % )",
+          "industry",
+          "isin",
+          "quantity",
+          "MKT VAL(Rs. Lacs)",
+          "pct_nav",
+          "col_2",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "TATA SILVER ETF FUND OF FUND",
+        "as_of": null,
+        "holdings_code": 7,
+        "holdings_plain": 7,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1760778,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "taurus-mutual-fund": {
+    "monthly_files": 8,
+    "fortnightly_files": 0,
+    "family": "cams",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "cams": 2
+    },
+    "samples": [
+      {
+        "path": "Taurus_Elss_Tax_Saver_Fund_Monthly_Portfolio_Report_Performance_July_2026.xlsx",
+        "nsheets": 2,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "TTS",
+          "TTS Performance"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "Industry ^",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Notes & Symbols"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Taurus Elss Tax Saver Fund",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "2026-07-31",
+        "holdings_code": 32,
+        "holdings_plain": 32,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 252398,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Taurus_Mid_Cap_Fund_Monthly_Portfolio_Report_Performance_July_2026.xlsx",
+        "nsheets": 2,
+        "scheme_tabs": 2,
+        "sheet_names": [
+          "TDF",
+          "TDF Performance"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "Industry ^",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Notes & Symbols"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": "Taurus Mid Cap Fund",
+        "title_scheme": "SCHEME NAME :",
+        "as_of": "2026-07-31",
+        "holdings_code": 40,
+        "holdings_plain": 40,
+        "prefer_code": true,
+        "family_hint": "cams",
+        "size": 258524,
+        "cadence": "monthly"
+      }
+    ]
+  },
+  "the-wealth-company-mutual-fund": {
+    "monthly_files": 18,
+    "fortnightly_files": 4,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "Monthly_Portfolio_Small_Cap_7a3c277ad7.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "WCSC"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "WCSC-THE WEALTH COMPANY SMALL CAP FUND",
+        "as_of": "30-JUN-2026",
+        "holdings_code": 58,
+        "holdings_plain": 58,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 61555,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Monthly_Portfolio_Arbitrage_06f27161f6.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "WCAR"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "WCAR-THE WEALTH COMPANY ARBITRAGE FUND",
+        "as_of": "30-JUN-2026",
+        "holdings_code": 46,
+        "holdings_plain": 46,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 111125,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Fortnightly_portfolio_Liquid_0b2403ed56.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "WCLQ"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "WCLQ-THE WEALTH COMPANY LIQUID FUND",
+        "as_of": "31-JUL-2026",
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 84449,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Fortnightly_portfolio_Liquid_ef913d0505.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "WCLQ"
+        ],
+        "header_aliases": [
+          "isin",
+          "instrument",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "Maturity Date",
+          "Put/Call Option",
+          "Yield",
+          "col"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "WCLQ-THE WEALTH COMPANY LIQUID FUND",
+        "as_of": "30-JUN-2026",
+        "holdings_code": 30,
+        "holdings_plain": 30,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 88303,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "trust-mutual-fund": {
+    "monthly_files": 1,
+    "fortnightly_files": 2,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": true,
+    "family_votes": {
+      "sebi_title": 3
+    },
+    "samples": [
+      {
+        "path": "Monthly Port_20260808164739.xlsx",
+        "nsheets": 11,
+        "scheme_tabs": 11,
+        "sheet_names": [
+          "TMFLIQ",
+          "TMFST",
+          "TMFOF",
+          "TMFMM",
+          "TMFCB",
+          "TMFFLEXI",
+          "TMFSCAP",
+          "TMFMCAP",
+          "TMFARB",
+          "TMFMID"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "Notes & Symbols"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "TRUSTMF Liquid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 3907879,
+        "cadence": "monthly"
+      },
+      {
+        "path": "Fortnightly _20260805120635.xlsx",
+        "nsheets": 6,
+        "scheme_tabs": 5,
+        "sheet_names": [
+          "TMFLIQ",
+          "TMFST",
+          "TMFOF",
+          "TMFMM",
+          "TMFCB"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "Notes & Symbols"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "TRUSTMF Liquid Fund",
+        "as_of": "July 31 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1963516,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "Fortnightly _20260720113924.xlsx",
+        "nsheets": 6,
+        "scheme_tabs": 5,
+        "sheet_names": [
+          "TMFLIQ",
+          "TMFST",
+          "TMFOF",
+          "TMFMM",
+          "TMFCB"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc",
+          "Notes & Symbols"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "TRUSTMF Liquid Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 33,
+        "holdings_plain": 33,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 1972331,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "unifi-mutual-fund": {
+    "monthly_files": 5,
+    "fortnightly_files": 3,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "FN-Unifi-Liquid-Fund-31072026.xls",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Unifi Liquid Fund"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Unifi Liquid Fund\n(An open-ended Liquid scheme. A relatively low interest rate risk and moderate credit risk)",
+        "as_of": "31-JULY-2026",
+        "holdings_code": 9,
+        "holdings_plain": 9,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 58368,
+        "cadence": "monthly"
+      },
+      {
+        "path": "MP-Unifi-Liquid-Fund-31072026.xls",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Unifi Liquid Fund"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Unifi Liquid Fund\n(An open-ended Liquid scheme. A relatively low interest rate risk and moderate credit risk)",
+        "as_of": "31-JULY-2026",
+        "holdings_code": 9,
+        "holdings_plain": 9,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 62976,
+        "cadence": "monthly"
+      },
+      {
+        "path": "FN-Unifi-Liquid-Fund-31072026.xls",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Unifi Liquid Fund"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Unifi Liquid Fund\n(An open-ended Liquid scheme. A relatively low interest rate risk and moderate credit risk)",
+        "as_of": "31-JULY-2026",
+        "holdings_code": 9,
+        "holdings_plain": 9,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 58368,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "FN-Unifi-Liquid-Fund-15072026.xls",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Unifi Liquid Fund"
+        ],
+        "header_aliases": [
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "ytc"
+        ],
+        "lead_blank": 0,
+        "cams_scheme": null,
+        "title_scheme": "Unifi Liquid Fund\n(An open-ended Liquid scheme. A relatively low interest rate risk and moderate credit risk)",
+        "as_of": "15-JULY-2026",
+        "holdings_code": 5,
+        "holdings_plain": 5,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 59904,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "union-mutual-fund": {
+    "monthly_files": 32,
+    "fortnightly_files": 32,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "monthly-portfolio-report-union-gold-etf-fund-of-fund-31-07-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Gold FOF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "Union Mutual Fund - Registration No. MF/066/11/01",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 63018,
+        "cadence": "monthly"
+      },
+      {
+        "path": "monthly-portfolio-report-union-retirement-fund-31-07-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Union Retirement Fund"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "Union Mutual Fund - Registration No. MF/066/11/01",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 83,
+        "holdings_plain": 83,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 98977,
+        "cadence": "monthly"
+      },
+      {
+        "path": "monthly-portfolio-report-union-gold-etf-fund-of-fund-31-07-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Gold FOF"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "Union Mutual Fund - Registration No. MF/066/11/01",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 63018,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "monthly-portfolio-report-union-retirement-fund-31-07-2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Union Retirement Fund"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "Union Mutual Fund - Registration No. MF/066/11/01",
+        "as_of": "JULY 31 2026",
+        "holdings_code": 83,
+        "holdings_plain": 83,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 98977,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "uti-mutual-fund": {
+    "monthly_files": 0,
+    "fortnightly_files": 0,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {},
+    "samples": []
+  },
+  "whiteoak-capital-mutual-fund": {
+    "monthly_files": 21,
+    "fortnightly_files": 4,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "WOC_Liquid_Fund_June_2026_a4259c2188.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "YM001"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "col_2",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "null"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "WhiteOak Capital Liquid Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 26,
+        "holdings_plain": 26,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 71637,
+        "cadence": "monthly"
+      },
+      {
+        "path": "WOC_Mid_Cap_Fund_June_2026_95f6665865.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "WOMID"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "col_2",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "WhiteOak Capital Mid Cap Fund",
+        "as_of": "June 30 2026",
+        "holdings_code": 138,
+        "holdings_plain": 138,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 94465,
+        "cadence": "monthly"
+      },
+      {
+        "path": "White_Oak_Capital_Liquid_Fund_8838f344e9.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "YM001"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "col_2",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "WhiteOak Capital Liquid Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 29,
+        "holdings_plain": 29,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 77943,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "White_Oak_Capital_Ultra_Short_Duration_Fund_1be2b016d4.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "YM002"
+        ],
+        "header_aliases": [
+          "col",
+          "instrument",
+          "col_2",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "WhiteOak Capital Ultra Short Duration Fund",
+        "as_of": "July 15 2026",
+        "holdings_code": 24,
+        "holdings_plain": 24,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 83916,
+        "cadence": "fortnightly"
+      }
+    ]
+  },
+  "zerodha-mutual-fund": {
+    "monthly_files": 20,
+    "fortnightly_files": 8,
+    "family": "sebi_title",
+    "prefer_leading_code": true,
+    "multi_sheet": false,
+    "family_votes": {
+      "sebi_title": 4
+    },
+    "samples": [
+      {
+        "path": "Top 10 Holdings by Issuer as on June 30 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Sheet1"
+        ],
+        "header_aliases": [
+          "col",
+          "Top 10 Issuer Name",
+          "isin",
+          "pct_nav",
+          "col_2",
+          "col_3",
+          "col_4",
+          "col_5",
+          "col_6",
+          "col_7"
+        ],
+        "lead_blank": 1,
+        "cams_scheme": null,
+        "title_scheme": "ZERODHA BSE SENSEX INDEX FUND FOR JUNE 2026",
+        "as_of": null,
+        "holdings_code": 130,
+        "holdings_plain": 130,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 31814,
+        "cadence": "monthly"
+      },
+      {
+        "path": "ZSLVR - Monthly Portfolio June 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "ZSLVR"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "ZSLVR",
+        "as_of": "04 Sep 2026",
+        "holdings_code": 2,
+        "holdings_plain": 2,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 134462,
+        "cadence": "monthly"
+      },
+      {
+        "path": "ZOVER - Fortnightly Portfolio 31 July 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Sheet"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "Sheet",
+        "as_of": "20-Aug-2026",
+        "holdings_code": 3,
+        "holdings_plain": 3,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 115646,
+        "cadence": "fortnightly"
+      },
+      {
+        "path": "ZLTGC - Fortnightly Portfolio 31 July 2026.xlsx",
+        "nsheets": 1,
+        "scheme_tabs": 1,
+        "sheet_names": [
+          "Sheet"
+        ],
+        "header_aliases": [
+          "col",
+          "col_2",
+          "instrument",
+          "isin",
+          "industry",
+          "quantity",
+          "market_value",
+          "pct_nav",
+          "ytm",
+          "col_3"
+        ],
+        "lead_blank": 2,
+        "cams_scheme": null,
+        "title_scheme": "Sheet",
+        "as_of": "11-May-2036",
+        "holdings_code": 5,
+        "holdings_plain": 5,
+        "prefer_code": true,
+        "family_hint": "sebi_title",
+        "size": 120853,
+        "cadence": "fortnightly"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# Optional: Kotak forms API via requests (browser-matching headers)
+requests>=2.28.0

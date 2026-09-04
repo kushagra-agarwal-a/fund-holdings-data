@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-08-12T11:08:48.153365+00:00",
+  "note": "Baseline freeze after disclosure\u2194AMFI mapping QC (Aug 2026).",
+  "files": [
+    "amfi_disclosure_complete_mapping_2026-08-12.xlsx",
+    "amfi_disclosure_complete_mapping_meta.json",
+    "amfi_navall_to_disclosure_global_mapping.json",
+    "disclosure_shortcode_map.json",
+    "disclosure_to_amfi_global_mapping.json"
+  ],
+  "disclosure_mapped": 2386,
+  "disclosure_total": 2387
+}

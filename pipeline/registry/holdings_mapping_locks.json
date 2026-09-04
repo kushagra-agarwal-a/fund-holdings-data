@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "note": "Pinned shortcode→AMFI bindings that must not regress. assert_holdings_mapping_locks.py fails the pipeline if these drift. Matching entries must keep confidence=manual.",
+  "shortcodes": [
+    {
+      "amc_id": "hsbc-mutual-fund",
+      "shortcode": "HDINCF",
+      "canonical_amfi_code": "120059",
+      "label": "HSBC Medium to Long Duration Fund"
+    },
+    {
+      "amc_id": "nippon-india-mutual-fund",
+      "shortcode": "IJ",
+      "canonical_amfi_code": "152996",
+      "label": "Nippon India CRISIL-IBX AAA Financial Services Jan 2028 Index Fund"
+    },
+    {
+      "amc_id": "aditya-birla-sun-life-mutual-fund",
+      "shortcode": "SILVRFOF",
+      "canonical_amfi_code": "149780",
+      "label": "Aditya Birla Sun Life Silver ETF FOF"
+    },
+    {
+      "amc_id": "aditya-birla-sun-life-mutual-fund",
+      "shortcode": "ABSLUS10",
+      "canonical_amfi_code": "152150",
+      "label": "Aditya Birla Sun Life US Treasury 3-10 Year Bond ETFs FOF"
+    },
+    {
+      "amc_id": "axis-mutual-fund",
+      "shortcode": "AXISTETF",
+      "canonical_amfi_code": "148799",
+      "label": "Axis IT ETF"
+    },
+    {
+      "amc_id": "icici-prudential-mutual-fund",
+      "shortcode": "INDEX",
+      "canonical_amfi_code": "120620",
+      "label": "ICICI Prudential Nifty 50 Index Fund"
+    },
+    {
+      "amc_id": "icici-prudential-mutual-fund",
+      "shortcode": "MONEY MARKET",
+      "canonical_amfi_code": "120209",
+      "label": "ICICI Prudential Money Market Fund"
+    }
+  ],
+  "aliases": {
+    "102441": "100538",
+    "102442": "100538",
+    "102443": "100538",
+    "102138": "120679",
+    "101165": "120754",
+    "103633": "120209",
+    "103634": "120209",
+    "103635": "120209",
+    "103636": "120209",
+    "103637": "120209",
+    "130013": "120209"
+  }
+}

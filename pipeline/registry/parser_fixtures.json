@@ -1,0 +1,521 @@
+{
+  "360-one-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/360-one-mutual-fund/IN_MF_MONTHLY_PORTFOLIO_June2026_Final_8ded2027a1.xls"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/360-one-mutual-fund/360_ONE_Fortnightly_Disclosure_31_07_2026_Final_1b2cd4c414.xlsx",
+      "data/disclosures/fortnightly/latest/360-one-mutual-fund/360_ONE_Fortnightly_Disclosure_15_07_2026_Final_c0e1fb01ed.xlsx"
+    ]
+  },
+  "abakkus-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/abakkus-mutual-fund/Final_Monthly_Portfolio_Jul_31_a313e9e6dd.xls"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/abakkus-mutual-fund/Final_Portfolio_Jul31_Fortntly_3603a16dc8.xls",
+      "data/disclosures/fortnightly/latest/abakkus-mutual-fund/Abakkus_MF_July_15_2026_4d50735aa6.xls"
+    ]
+  },
+  "aditya-birla-sun-life-mutual-fund": {
+    "notes": "Zip pack",
+    "monthly": [
+      "data/disclosures/monthly/latest/aditya-birla-sun-life-mutual-fund/monthly-portfolio-30-june-2026.zip"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/aditya-birla-sun-life-mutual-fund/sebifortnightlyportfolioreport150726.xls",
+      "data/disclosures/fortnightly/latest/aditya-birla-sun-life-mutual-fund/sebi_fortnightly_portfolio_report_310726.zip"
+    ]
+  },
+  "angel-one-mutual-fund": {
+    "notes": "No fortnightly files",
+    "monthly": [
+      "data/disclosures/monthly/latest/angel-one-mutual-fund/Monthly-Portfolio-June-2026-Angel-One-Nifty-50-ETF.xlsx",
+      "data/disclosures/monthly/latest/angel-one-mutual-fund/Monthly-Portfolio-June-2026-Angel-One-Nifty-Total-Market-Momentum-Quality-50-Index-Fund.xlsx"
+    ],
+    "fortnightly": []
+  },
+  "axis-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/axis-mutual-fund/Monthly_Portfolio_31_07_2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/axis-mutual-fund/Fortnightly_Portfolio_31_07_2026.xlsx",
+      "data/disclosures/fortnightly/latest/axis-mutual-fund/Fortnightly_Portfolio_15_07_2026.xlsx"
+    ]
+  },
+  "bajaj-finserv-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/bajaj-finserv-mutual-fund/Bajaj-Finserv-Banking-and-PSU-Fund_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx",
+      "data/disclosures/monthly/latest/bajaj-finserv-mutual-fund/Bajaj-Finserv-Nifty-Bank-ETF_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/bajaj-finserv-mutual-fund/Bajaj-Finserv-Banking-and-PSU-Fund_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx",
+      "data/disclosures/fortnightly/latest/bajaj-finserv-mutual-fund/Bajaj-Finserv-Nifty-Bank-ETF_Monthly-Portfolio-as-on-31-Jul-2026.xls.xlsx"
+    ]
+  },
+  "bandhan-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/bandhan-mutual-fund/809bb088-bandhan-gold-etf_7caaffd4-055b-40d0-b6f6-de20340e7c7e_31-july-2026.xlsx",
+      "data/disclosures/monthly/latest/bandhan-mutual-fund/c16b2375-bandhan-crisil-ibx-9010-sdl-plus-gilt-april-2032-index-fund_6a73f5b4-0e88-4150-8d3c-30b8169eab16_31-july-2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/bandhan-mutual-fund/809bb088-bandhan-gold-etf_7caaffd4-055b-40d0-b6f6-de20340e7c7e_31-july-2026.xlsx",
+      "data/disclosures/fortnightly/latest/bandhan-mutual-fund/c16b2375-bandhan-crisil-ibx-9010-sdl-plus-gilt-april-2032-index-fund_6a73f5b4-0e88-4150-8d3c-30b8169eab16_31-july-2026.xlsx"
+    ]
+  },
+  "bank-of-india-mutual-fund": {
+    "notes": "No fortnightly files",
+    "monthly": [
+      "data/disclosures/monthly/latest/bank-of-india-mutual-fund/monthly-portfolio---30-june-2026.xlsx"
+    ],
+    "fortnightly": []
+  },
+  "baroda-bnp-paribas-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/baroda-bnp-paribas-mutual-fund/BOBBNPMF_Monthly_Portfolio_30-06-2026_18982.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/baroda-bnp-paribas-mutual-fund/Fortnightly Portfolio for Baroda BNP Paribas Conservative Hybrid Fund as on 15th July 2026.xlsx",
+      "data/disclosures/fortnightly/latest/baroda-bnp-paribas-mutual-fund/Fortnightly Portfolio for Baroda BNP Paribas NIFTY SDL December 2026 Index Fund as on 15th July 2026.xlsx"
+    ]
+  },
+  "canara-robeco-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/canara-robeco-mutual-fund/BF---Canara-Robeco-Banking-and-Financial-Services-Fund---July-2026.xlsx",
+      "data/disclosures/monthly/latest/canara-robeco-mutual-fund/OF---Canara-Robeco-Overnight-Fund-July-2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/canara-robeco-mutual-fund/OF---Canara-Robeco-Overnight-Fund---31st-July-2026.xlsx",
+      "data/disclosures/fortnightly/latest/canara-robeco-mutual-fund/CY---Canara-Robeco-Short-Duration-Fund---31st-July-2026.xlsx"
+    ]
+  },
+  "capitalmind-mutual-fund": {
+    "notes": "cams",
+    "monthly": [
+      "data/disclosures/monthly/latest/capitalmind-mutual-fund/CMFLEXI_Monthly_Portfolio_Disclosure_July_31_2026_2dad58d22b.xlsx",
+      "data/disclosures/monthly/latest/capitalmind-mutual-fund/CMARB_Monthly_Portfolio_Disclosure_July_31_2026_3e5349f8ff.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/capitalmind-mutual-fund/CMLIQ_Fortnightly_Portfolio_Disclosure_July_31_2026_819c518b74.xlsx",
+      "data/disclosures/fortnightly/latest/capitalmind-mutual-fund/CMLIQ_Fortnightly_Portfolio_Disclosure_July_15_2026_35a74a2d21.xlsx"
+    ]
+  },
+  "choice-mutual-fund": {
+    "notes": "cams",
+    "monthly": [
+      "data/disclosures/monthly/latest/choice-mutual-fund/1786098863-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Nifty_50.xlsx",
+      "data/disclosures/monthly/latest/choice-mutual-fund/1786098827-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Gold_ETF.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/choice-mutual-fund/1786098863-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Nifty_50.xlsx",
+      "data/disclosures/fortnightly/latest/choice-mutual-fund/1786098827-Choice_Mutual_Fund_Monthly_Portfolio_Report_July_2026_Gold_ETF.xlsx"
+    ]
+  },
+  "dsp-mutual-fund": {
+    "notes": "Zip pack",
+    "monthly": [
+      "data/disclosures/monthly/latest/dsp-mutual-fund/dsp-isin-debt-portfolio-as-on-30-jun-2026.xlsx",
+      "data/disclosures/monthly/latest/dsp-mutual-fund/monthend-portfolios_30_june_2026.zip"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/dsp-mutual-fund/dsp-isin-debt-portfolio-as-on-31-jul-2026.xlsx",
+      "data/disclosures/fortnightly/latest/dsp-mutual-fund/dsp-isin-debt-fortnightly-portfolio-as-on-15-jul-2026.xlsx"
+    ]
+  },
+  "edelweiss-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/edelweiss-mutual-fund/EDEL_Portfolio_Monthly_Notes_30Jun2026_10072026123257.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/edelweiss-mutual-fund/EDEL_Fortnightly_Disclosure_15Jul2026_20072026150534.xlsx",
+      "data/disclosures/fortnightly/latest/edelweiss-mutual-fund/EDEL_Fortnightly_Disclosure_31Jul2026_05082026154010.xlsx"
+    ]
+  },
+  "franklin-templeton-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/franklin-templeton-mutual-fund/Monthly-Portfolio-ISIN-31-Jul-2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/franklin-templeton-mutual-fund/Fortnightly-Portfolio-ISIN-31-July-2026.xlsx",
+      "data/disclosures/fortnightly/latest/franklin-templeton-mutual-fund/Fortnightly-Portfolio-ISIN-15-July-2026.xlsx"
+    ]
+  },
+  "groww-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/groww-mutual-fund/Monthly Portfolio- June 30_ 2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/groww-mutual-fund/Fortnightly Portfolio- Jul 15_ 2026.xlsx",
+      "data/disclosures/fortnightly/latest/groww-mutual-fund/Fortnightly Portfolio - July 31_ 2026.xlsx"
+    ]
+  },
+  "hdfc-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/hdfc-mutual-fund/Monthly HDFC NIFTY 1D RATE LIQUID ETF - 31 July 2026.xlsx",
+      "data/disclosures/monthly/latest/hdfc-mutual-fund/Monthly HDFC Nifty India Digital Index Fund - 31 July 2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/hdfc-mutual-fund/HDFC NIFTY 1D RATE LIQUID ETF - 15-July-2026.xlsx",
+      "data/disclosures/fortnightly/latest/hdfc-mutual-fund/HDFC Overnight Fund - 31-July-2026.xlsx"
+    ]
+  },
+  "helios-mutual-fund": {
+    "notes": "cams",
+    "monthly": [
+      "data/disclosures/monthly/latest/helios-mutual-fund/helios-financial-services-fund-monthly-portfolio-as-on-31st-july-2026.xlsx",
+      "data/disclosures/monthly/latest/helios-mutual-fund/helios-arbitrage-fund-monthly-portfolio-as-on-31st-july-2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/helios-mutual-fund/Helios-Overnight-Fund-Fortnightly-Portfolio-as-on-15th-July-2026.xls",
+      "data/disclosures/fortnightly/latest/helios-mutual-fund/helios-overnight-fund-fortnightly-portfolio-as-on-31st-july-2026.xls"
+    ]
+  },
+  "hsbc-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/hsbc-mutual-fund/hsbc-income-plus-arbitrage-active-fof-31-jul-2026.xlsx",
+      "data/disclosures/monthly/latest/hsbc-mutual-fund/hsbc-value-fund-31-jul-2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/hsbc-mutual-fund/hsbc-income-plus-arbitrage-active-fof-31-jul-2026.xlsx",
+      "data/disclosures/fortnightly/latest/hsbc-mutual-fund/hsbc-value-fund-31-jul-2026.xlsx"
+    ]
+  },
+  "icici-prudential-mutual-fund": {
+    "notes": "Zip pack",
+    "monthly": [
+      "data/disclosures/monthly/latest/icici-prudential-mutual-fund/Monthly-Portfolio-Disclosure-July-2026.zip"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/icici-prudential-mutual-fund/Fortnightly Debt Scheme Portfolio - 31st July 2026.zip",
+      "data/disclosures/fortnightly/latest/icici-prudential-mutual-fund/Fortnightly Debt Scheme Portfolio - 15th July 2026.zip"
+    ]
+  },
+  "il-fs-mutual-fund-idf": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/il-fs-mutual-fund-idf/ILFS_Portfolio_TransactionReports_July_2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/il-fs-mutual-fund-idf/ILFS_Portfolio_TransactionReports_July_2026.xlsx"
+    ]
+  },
+  "invesco-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/invesco-mutual-fund/invesco-india-gold-exchange-traded-fund_jun_2026_exchange_traded_fund.xlsx",
+      "data/disclosures/monthly/latest/invesco-mutual-fund/invesco-india-nifty-g-sec-jul-2027-index-fund_jun_2026_fixed_income.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/invesco-mutual-fund/overnight-fund18bbfd07eee8616aaa28ff00007d74af.xlsx",
+      "data/disclosures/fortnightly/latest/invesco-mutual-fund/low-duration23bafd07eee8616aaa28ff00007d74af.xlsx"
+    ]
+  },
+  "iti-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/iti-mutual-fund/1783684259-ITIMF_Monthly_portfolio_30.06.2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/iti-mutual-fund/1784282344-Fortnightly_Debt_Portfolio_Disclosures_15.07.2026.xlsx",
+      "data/disclosures/fortnightly/latest/iti-mutual-fund/1785844122-Fortnightly_Debt_Portfolio_Disclosures_31.07.2026.xlsx"
+    ]
+  },
+  "jio-blackrock-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/jio-blackrock-mutual-fund/jioblackro-msjawxdy-8d632c.xlsx",
+      "data/disclosures/monthly/latest/jio-blackrock-mutual-fund/jioblackro-mrbwn7oo-a3f3a2.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/jio-blackrock-mutual-fund/jioblackro-mse9df01-264747.xlsx",
+      "data/disclosures/fortnightly/latest/jio-blackrock-mutual-fund/jioblackro-mr4lgbg7-daa4e2.xlsx"
+    ]
+  },
+  "jm-financial-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/jm-financial-mutual-fund/Monthly Portfolio - JM Focused Fund - July 31_ 2026.xlsx",
+      "data/disclosures/monthly/latest/jm-financial-mutual-fund/Monthly Portfolio - JM Flexicap Fund - July 31_ 2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/jm-financial-mutual-fund/Monthly Portfolio - JM Focused Fund - July 31_ 2026.xlsx",
+      "data/disclosures/fortnightly/latest/jm-financial-mutual-fund/Monthly Portfolio - JM Flexicap Fund - July 31_ 2026.xlsx"
+    ]
+  },
+  "kotak-mahindra-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/kotak-mahindra-mutual-fund/FortnightlyPortfolioJuly312026.xlsx",
+      "data/disclosures/monthly/latest/kotak-mahindra-mutual-fund/FortnightlyPortfolioJuly152026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/kotak-mahindra-mutual-fund/FortnightlyPortfolioJuly312026.xlsx",
+      "data/disclosures/fortnightly/latest/kotak-mahindra-mutual-fund/FortnightlyPortfolioJuly152026.xlsx"
+    ]
+  },
+  "lic-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/lic-mutual-fund/LDMIPF04-08-2026-13_33_22.xlsx",
+      "data/disclosures/monthly/latest/lic-mutual-fund/LEMFGF07-08-2026-11_04_35.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/lic-mutual-fund/LIC_MF_Fortnightly_Portfolio_Jul-26.xlsx"
+    ]
+  },
+  "mahindra-manulife-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/mahindra-manulife-mutual-fund/592b0e39-1e0d-41d7-b0ef-c7fefecf9e2a.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/mahindra-manulife-mutual-fund/ca988235-f32d-473f-bb6d-596ddbf2e6f1.xlsx",
+      "data/disclosures/fortnightly/latest/mahindra-manulife-mutual-fund/944d372b-3dbd-4818-883c-19fb79e48bfa.xlsx"
+    ]
+  },
+  "mirae-asset-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/mirae-asset-mutual-fund/silvrfof-june2026.xlsx",
+      "data/disclosures/monthly/latest/mirae-asset-mutual-fund/evetf-june2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/mirae-asset-mutual-fund/maonf_15072026.xlsx",
+      "data/disclosures/fortnightly/latest/mirae-asset-mutual-fund/masht_31072026.xlsx"
+    ]
+  },
+  "motilal-oswal-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/motilal-oswal-mutual-fund/scheme portfolio details july 2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/motilal-oswal-mutual-fund/Fortnightly Portfolio Report -15th July 2026.xlsx"
+    ]
+  },
+  "navi-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/navi-mutual-fund/Navi_Total_Stock_Market_US_Specific_Equity_Passive_FoF_1st_30th_June_2026_20260709194017.xlsx",
+      "data/disclosures/monthly/latest/navi-mutual-fund/Navi_Flexi_Cap_Fund_1st_30th_June_2026_20260709194016.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/navi-mutual-fund/Navi_Liquid_Fund_1st_15th_July_2026_20260720121342.xlsx",
+      "data/disclosures/fortnightly/latest/navi-mutual-fund/Navi_Liquid_Fund_16th_31st_July_2026_20260805162040.xlsx"
+    ]
+  },
+  "nippon-india-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/nippon-india-mutual-fund/NIMF-MONTHLY-PORTFOLIO-31-July-26.xls"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/nippon-india-mutual-fund/NIMF-FORTNIGHTLY-PORTFOLIO-15-July-26.xls",
+      "data/disclosures/fortnightly/latest/nippon-india-mutual-fund/NIMF-FORTNIGHTLY-PORTFOLIO-31-July-26.xls"
+    ]
+  },
+  "nj-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/nj-mutual-fund/NJ-MF-Monthly-Portfolio-NJELSTCH-June-2026-20260709111208.xlsx",
+      "data/disclosures/monthly/latest/nj-mutual-fund/NJ-MF-Monthly-Portfolio-NJBAF-June-2026-20260709111501.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/nj-mutual-fund/NJMF-Fortnightly-July-15-2026-20260717051951.xlsx",
+      "data/disclosures/fortnightly/latest/nj-mutual-fund/NJMF-Fortnightly-July-31-2026-20260803111551.xlsx"
+    ]
+  },
+  "old-bridge-mutual-fund": {
+    "notes": "No fortnightly files",
+    "monthly": [
+      "data/disclosures/monthly/latest/old-bridge-mutual-fund/OBFX_c2050b88e7.xlsx",
+      "data/disclosures/monthly/latest/old-bridge-mutual-fund/OBFE_9d7d1d029f.xlsx"
+    ],
+    "fortnightly": []
+  },
+  "pgim-india-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/pgim-india-mutual-fund/PGIM INDIA OVERNIGHT FUND  Jul 2026.xlsx",
+      "data/disclosures/monthly/latest/pgim-india-mutual-fund/PGIM INDIA HEALTHCARE FUND  Jul 2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/pgim-india-mutual-fund/PGIM INDIA OVERNIGHT FUND  Jul 2026.xlsx",
+      "data/disclosures/fortnightly/latest/pgim-india-mutual-fund/PGIM INDIA HEALTHCARE FUND  Jul 2026.xlsx"
+    ]
+  },
+  "ppfas-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/ppfas-mutual-fund/PPFAS_Monthly_Portfolio_Report_July_31_2026.xls"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/ppfas-mutual-fund/PPLF_Fortnightly_Portfolio_Report_15-july-2026.xlsx",
+      "data/disclosures/fortnightly/latest/ppfas-mutual-fund/PPCHF_Fortnightly_Portfolio_Report_31-july-2026.xlsx"
+    ]
+  },
+  "quant-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/quant-mutual-fund/Monthly_Portfolio_July26.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/quant-mutual-fund/Portfolio_Debt_15072026.xlsx",
+      "data/disclosures/fortnightly/latest/quant-mutual-fund/Portfolio_Debt_31072026.xlsx"
+    ]
+  },
+  "quantum-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/quantum-mutual-fund/5f6c4b6e-5264-472c-b378-d54727d45369.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/quantum-mutual-fund/5f6c4b6e-5264-472c-b378-d54727d45369.xlsx"
+    ]
+  },
+  "samco-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/samco-mutual-fund/IN_MF_Portfolio_Monthly_Fortnightly_OvernightFund_30062026_1783059655.xlsx",
+      "data/disclosures/monthly/latest/samco-mutual-fund/IN_MF_MONTHLY_PORTFOLIO_June_2026_SamcoELSSTaxSaverFund_1783666825.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/samco-mutual-fund/IN_MF_Portfolio_Monthly_Fortnightly_OvernightFund_31072026_1785836948.xlsx",
+      "data/disclosures/fortnightly/latest/samco-mutual-fund/IN_MF_Portfolio_Monthly_Fortnightly_OvernightFund_31072026_1785836989.xlsx"
+    ]
+  },
+  "sbi-mutual-fund": {
+    "notes": "cams",
+    "monthly": [
+      "data/disclosures/monthly/latest/sbi-mutual-fund/sbi-children_39_s-fund-savings-plan-monthly-portfolio---july-2026.xlsx",
+      "data/disclosures/monthly/latest/sbi-mutual-fund/sbi-long-term-advantage-fund---series-vi-monthly-portfolio---july-2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/sbi-mutual-fund/sbi-children_39_s-fund-savings-plan-fortnightly-portfolio-as-on-15th-july-2026-fortnightly-portfolio---july-2026.xlsx",
+      "data/disclosures/fortnightly/latest/sbi-mutual-fund/sbi-crisil-ibx-1090-gilt-sdl-index---dec-2029-index-fund-fortnightly-portfolio---july-2026.xlsx"
+    ]
+  },
+  "shriram-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/shriram-mutual-fund/Monthly-Portfolio-Shriram-Mutual-Fund-July-2026.xls"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/shriram-mutual-fund/Fortnightly-Portfolio-Shriram-Debt-Fund-15-July-2026.xlsx"
+    ]
+  },
+  "sundaram-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/sundaram-mutual-fund/monthlyportfolio_090726180824.xlsx",
+      "data/disclosures/monthly/latest/sundaram-mutual-fund/monthlyportfolio_090726191301.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/sundaram-mutual-fund/monthlyportfolio_200726124128.xlsx",
+      "data/disclosures/fortnightly/latest/sundaram-mutual-fund/monthlyportfolio_050826121339.xlsx"
+    ]
+  },
+  "tata-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/tata-mutual-fund/Monthly Portfolio as on 31st July 2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/tata-mutual-fund/Monthly Portfolio as on 31st July 2026.xlsx"
+    ]
+  },
+  "taurus-mutual-fund": {
+    "notes": "No fortnightly files",
+    "monthly": [
+      "data/disclosures/monthly/latest/taurus-mutual-fund/Taurus_Elss_Tax_Saver_Fund_Monthly_Portfolio_Report_Performance_July_2026.xlsx",
+      "data/disclosures/monthly/latest/taurus-mutual-fund/Taurus_Mid_Cap_Fund_Monthly_Portfolio_Report_Performance_July_2026.xlsx"
+    ],
+    "fortnightly": []
+  },
+  "the-wealth-company-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/the-wealth-company-mutual-fund/Monthly_Portfolio_Small_Cap_7a3c277ad7.xlsx",
+      "data/disclosures/monthly/latest/the-wealth-company-mutual-fund/Monthly_Portfolio_Arbitrage_06f27161f6.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/the-wealth-company-mutual-fund/Fortnightly_portfolio_Liquid_0b2403ed56.xlsx",
+      "data/disclosures/fortnightly/latest/the-wealth-company-mutual-fund/Fortnightly_portfolio_Liquid_ef913d0505.xlsx"
+    ]
+  },
+  "trust-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/trust-mutual-fund/Monthly Port_20260808164739.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/trust-mutual-fund/Fortnightly _20260805120635.xlsx",
+      "data/disclosures/fortnightly/latest/trust-mutual-fund/Fortnightly _20260720113924.xlsx"
+    ]
+  },
+  "unifi-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/unifi-mutual-fund/FN-Unifi-Liquid-Fund-31072026.xls",
+      "data/disclosures/monthly/latest/unifi-mutual-fund/MP-Unifi-Liquid-Fund-31072026.xls"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/unifi-mutual-fund/FN-Unifi-Liquid-Fund-31072026.xls",
+      "data/disclosures/fortnightly/latest/unifi-mutual-fund/FN-Unifi-Liquid-Fund-15072026.xls"
+    ]
+  },
+  "union-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/union-mutual-fund/monthly-portfolio-report-union-gold-etf-fund-of-fund-31-07-2026.xlsx",
+      "data/disclosures/monthly/latest/union-mutual-fund/monthly-portfolio-report-union-retirement-fund-31-07-2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/union-mutual-fund/monthly-portfolio-report-union-gold-etf-fund-of-fund-31-07-2026.xlsx",
+      "data/disclosures/fortnightly/latest/union-mutual-fund/monthly-portfolio-report-union-retirement-fund-31-07-2026.xlsx"
+    ]
+  },
+  "uti-mutual-fund": {
+    "notes": "Zip pack",
+    "monthly": [
+      "data/disclosures/monthly/latest/uti-mutual-fund/fw_uti_mf_scheme_portfolios_31.07.2026.zip"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/uti-mutual-fund/fw_uti_mf_scheme_portfolios_31.07.2026.zip"
+    ]
+  },
+  "whiteoak-capital-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/whiteoak-capital-mutual-fund/WOC_Liquid_Fund_June_2026_a4259c2188.xlsx",
+      "data/disclosures/monthly/latest/whiteoak-capital-mutual-fund/WOC_Mid_Cap_Fund_June_2026_95f6665865.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/whiteoak-capital-mutual-fund/White_Oak_Capital_Liquid_Fund_8838f344e9.xlsx",
+      "data/disclosures/fortnightly/latest/whiteoak-capital-mutual-fund/White_Oak_Capital_Ultra_Short_Duration_Fund_1be2b016d4.xlsx"
+    ]
+  },
+  "zerodha-mutual-fund": {
+    "notes": "sebi_title",
+    "monthly": [
+      "data/disclosures/monthly/latest/zerodha-mutual-fund/ZSLVR - Monthly Portfolio June 2026.xlsx"
+    ],
+    "fortnightly": [
+      "data/disclosures/fortnightly/latest/zerodha-mutual-fund/ZOVER - Fortnightly Portfolio 31 July 2026.xlsx",
+      "data/disclosures/fortnightly/latest/zerodha-mutual-fund/ZLTGC - Fortnightly Portfolio 31 July 2026.xlsx"
+    ]
+  }
+}

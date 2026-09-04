@@ -1,0 +1,8 @@
+
+# pipeline/ local artifacts (parser subtree)
+pipeline/.venv/
+pipeline/.tmp/
+pipeline/data/
+pipeline/node_modules/
+pipeline/**/__pycache__/
+pipeline/.env

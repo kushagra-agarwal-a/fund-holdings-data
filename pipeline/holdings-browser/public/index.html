@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fund holdings browser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">Holdings</div>
+      <p class="lede">
+        Look up an AMFI scheme. AMC and parent fund only narrow the list. Holdings are the parent disclosure, shown on every plan.
+      </p>
+    </header>
+
+    <section class="panel">
+      <label for="scheme-q">Scheme name or AMFI code</label>
+      <input id="scheme-q" type="search" placeholder="153738, Flexi Cap, PPFAS…" autocomplete="off" />
+      <div class="filters">
+        <div>
+          <label for="amc-q">AMC</label>
+          <input id="amc-q" type="search" placeholder="All AMCs" autocomplete="off" />
+        </div>
+        <div>
+          <label for="parent-q">Parent fund</label>
+          <input id="parent-q" type="search" placeholder="All parents" autocomplete="off" />
+        </div>
+      </div>
+      <p id="scheme-meta" class="meta"></p>
+      <ul id="scheme-list" class="list"></ul>
+    </section>
+
+    <section class="panel hidden" id="detail-panel">
+      <div class="panel-head">
+        <h2 id="detail-title">Scheme</h2>
+      </div>
+      <dl id="detail-facts" class="facts"></dl>
+      <p id="siblings-label" class="note"></p>
+      <ul id="sibling-list" class="list compact"></ul>
+      <p id="holdings-note" class="note"></p>
+      <div class="table-wrap">
+        <table id="holdings-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Instrument</th>
+              <th>ISIN</th>
+              <th>Industry</th>
+              <th class="num">Qty</th>
+              <th class="num">Market value</th>
+              <th class="num">% NAV</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

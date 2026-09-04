@@ -1,0 +1,2 @@
+# Minimal deps to generate valid placeholder .xlsx for Kotak workflow testing
+openpyxl>=3.1.0

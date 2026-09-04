@@ -1,0 +1,10 @@
+# Python deps for fund-disclosures (parsers, AMFI, matching, QC)
+openpyxl>=3.1
+xlrd>=2.0
+rapidfuzz>=3.0
+beautifulsoup4>=4.12
+httpx>=0.27
+requests>=2.31
+cryptography>=42.0
+# Optional / adapter-specific:
+# playwright>=1.40

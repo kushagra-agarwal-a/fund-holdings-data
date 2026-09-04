@@ -1,0 +1,2157 @@
+{
+  "version": 1,
+  "source": "https://www.amfiindia.com/online-center/portfolio-disclosure",
+  "sourced_at": "2026-08-08",
+  "focus": [
+    "fortnightly",
+    "monthly"
+  ],
+  "deferred": [
+    "semi_annually"
+  ],
+  "description": "Curated registry of AMC portfolio disclosure landing pages linked from AMFI. Excel disclosures; no site scraping. Semi-annual kept for reference only.",
+  "amcs": [
+    {
+      "id": "360-one-mutual-fund",
+      "amfi_mf_id": 62,
+      "name": "360 ONE Mutual Fund",
+      "amc_name": "360 ONE Asset Management Limited",
+      "amc_website": "https://www.360.one/asset-management/mutualfund/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.360.one/asset/mutual-funds/downloads/",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.360.one/asset/mutual-funds/downloads/",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.360.one/asset-management/mutualfund/downloads/disclosures/",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Monthly: consolidated multi-sheet pack from www.360.one downloads hub (includes Flexi Cap sheet). archive.iiflmf.com is stale/down — do not use. Fortnightly: fetch_360one.py on same hub.",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_360_one.py",
+          "python_slug": "360-one-mutual-fund",
+          "extra_args": [],
+          "notes": "live downloads hub Monthly Portfolio consolidated pack"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_360one.py",
+          "python_slug": "360-one-mutual-fund",
+          "extra_args": [],
+          "notes": "fortnightly via dedicated python fetcher"
+        }
+      }
+    },
+    {
+      "id": "abakkus-mutual-fund",
+      "amfi_mf_id": 85,
+      "name": "Abakkus Mutual Fund",
+      "amc_name": "Abakkus Investment Managers Private Limited",
+      "amc_website": "https://www.abakkusmf.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.abakkusmf.com/statutory-disclosures.html#",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.abakkusmf.com/statutory-disclosures.html#",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.abakkusmf.com/statutory-disclosures.html#",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_abakkus.py",
+          "python_slug": "abakkus-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_abakkus.py",
+          "python_slug": "abakkus-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "aditya-birla-sun-life-mutual-fund",
+      "amfi_mf_id": 3,
+      "name": "Aditya Birla Sun Life Mutual Fund",
+      "amc_name": "Aditya Birla Sun Life AMC Limited",
+      "amc_website": "https://mutualfund.adityabirlacapital.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://mutualfund.adityabirlacapital.com/forms-and-downloads/portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://mutualfund.adityabirlacapital.com/forms-and-downloads/portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://mutualfund.adityabirlacapital.com/forms-and-downloads/portfolio",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_absl.py",
+          "python_slug": "aditya-birla-sun-life-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_absl.py",
+          "python_slug": "aditya-birla-sun-life-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "alphagrep-mutual-fund",
+      "amfi_mf_id": 86,
+      "name": "AlphaGrep Mutual Fund",
+      "amc_name": "AlphaGrep Investment Management Private Limited",
+      "amc_website": "https://www.alphagrepmf.ai/home",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "monthly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "semi_annually": {
+          "page_url": null,
+          "status": "deferred"
+        }
+      },
+      "status": "no_url",
+      "notes": "No fortnightly or monthly disclosure URL on AMFI",
+      "fetch": {
+        "monthly": {
+          "adapter": "unsupported",
+          "notes": "No repeatable AMC-direct adapter yet"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "angel-one-mutual-fund",
+      "amfi_mf_id": 80,
+      "name": "Angel One Mutual Fund",
+      "amc_name": "Angel One Asset Management Company Limited",
+      "amc_website": "https://www.angelonemf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "not_published"
+        },
+        "monthly": {
+          "page_url": "https://www.angelonemf.com/downloads",
+          "status": "hub",
+          "access": "Disclosures → Portfolio Disclosures → select FY → Monthly → month; per-scheme XLSX"
+        },
+        "semi_annually": {
+          "page_url": "https://www.angelonemf.com/downloads",
+          "status": "deferred"
+        }
+      },
+      "status": "monthly_only",
+      "notes": "Fortnightly not published as of 2026-08-09. Monthly portfolios via downloads __next_f disclosuresData (Dropdown=Monthly; month often only in filename when Dropdown2 is empty).",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_angel_one.py",
+          "python_slug": "angel-one-mutual-fund",
+          "extra_args": [],
+          "notes": "Next.js disclosuresData Portfolio Disclosures → Monthly"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "ask-mutual-fund",
+      "amfi_mf_id": 87,
+      "name": "ASK MUTUAL FUND",
+      "amc_name": "ASK ASSET MANAGEMENT PRIVATE LIMITED",
+      "amc_website": "https://www.askmutualfund.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "monthly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "semi_annually": {
+          "page_url": null,
+          "status": "deferred"
+        }
+      },
+      "status": "no_url",
+      "notes": "No fortnightly or monthly disclosure URL on AMFI",
+      "fetch": {
+        "monthly": {
+          "adapter": "unsupported",
+          "notes": "No repeatable AMC-direct adapter yet"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "axis-mutual-fund",
+      "amfi_mf_id": 53,
+      "name": "Axis Mutual Fund",
+      "amc_name": "Axis Asset Management Co. Ltd.",
+      "amc_website": "https://www.axismf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.axismf.com/statutory-disclosures",
+          "status": "hub",
+          "access": "www /cms/get-scheme-documents sdFortnightlyPortfolio; consolidated Fortnightly Portfolio - DD-MM-YYYY.xlsx"
+        },
+        "monthly": {
+          "page_url": "https://www.axismf.com/statutory-disclosures",
+          "status": "hub",
+          "access": "www /cms/get-scheme-documents sdMonthSchemePortfolio; consolidated Monthly Portfolio-DD MM YY.xlsx"
+        },
+        "semi_annually": {
+          "page_url": "https://www.axismf.com/about-us#financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Live CMS is www.axismf.com (token + get-scheme-documents). transact.axismf.com statutory feed is stale and missing July 2026 consolidated. UI uses download buttons (no <a href>).",
+      "fetch": {
+        "monthly": {
+          "adapter": "axis_cms",
+          "notes": "www cms get-scheme-documents monthly consolidated"
+        },
+        "fortnightly": {
+          "adapter": "axis_cms",
+          "notes": "www cms get-scheme-documents fortnightly consolidated"
+        }
+      }
+    },
+    {
+      "id": "bajaj-finserv-mutual-fund",
+      "amfi_mf_id": 75,
+      "name": "Bajaj Finserv Mutual Fund",
+      "amc_name": "Bajaj Finserv Asset Management Limited",
+      "amc_website": "https://www.bajajamc.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.bajajamc.com/downloads?statutory-disclosures=",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.bajajamc.com/downloads?statutory-disclosures=",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.bajajamc.com/downloads?statutory-disclosures=",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_bajaj.py",
+          "python_slug": "bajaj-finserv-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_bajaj.py",
+          "python_slug": "bajaj-finserv-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "bandhan-mutual-fund",
+      "amfi_mf_id": 48,
+      "name": "Bandhan Mutual Fund",
+      "amc_name": "Bandhan AMC Limited",
+      "amc_website": "https://www.bandhanmutual.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://bandhanmutual.com/statutory-disclosures/scheme-portfolios/fortnightly",
+          "status": "ok"
+        },
+        "monthly": {
+          "page_url": "https://bandhanmutual.com/statutory-disclosures/scheme-portfolios/monthly-and-half-yearly",
+          "status": "ok"
+        },
+        "semi_annually": {
+          "page_url": "https://bandhanmutual.com/downloads/disclosures",
+          "status": "deferred"
+        }
+      },
+      "status": "ok",
+      "notes": "Fortnightly: CMS /posts/fortnightly?bypass_pagination=true (keep day=15). Monthly: /posts/monthly-portfolios.",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_bandhan.py",
+          "python_slug": "bandhan-mutual-fund",
+          "extra_args": [
+            "--no-growth-page-limit",
+            "80",
+            "--expected-per-month",
+            "100"
+          ],
+          "notes": "CMS monthly-portfolios API"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_bandhan.py",
+          "python_slug": "bandhan-mutual-fund",
+          "extra_args": [
+            "--no-growth-page-limit",
+            "80",
+            "--expected-per-month",
+            "100"
+          ],
+          "notes": "CMS fortnightly API; mid-month (15th) only"
+        }
+      }
+    },
+    {
+      "id": "bank-of-india-mutual-fund",
+      "amfi_mf_id": 46,
+      "name": "Bank of India Mutual Fund",
+      "amc_name": "Bank of India Investment Managers Private Limited",
+      "amc_website": "https://www.boimf.in",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.boimf.in/regulatory-reports",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.boimf.in/investor-corner#t2",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.boimf.in/regulatory-reports/financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_boi.py",
+          "python_slug": "bank-of-india-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_boi.py",
+          "python_slug": "bank-of-india-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "baroda-bnp-paribas-mutual-fund",
+      "amfi_mf_id": 4,
+      "name": "Baroda BNP Paribas Mutual Fund",
+      "amc_name": "Baroda BNP Paribas Asset Management India Private Limited",
+      "amc_website": "https://www.barodabnpparibasmf.in/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.barodabnpparibasmf.in/downloads/midmonth-portfolio-scheme",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.barodabnpparibasmf.in/downloads/monthly-portfolio-scheme",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.barodabnpparibasmf.in/downloads/scheme-financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_baroda_bnp.py",
+          "python_slug": "baroda-bnp-paribas-mutual-fund",
+          "extra_args": [],
+          "notes": "AJAX pagination via python_ref"
+        },
+        "fortnightly": {
+          "adapter": "baroda_ajax",
+          "notes": "Mid-month / fortnightly portfolio ajax hub"
+        }
+      }
+    },
+    {
+      "id": "canara-robeco-mutual-fund",
+      "amfi_mf_id": 32,
+      "name": "Canara Robeco Mutual Fund",
+      "amc_name": "Canara Robeco Asset Management Company Limited",
+      "amc_website": "https://www.canararobeco.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.canararobeco.com/documents/statutory-disclosures/fortnightly-portfolio-disclosure-debt/",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.canararobeco.com/documents/statutory-disclosures/scheme-dashboard/scheme-monthly-portfolio/",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.canararobeco.com/documents/forms-downloads/forms-information-documents/information-documents/half-yearly-portfolio/",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_canara_robeco.py",
+          "python_slug": "canara-robeco-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_canara_robeco.py",
+          "python_slug": "canara-robeco-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "capitalmind-mutual-fund",
+      "amfi_mf_id": 81,
+      "name": "Capitalmind Mutual Fund",
+      "amc_name": "Capitalmind Asset Management Private Limited",
+      "amc_website": "https://capitalmindmf.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://capitalmindmf.com/statutory-disclosures.html#",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://capitalmindmf.com/statutory-disclosures.html#",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://capitalmindmf.com/statutory-disclosures.html#",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "static_html",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "HTML scrape of fortnightly hub"
+        }
+      }
+    },
+    {
+      "id": "carnelian-mutual-fund",
+      "amfi_mf_id": 91,
+      "name": "Carnelian Mutual Fund",
+      "amc_name": "Carnelian Investment Managers Private Limited",
+      "amc_website": "https://www.carnelianmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "monthly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "semi_annually": {
+          "page_url": null,
+          "status": "deferred"
+        }
+      },
+      "status": "no_url",
+      "notes": "No fortnightly or monthly disclosure URL on AMFI",
+      "fetch": {
+        "monthly": {
+          "adapter": "unsupported",
+          "notes": "No repeatable AMC-direct adapter yet"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "choice-mutual-fund",
+      "amfi_mf_id": 84,
+      "name": "Choice Mutual Fund",
+      "amc_name": "Choice AMC Private Limited",
+      "amc_website": "https://choicemf.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.choicemf.com/disclosures/fortnight-portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://choicemf.com/disclosures/monthly-portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.choicemf.com/disclosures?category=regulatory-compliance",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_choice.py",
+          "python_slug": "choice-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_choice.py",
+          "python_slug": "choice-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "dsp-mutual-fund",
+      "amfi_mf_id": 6,
+      "name": "DSP Mutual Fund",
+      "amc_name": "DSP Asset Managers Private Limited",
+      "amc_website": "https://www.dspim.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.dspim.com/mandatory-disclosures/portfolio-disclosures",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.dspim.com/about-us/mandatory-disclosure/portfolio-disclosures",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.dspim.com/about-us/mandatory-disclosure/portfolio-disclosures",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "static_html",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "HTML scrape of fortnightly hub"
+        }
+      }
+    },
+    {
+      "id": "edelweiss-mutual-fund",
+      "amfi_mf_id": 47,
+      "name": "Edelweiss Mutual Fund",
+      "amc_name": "Edelweiss Asset Management Limited",
+      "amc_website": "https://www.edelweissmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.edelweissmf.com/statutory/portfolio-of-schemes",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.edelweissmf.com/statutory/portfolio-of-schemes",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.edelweissmf.com/statutory#Financials-and-Portfolios",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Monthly via AMC API statutory-menus/single (curl_cffi + AES decrypt)",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_edelweiss.py",
+          "python_slug": "edelweiss-mutual-fund",
+          "extra_args": [],
+          "notes": "AMC-direct: curl_cffi TLS impersonation + client AES decrypt (no Playwright)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_edelweiss.py",
+          "python_slug": "edelweiss-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "franklin-templeton-mutual-fund",
+      "amfi_mf_id": 27,
+      "name": "Franklin Templeton Mutual Fund",
+      "amc_name": "Franklin Templeton Asset Management (India) Private Limited",
+      "amc_website": "https://www.franklintempletonindia.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.franklintempletonindia.com/investor/reports?firstFilter-10",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.franklintempletonindia.com/investor/reports?firstFilter-12",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.franklintempletonindia.com/investor/reports?firstFilter-5",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_franklin.py",
+          "python_slug": "franklin-templeton-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_franklin.py",
+          "python_slug": "franklin-templeton-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "groww-mutual-fund",
+      "amfi_mf_id": 63,
+      "name": "Groww Mutual Fund",
+      "amc_name": "Groww Asset Management Limited",
+      "amc_website": "https://www.growwmf.in",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://growwmf.in/statutory-disclosure/portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://growwmf.in/statutory-disclosure/portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.growwmf.in/financials/half-yearly-unaudited",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "static_html",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "HTML scrape of fortnightly hub"
+        }
+      }
+    },
+    {
+      "id": "hdfc-mutual-fund",
+      "amfi_mf_id": 9,
+      "name": "HDFC Mutual Fund",
+      "amc_name": "HDFC Asset Management Company Limited",
+      "amc_website": "https://www.hdfcfund.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.hdfcfund.com/statutory-disclosure/portfolio/fortnightly-portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.hdfcfund.com/statutory-disclosure/portfolio/monthly-portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.hdfcfund.com/statutory-disclosure/scheme-financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "hdfc_cms",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "hdfc_cms",
+          "notes": "Fortnightly via same adapter family as monthly (ctx.type=fortnightly)"
+        }
+      }
+    },
+    {
+      "id": "helios-mutual-fund",
+      "amfi_mf_id": 76,
+      "name": "Helios Mutual Fund",
+      "amc_name": "Helios Capital Asset Management (India) Pvt. Ltd.",
+      "amc_website": "https://www.heliosmf.in",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.heliosmf.in/portfolio-disclosure/",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.heliosmf.in/portfolio-disclosure/",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.heliosmf.in/portfolio-disclosure/",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "static_html",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "HTML scrape of fortnightly hub"
+        }
+      }
+    },
+    {
+      "id": "hsbc-mutual-fund",
+      "amfi_mf_id": 37,
+      "name": "HSBC Mutual Fund",
+      "amc_name": "HSBC Asset Management (India) Private Ltd.",
+      "amc_website": "https://www.assetmanagement.hsbc.co.in",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.assetmanagement.hsbc.co.in/en/mutual-funds/investor-resources/information-library#&accordion1446811090=9",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.assetmanagement.hsbc.co.in/en/mutual-funds/investor-resources/information-library#&accordion1446811090=2",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.assetmanagement.hsbc.co.in/en/mutual-funds/investor-resources/information-library#&accordion1446811090=3",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_hsbc.py",
+          "python_slug": "hsbc-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_hsbc.py",
+          "python_slug": "hsbc-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "icici-prudential-mutual-fund",
+      "amfi_mf_id": 20,
+      "name": "ICICI Prudential Mutual Fund",
+      "amc_name": "ICICI Prudential Asset Management Company Limited",
+      "amc_website": "https://www.icicipruamc.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.icicipruamc.com/media-center/downloads?currentTabFilter=OtherSchemeDisclosures&&subCatTabFilter=FortnightlyPortfolioDisclosures",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.icicipruamc.com/news-and-media/downloads?currentTabFilter=Disclosures&&subCatTabFilter=MonthlyPortfolioDisclosures",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.icicipruamc.com/news-and-media/downloads?currentTabFilter=OtherSchemeDisclosures&&subCatTabFilter=Half Yearly Portfolio Statement",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "NMS API apps.digital.icicipruamc.com/nms/v1/downloads/files. AMC ships consolidated .zip packs (xlsx per scheme inside), not top-level xlsx.",
+      "fetch": {
+        "monthly": {
+          "adapter": "icici_nms",
+          "notes": "category Monthly Portfolio Disclosures → Monthly-Portfolio-Disclosure-YYYY-MM.zip"
+        },
+        "fortnightly": {
+          "adapter": "icici_nms",
+          "notes": "category Fortnightly Portfolio Disclosures → Fortnightly Debt Scheme Portfolio - DD Month YYYY.zip"
+        }
+      }
+    },
+    {
+      "id": "il-fs-mutual-fund-idf",
+      "amfi_mf_id": 65,
+      "name": "IL&FS Mutual Fund (IDF)",
+      "amc_name": "IL&FS Infra Asset Management Limited",
+      "amc_website": "https://www.ilfsinfrafund.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "http://www.ilfsinfrafund.com/other.php",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "http://www.ilfsinfrafund.com/other.php",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "http://ilfsinfrafund.com/other.php",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_ilfs.py",
+          "python_slug": "ilfs-mutual-fund-idf",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_ilfs.py",
+          "python_slug": "ilfs-mutual-fund-idf",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "invesco-mutual-fund",
+      "amfi_mf_id": 42,
+      "name": "Invesco Mutual Fund",
+      "amc_name": "Invesco Asset Management (India) Private Limited",
+      "amc_website": "https://www.invescomutualfund.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.invescomutualfund.com/literature-and-form?tab=Fortnightly",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://invescomutualfund.com/literature-and-form?tab=Complete",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://invescomutualfund.com/literature-and-form?tab=HalfYearlyHoldings",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_invesco.py",
+          "python_slug": "invesco-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_invesco.py",
+          "python_slug": "invesco-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "iti-mutual-fund",
+      "amfi_mf_id": 70,
+      "name": "ITI Mutual Fund",
+      "amc_name": "ITI Asset Management Limited",
+      "amc_website": "https://www.itiamc.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.itiamc.com/statuory-disclosure",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.itiamc.com/statuory-disclosure",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.itiamc.com/statuory-disclosure",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_iti.py",
+          "python_slug": "iti-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_iti.py",
+          "python_slug": "iti-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "jio-blackrock-mutual-fund",
+      "amfi_mf_id": 82,
+      "name": "Jio BlackRock Mutual Fund",
+      "amc_name": "Jio BlackRock Asset Management Private Limited",
+      "amc_website": "https://www.jioblackrockamc.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.jioblackrockamc.com/statutory-disclosure/disclosures/fortnightly-portfolio-disclosure",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.jioblackrockamc.com/statutory-disclosure/disclosures/monthly-portfolio-disclosure",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.jioblackrockamc.com/statutory-disclosure/disclosures/half-yearly-portfolio-disclosure",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_jio_blackrock.py",
+          "python_slug": "jio-blackrock-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_jio_blackrock.py",
+          "python_slug": "jio-blackrock-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "jm-financial-mutual-fund",
+      "amfi_mf_id": 16,
+      "name": "JM Financial Mutual Fund",
+      "amc_name": "JM Financial Asset Management Limited",
+      "amc_website": "https://www.jmfinancialmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.jmfinancialmf.com/downloads/Portfolio-Disclosure",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.jmfinancialmf.com/downloads/Portfolio-Disclosure",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.jmfinancialmf.com/downloads/Portfolio-Disclosure/Half-Yearly-Portfolio-of-Schemes",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_jm_financial.py",
+          "python_slug": "jm-financial-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_jm_financial.py",
+          "python_slug": "jm-financial-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "kotak-mahindra-mutual-fund",
+      "amfi_mf_id": 17,
+      "name": "Kotak Mahindra Mutual Fund",
+      "amc_name": "Kotak Mahindra Asset Management Company Limited.",
+      "amc_website": "https://www.kotakmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.kotakmf.com/Information/statutory-disclosure",
+          "status": "hub",
+          "access": "Portfolios → Consolidated & Fortnightly Portfolio (optionId=51); xlsx on vatseelabs-s3"
+        },
+        "monthly": {
+          "page_url": "https://www.kotakmf.com/Information/statutory-disclosure",
+          "status": "hub",
+          "access": "Same Portfolios hub; Consolidated SEBI monthly xlsx via forms API + vatseelabs-s3"
+        },
+        "semi_annually": {
+          "page_url": "https://www.kotakmf.com/Information/statutory-disclosure",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Forms API getsubheaderList/417?option=51; downloads from https://vatseelabs-s3.kotakmf.com/{content}",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_kotak.py",
+          "python_slug": "kotak-mahindra-mutual-fund",
+          "extra_args": [
+            "--use-api",
+            "--no-api-recurse"
+          ],
+          "notes": "java17 getsubheaderList + vatseelabs-s3 content paths"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_kotak.py",
+          "python_slug": "kotak-mahindra-mutual-fund",
+          "extra_args": [
+            "--use-api",
+            "--no-api-recurse"
+          ],
+          "notes": "Fortnightly Portfolio rows via --fortnightly"
+        }
+      }
+    },
+    {
+      "id": "lakshya-mutual-fund",
+      "amfi_mf_id": 88,
+      "name": "Lakshya Mutual Fund",
+      "amc_name": "Lakshya Asset Management Private Limited",
+      "amc_website": "https://www.lakshyafunds.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "monthly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "semi_annually": {
+          "page_url": null,
+          "status": "deferred"
+        }
+      },
+      "status": "no_url",
+      "notes": "No fortnightly or monthly disclosure URL on AMFI",
+      "fetch": {
+        "monthly": {
+          "adapter": "unsupported",
+          "notes": "No repeatable AMC-direct adapter yet"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "lic-mutual-fund",
+      "amfi_mf_id": 18,
+      "name": "LIC Mutual Fund",
+      "amc_name": "LIC Mutual Fund Asset Management Limited",
+      "amc_website": "https://www.licmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.licmf.com/downloads/monthly-portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.licmf.com/downloads/monthly-portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.licmf.com/half-yearly-unaudited-portfolio",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_lic.py",
+          "python_slug": "lic-mutual-fund",
+          "extra_args": [
+            "--insecure-ssl"
+          ],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_lic.py",
+          "python_slug": "lic-mutual-fund",
+          "extra_args": [
+            "--insecure-ssl"
+          ],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "mahindra-manulife-mutual-fund",
+      "amfi_mf_id": 69,
+      "name": "Mahindra Manulife Mutual Fund",
+      "amc_name": "Mahindra Manulife Investment Management Pvt Ltd",
+      "amc_website": "https://www.mahindramanulife.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.mahindramanulife.com/downloads#mandatory-disclosures",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.mahindramanulife.com/downloads#mandatory-disclosures",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.mahindramanulife.com/downloads#financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_mahindra_manulife.py",
+          "python_slug": "mahindra-manulife-mutual-fund",
+          "extra_args": [],
+          "notes": "investorapi preLogin/downloads AES decrypt"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_mahindra_manulife.py",
+          "python_slug": "mahindra-manulife-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "mirae-asset-mutual-fund",
+      "amfi_mf_id": 45,
+      "name": "Mirae Asset Mutual Fund",
+      "amc_name": "Mirae Asset Investment Managers (India) Pvt. Ltd",
+      "amc_website": "https://www.miraeassetmf.co.in",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.miraeassetmf.co.in/downloads/portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.miraeassetmf.co.in/downloads/portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.miraeassetmf.co.in/downloads/portfolio",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "mirae_ajax",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "mirae_ajax",
+          "notes": "Fortnightly via same adapter family as monthly (ctx.type=fortnightly)"
+        }
+      }
+    },
+    {
+      "id": "monarch-mutual-fund",
+      "amfi_mf_id": 89,
+      "name": "Monarch Mutual Fund",
+      "amc_name": "Monarch Networth Asset Management Private Limited",
+      "amc_website": "https://monarchamc.in/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "monthly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "semi_annually": {
+          "page_url": null,
+          "status": "deferred"
+        }
+      },
+      "status": "no_url",
+      "notes": "No fortnightly or monthly disclosure URL on AMFI",
+      "fetch": {
+        "monthly": {
+          "adapter": "unsupported",
+          "notes": "No repeatable AMC-direct adapter yet"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "motilal-oswal-mutual-fund",
+      "amfi_mf_id": 55,
+      "name": "Motilal Oswal Mutual Fund",
+      "amc_name": "Motilal Oswal Asset Management Company Limited",
+      "amc_website": "https://www.motilaloswalmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.motilaloswalmf.com/downloads/scheme-portfolio-details",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.motilaloswalmf.com/downloads/scheme-portfolio-details",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.motilaloswalmf.com/downloads/financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_motilal.py",
+          "python_slug": "motilal-oswal-mutual-fund",
+          "extra_args": [],
+          "notes": "AEM search type=mf category=month end portfolio"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_motilal.py",
+          "python_slug": "motilal-oswal-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "navi-mutual-fund",
+      "amfi_mf_id": 54,
+      "name": "Navi Mutual Fund",
+      "amc_name": "Navi AMC Limited",
+      "amc_website": "https://www.navimutualfund.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://navi.com/mutual-fund/downloads/portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://navi.com/mutual-fund/downloads/portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://navi.com/mutual-fund/downloads/portfolio",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_navi.py",
+          "python_slug": "navi-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_navi.py",
+          "python_slug": "navi-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "nippon-india-mutual-fund",
+      "amfi_mf_id": 21,
+      "name": "Nippon India Mutual Fund",
+      "amc_name": "Nippon Life India Asset Management Limited",
+      "amc_website": "https://mf.nipponindiaim.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://mf.nipponindiaim.com/investor-service/downloads/factsheet-portfolio-and-other-disclosures",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://mf.nipponindiaim.com/investor-service/downloads/factsheet-portfolio-and-other-disclosures",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://mf.nipponindiaim.com/investor-service/downloads/factsheet-portfolio-and-other-disclosures",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_nippon.py",
+          "python_slug": "nippon-india-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_nippon.py",
+          "python_slug": "nippon-india-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "nj-mutual-fund",
+      "amfi_mf_id": 73,
+      "name": "NJ Mutual Fund",
+      "amc_name": "NJ Asset Management Private Limited",
+      "amc_website": null,
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://downloads.njmutualfund.com/njmf_download.php?nme=415",
+          "status": "hub",
+          "access": "viewfile.php?file=NJMF-Fortnightly-{Month}-{DD}-YYYY-….xlsx"
+        },
+        "monthly": {
+          "page_url": "https://downloads.njmutualfund.com/njmf_download.php?nme=127",
+          "status": "hub",
+          "access": "viewfile.php?file=NJ-MF-Monthly-Portfolio-*-{Month}-YYYY-….xlsx (per-scheme)"
+        },
+        "semi_annually": {
+          "page_url": "https://downloads.njmutualfund.com/njmf_download.php?nme=132",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Filenames live in viewfile.php?file= query param. Strip trailing 14-digit upload stamps before month matching.",
+      "fetch": {
+        "monthly": {
+          "adapter": "nj_downloads",
+          "notes": "nme=127 monthly viewfile links"
+        },
+        "fortnightly": {
+          "adapter": "nj_downloads",
+          "notes": "nme=415 fortnightly debt portfolios"
+        }
+      }
+    },
+    {
+      "id": "nuvama-mutual-fund",
+      "amfi_mf_id": 90,
+      "name": "Nuvama Mutual Fund",
+      "amc_name": "Nuvama Asset Management Limited",
+      "amc_website": "https://nuvamamutualfund.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "monthly": {
+          "page_url": null,
+          "status": "no_url"
+        },
+        "semi_annually": {
+          "page_url": null,
+          "status": "deferred"
+        }
+      },
+      "status": "no_url",
+      "notes": "No fortnightly or monthly disclosure URL on AMFI",
+      "fetch": {
+        "monthly": {
+          "adapter": "unsupported",
+          "notes": "No repeatable AMC-direct adapter yet"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "old-bridge-mutual-fund",
+      "amfi_mf_id": 78,
+      "name": "Old Bridge Mutual Fund",
+      "amc_name": "Old Bridge Asset Management Private Limited",
+      "amc_website": "https://www.oldbridgemf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "not_published"
+        },
+        "monthly": {
+          "page_url": "https://oldbridgemf.com/statutory-disclosures.html",
+          "status": "hub",
+          "access": "Statutory Disclosures → Monthly Portfolio tab; per-scheme monthly files"
+        },
+        "semi_annually": {
+          "page_url": "https://oldbridgemf.com/statutory-disclosures.html",
+          "status": "deferred"
+        }
+      },
+      "status": "monthly_only",
+      "notes": "No fortnightly section on site as of 2026-08-08. Monthly Portfolio lists scheme-level downloads (e.g. June 2026 Flexi Cap / Arbitrage / Focused).",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_oldbridge.py",
+          "python_slug": "old-bridge-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly disclosure URL"
+        }
+      }
+    },
+    {
+      "id": "pgim-india-mutual-fund",
+      "amfi_mf_id": 58,
+      "name": "PGIM India Mutual Fund",
+      "amc_name": "PGIM India Asset Management Private Limite",
+      "amc_website": "https://www.pgimindia.com/mutual-funds",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.pgimindia.com/mutual-funds/disclosures/Portfolios/Fortnightly-portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.pgimindia.com/mutual-funds/disclosures/Portfolios/Monthly-Portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.pgimindia.com/mutual-funds/disclosures/Financial-Statements/Scheme-Financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_pgim.py",
+          "python_slug": "pgim-india-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_pgim.py",
+          "python_slug": "pgim-india-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "ppfas-mutual-fund",
+      "amfi_mf_id": 64,
+      "name": "PPFAS Mutual Fund",
+      "amc_name": "PPFAS Asset Management Pvt. Ltd.",
+      "amc_website": "https://amc.ppfas.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://amc.ppfas.com/downloads/portfolio-disclosure/fortnightly-debt-portfolio-disclosure/",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://amc.ppfas.com/downloads/portfolio-disclosure/",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://amc.ppfas.com/schemes/scheme-s-financial-half-yearly/",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_ppfas.py",
+          "python_slug": "parag-parikh-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "Try static HTML on fortnightly page (debt hubs often list .xlsx)",
+          "fallback_python": {
+            "script": "fetch_ppfas.py",
+            "python_slug": "parag-parikh-mutual-fund",
+            "extra_args": []
+          }
+        }
+      }
+    },
+    {
+      "id": "quant-mutual-fund",
+      "amfi_mf_id": 13,
+      "name": "quant Mutual Fund",
+      "amc_name": "quant Money Managers Limited",
+      "amc_website": "https://www.quantmutual.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://quantmutual.com/statutory-disclosures",
+          "status": "hub",
+          "access": "PageMethods displaydisclouser cat=FORTNIGHTLY PORTFOLIO; /Admin/disclouser/Portfolio_Debt_DDMMYYYY.xlsx"
+        },
+        "monthly": {
+          "page_url": "https://quantmutual.com/statutory-disclosures",
+          "status": "hub",
+          "access": "PageMethods displaydisclouser cat=MONTHLY PORTFOLIO; /Admin/disclouser/Monthly_Portfolio_*.xlsx"
+        },
+        "semi_annually": {
+          "page_url": "https://quantmutual.com/statutory-disclosures",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Static HTML has empty placeholders; real links come from ASP.NET PageMethods on statutorydisclosures.aspx.",
+      "fetch": {
+        "monthly": {
+          "adapter": "quant_aspx",
+          "notes": "aspx displaydisclouser MONTHLY PORTFOLIO"
+        },
+        "fortnightly": {
+          "adapter": "quant_aspx",
+          "notes": "aspx displaydisclouser FORTNIGHTLY PORTFOLIO (debt consolidated)"
+        }
+      }
+    },
+    {
+      "id": "quantum-mutual-fund",
+      "amfi_mf_id": 41,
+      "name": "Quantum Mutual Fund",
+      "amc_name": "Quantum Asset Management Company Private Limited",
+      "amc_website": "https://www.QuantumAMC.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.quantumamc.com/portfolio/combined/-1/1/0/0",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.quantumamc.com/FileCDN/FactSheet/5f6c4b6e-5264-472c-b378-d54727d45369.xlsx",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.quantumamc.com/regulatory-document/quantum-mutual-fund-half-yearly-portfolio-statement/1955",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_quantum.py",
+          "python_slug": "quantum-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_quantum.py",
+          "python_slug": "quantum-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "samco-mutual-fund",
+      "amfi_mf_id": 74,
+      "name": "Samco Mutual Fund",
+      "amc_name": "Samco Asset Management Private Limited",
+      "amc_website": "https://www.samcomf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.samcomf.com/StatutoryDisclosure",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.samcomf.com/StatutoryDisclosure",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.samcomf.com/StatutoryDisclosure",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "static_html",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "HTML scrape of fortnightly hub"
+        }
+      }
+    },
+    {
+      "id": "sbi-mutual-fund",
+      "amfi_mf_id": 22,
+      "name": "SBI Mutual Fund",
+      "amc_name": "SBI Funds Management Limited",
+      "amc_website": "https://www.sbimf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.sbimf.com/portfolios",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.sbimf.com/portfolios",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.sbimf.com/portfolios",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "sbi_sitefinity",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "sbi_sitefinity",
+          "notes": "Fortnightly via same adapter family as monthly (ctx.type=fortnightly)"
+        }
+      }
+    },
+    {
+      "id": "shriram-mutual-fund",
+      "amfi_mf_id": 67,
+      "name": "Shriram Mutual Fund",
+      "amc_name": "Shriram Asset Management Co. Ltd.",
+      "amc_website": "https://www.shriramamc.in",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.shriramamc.in/investor-statutory-disclosures",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.shriramamc.in/investor-statutory-disclosures",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.shriramamc.in/investor-statutory-disclosures",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_shriram.py",
+          "python_slug": "shriram-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "Try static HTML on fortnightly page (debt hubs often list .xlsx)",
+          "fallback_python": {
+            "script": "fetch_shriram.py",
+            "python_slug": "shriram-mutual-fund",
+            "extra_args": []
+          }
+        }
+      }
+    },
+    {
+      "id": "sundaram-mutual-fund",
+      "amfi_mf_id": 33,
+      "name": "Sundaram Mutual Fund",
+      "amc_name": "Sundaram Asset Management Company Ltd",
+      "amc_website": "https://www.sundarammutual.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.sundarammutual.com/Monthly-Fortnightly-Adhoc-Portfolios",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.sundarammutual.com/Monthly-Fortnightly-Adhoc-Portfolios",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.sundarammutual.com/Halfyearly-Portfolio-Disclosure",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_sundaram.py",
+          "python_slug": "sundaram-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_sundaram.py",
+          "python_slug": "sundaram-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "tata-mutual-fund",
+      "amfi_mf_id": 25,
+      "name": "Tata Mutual Fund",
+      "amc_name": "Tata Asset Management Limited",
+      "amc_website": "https://www.tatamutualfund.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.tatamutualfund.com/schemes-related",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.tatamutualfund.com/schemes-related",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.tatamutualfund.com/about-us",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_tata.py",
+          "python_slug": "tata-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_tata.py",
+          "python_slug": "tata-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "taurus-mutual-fund",
+      "amfi_mf_id": 26,
+      "name": "Taurus Mutual Fund",
+      "amc_name": "Taurus Asset Management Company Limited",
+      "amc_website": "https://www.taurusmutualfund.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": null,
+          "status": "not_published",
+          "access": "Page title mentions fortnightly, but listing only returns Monthly scheme xlsx; Taurus has no debt/liquid schemes requiring FN debt portfolio disclosure"
+        },
+        "monthly": {
+          "page_url": "https://www.taurusmutualfund.com/monthly-portfolio",
+          "status": "hub",
+          "access": "Drupal Views filters year+month → per-scheme Monthly_Portfolio_Report_Performance_*.xlsx"
+        },
+        "semi_annually": {
+          "page_url": "https://www.taurusmutualfund.com/financials/portfolio",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Equity-only AMC (no debt/liquid). Fortnightly debt portfolio disclosure not published as of 2026-08-09; monthly via /monthly-portfolio is AMC-direct and working.",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_taurus.py",
+          "python_slug": "taurus-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "unsupported",
+          "notes": "No fortnightly debt portfolios published (equity-only product set)"
+        }
+      }
+    },
+    {
+      "id": "trust-mutual-fund",
+      "amfi_mf_id": 72,
+      "name": "Trust Mutual Fund",
+      "amc_name": "Trust Asset Management Private Limited",
+      "amc_website": "https://www.trustmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.trustmf.com/disclosures?activeTab=portfolio-disclosures",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.trustmf.com/disclosures?activeTab=portfolio-disclosures",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.trustmf.com/disclosures?activeTab=portfolio-disclosures",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_trust.py",
+          "python_slug": "trust-mutual-fund",
+          "extra_args": [],
+          "notes": "via reference/python-fetchers (AMC-direct)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_trust.py",
+          "python_slug": "trust-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "unifi-mutual-fund",
+      "amfi_mf_id": 79,
+      "name": "Unifi Mutual Fund",
+      "amc_name": "Unifi Asset Management Private Limited",
+      "amc_website": "https://unifimf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://unifimf.com/statutorydocuments/#fortnightly-portfolio-disclosure",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://unifimf.com/statutorydocuments/#monthly-portfolio-disclosure",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://unifimf.com/statutorydocuments/#half-yearly-portfolio-disclosure",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "static_html",
+          "insecure_ssl": true,
+          "notes": "SSL cert issue; using insecure fetch"
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "insecure_ssl": true,
+          "notes": "SSL cert issue; using insecure fetch"
+        }
+      }
+    },
+    {
+      "id": "union-mutual-fund",
+      "amfi_mf_id": 61,
+      "name": "Union Mutual Fund",
+      "amc_name": "Union Asset Management Company Private Limited",
+      "amc_website": "https://www.unionmf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://unionmf.com/about-us/downloads/fortnightly-portfolio",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://unionmf.com/about-us/downloads/monthly-portfolio",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://unionmf.com/about-us/downloads/financials",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_union.py",
+          "python_slug": "union-mutual-fund",
+          "extra_args": [],
+          "notes": "HTML scrape of monthly-portfolio page (API often stale)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_union.py",
+          "python_slug": "union-mutual-fund",
+          "extra_args": [],
+          "notes": "python_ref fortnightly (fallback after empty HTML)"
+        }
+      }
+    },
+    {
+      "id": "uti-mutual-fund",
+      "amfi_mf_id": 28,
+      "name": "UTI Mutual Fund",
+      "amc_name": "UTI Asset Mgmt. Co. Ltd.",
+      "amc_website": "https://www.utimf.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.utimf.com/downloads/consolidate-debt-portfolio-disclosure",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.utimf.com/downloads/consolidate-all-portfolio-disclosure",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.utimf.com/downloads/consolidate-all-portfolio-disclosure",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "uti_api",
+          "notes": ""
+        },
+        "fortnightly": {
+          "adapter": "uti_api",
+          "notes": "Fortnightly via same adapter family as monthly (ctx.type=fortnightly)"
+        }
+      }
+    },
+    {
+      "id": "the-wealth-company-mutual-fund",
+      "amfi_mf_id": 83,
+      "name": "The Wealth Company Mutual Fund",
+      "amc_name": "Wealth Company Asset Management Holdings Private Limited",
+      "amc_website": "https://www.wealthcompanyamc.in",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.wealthcompanyamc.in/literature-forms/portfolio-documents/fortnightly/",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.wealthcompanyamc.in/literature-forms/portfolio-documents/monthly/",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.wealthcompanyamc.in/literature-forms/portfolio-documents/half-yearly/",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "python_ref",
+          "script": "fetch_wealth_company.py",
+          "python_slug": "the-wealth-company-mutual-fund",
+          "extra_args": [],
+          "notes": "monthly via dedicated python fetcher (label↔upload pairing)"
+        },
+        "fortnightly": {
+          "adapter": "python_ref",
+          "script": "fetch_wealth_company.py",
+          "python_slug": "the-wealth-company-mutual-fund",
+          "extra_args": [],
+          "notes": "fortnightly via dedicated python fetcher"
+        }
+      }
+    },
+    {
+      "id": "whiteoak-capital-mutual-fund",
+      "amfi_mf_id": 71,
+      "name": "WhiteOak Capital Mutual Fund",
+      "amc_name": "WhiteOak Capital Asset Management Limited",
+      "amc_website": "https://mf.whiteoakamc.com/",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://mf.whiteoakamc.com/regulatory-disclosures/scheme-portfolios",
+          "status": "hub",
+          "access": "cms.whiteoakamc.com/api/scheme-portfolios period=Fortnightly; per-scheme xlsx on content.whiteoakamc.com"
+        },
+        "monthly": {
+          "page_url": "https://mf.whiteoakamc.com/regulatory-disclosures/scheme-portfolios",
+          "status": "hub",
+          "access": "cms.whiteoakamc.com/api/scheme-portfolios period=Monthly; per-scheme xlsx (as-of in doc_name)"
+        },
+        "semi_annually": {
+          "page_url": "https://mf.whiteoakamc.com/regulatory-disclosures/scheme-portfolios",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "Next.js/CloudFront blocks naive scrapes; use public Strapi CMS API (cms.whiteoakamc.com/api/scheme-portfolios). Per-scheme only. Match as-of via doc_name (e.g. 30th June2026), not published_date. Fortnightly only covers Liquid + Ultra Short Duration. As of 2026-08-09, July 2026 monthlies not published yet (latest June).",
+      "fetch": {
+        "monthly": {
+          "adapter": "whiteoak_cms",
+          "notes": "cms scheme-portfolios Monthly; per-scheme"
+        },
+        "fortnightly": {
+          "adapter": "whiteoak_cms",
+          "notes": "cms scheme-portfolios Fortnightly; per-scheme"
+        }
+      }
+    },
+    {
+      "id": "zerodha-mutual-fund",
+      "amfi_mf_id": 77,
+      "name": "Zerodha Mutual Fund",
+      "amc_name": "Zerodha Asset Management Private Limited",
+      "amc_website": "https://www.zerodhafundhouse.com",
+      "disclosures": {
+        "fortnightly": {
+          "page_url": "https://www.zerodhafundhouse.com/resources/disclosures",
+          "status": "unknown"
+        },
+        "monthly": {
+          "page_url": "https://www.zerodhafundhouse.com/resources/disclosures?source=footer",
+          "status": "unknown"
+        },
+        "semi_annually": {
+          "page_url": "https://www.zerodhafundhouse.com/resources/disclosures?source=footer",
+          "status": "deferred"
+        }
+      },
+      "status": "unknown",
+      "notes": "",
+      "fetch": {
+        "monthly": {
+          "adapter": "static_html",
+          "notes": "Same Next.js disclosures hub as fortnightly; Monthly Portfolio assets"
+        },
+        "fortnightly": {
+          "adapter": "static_html",
+          "notes": "Next.js disclosures hub CDN xlsx"
+        }
+      }
+    }
+  ],
+  "fetch": {
+    "version": 2,
+    "adapters": [
+      "static_html",
+      "sbi_sitefinity",
+      "mirae_ajax",
+      "baroda_ajax",
+      "hdfc_cms",
+      "uti_api",
+      "icici_nms",
+      "axis_cms",
+      "quant_aspx",
+      "whiteoak_cms",
+      "nj_downloads",
+      "python_ref",
+      "unsupported"
+    ],
+    "skipped": [],
+    "excluded_third_party": [
+      "kotak Advisorkhoj default"
+    ],
+    "notes": "AMC-direct only. Axis via www.axismf.com CMS token + get-scheme-documents. Edelweiss uses Playwright against edelweissmf.com (not Advisorkhoj)."
+  }
+}
