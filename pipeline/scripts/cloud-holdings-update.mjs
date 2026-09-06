@@ -76,16 +76,23 @@ function countAsOfFiles(dir) {
 }
 
 function loadFetchProbe(type, period) {
-  const probes = readdirSync(join(ROOT, "data/probes"))
+  const probesDir = join(ROOT, "data/probes");
+  if (!existsSync(probesDir)) return null;
+  const exact = join(probesDir, `fetch-${type}-${period}.json`);
+  if (existsSync(exact)) {
+    return JSON.parse(readFileSync(exact, "utf8"));
+  }
+  // Legacy YYYY-MM probes / fallbacks
+  const probes = readdirSync(probesDir)
     .filter((f) => f.startsWith(`fetch-${type}-`))
     .filter((f) => f.includes(period.slice(0, 7)));
   const latest = probes.sort().pop();
   if (!latest) return null;
-  return JSON.parse(readFileSync(join(ROOT, "data/probes", latest), "utf8"));
+  return JSON.parse(readFileSync(join(probesDir, latest), "utf8"));
 }
 
 function summarizeFetch(probe) {
-  if (!probe) return { amcs: 0, ok: 0, empty: 0, error: 0, files: 0, errors: [] };
+  if (!probe) return { amcs: 0, ok: 0, empty: 0, error: 0, files: 0, rejected: 0, errors: [] };
   const results = probe.results || [];
   return {
     storageKey: probe.storageKey,
@@ -94,6 +101,7 @@ function summarizeFetch(probe) {
     empty: results.filter((r) => r.status === "empty").length,
     error: results.filter((r) => r.status === "error").length,
     files: results.reduce((n, r) => n + (r.fileCount || 0), 0),
+    rejected: probe.rejectedCount || results.reduce((n, r) => n + (r.rejectedCount || 0), 0),
     errors: results.filter((r) => r.status === "error").map((r) => r.id),
   };
 }
@@ -101,20 +109,50 @@ function summarizeFetch(probe) {
 loadDotenv();
 
 const doPush = hasFlag("push");
-const token = process.env.HOLDINGS_GH_TOKEN || process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
-if (doPush && !token) {
-  console.error("Set HOLDINGS_GH_TOKEN (or GH_TOKEN) for --push");
+// Cloud Agents inject GH_TOKEN / GITHUB_TOKEN as cursor[bot], which cannot
+// write to kushagra-agarwal-a/fund-holdings-data. Push must use the PAT only.
+const holdingsToken = process.env.HOLDINGS_GH_TOKEN;
+if (doPush && !holdingsToken) {
+  console.error(
+    "Set HOLDINGS_GH_TOKEN (kushagra-agarwal-a PAT with repo write on fund-holdings-data).\n" +
+      "Do not use Cursor's GH_TOKEN — it is cursor[bot] and gets 403 on the data repo.",
+  );
   process.exit(1);
 }
-if (token) process.env.GH_TOKEN = token;
+if (holdingsToken) {
+  process.env.GH_TOKEN = holdingsToken;
+  process.env.GITHUB_TOKEN = holdingsToken;
+}
+if (!process.env.EDELWEISS_API_SECRET) {
+  console.warn("Warning: EDELWEISS_API_SECRET is not set — Edelweiss fetches will be skipped.");
+}
 
 // Fewer parallel AMC fetches + longer HTTP timeout reduces false "error" from timeouts.
 process.env.FETCH_TIMEOUT_MS = process.env.FETCH_TIMEOUT_MS || "180000";
 const fetchConcurrency = process.env.FETCH_CONCURRENCY || "4";
 
+function monthEndIso(ym) {
+  const [y, m] = ym.split("-").map(Number);
+  const last = new Date(Date.UTC(y, m, 0)).getUTCDate();
+  return `${ym}-${String(last).padStart(2, "0")}`;
+}
+
+/** Fetch+parse jobs: FN mid-month, FN month-end, then monthly — never skip FN-31. */
+function buildFetchParseJobs(yms) {
+  const jobs = [];
+  for (const ym of yms) {
+    jobs.push({ type: "fortnightly", period: `${ym}-15` });
+    jobs.push({ type: "fortnightly", period: monthEndIso(ym) });
+    jobs.push({ type: "monthly", period: monthEndIso(ym) });
+  }
+  return jobs;
+}
+
 const toYm = monthYm();
-const fromYm = shiftYm(toYm, -2);
-const periods = [fromYm, shiftYm(toYm, -1), toYm].filter((v, i, a) => a.indexOf(v) === i);
+// Daily job: previous + current month only. Older months are already on GitHub.
+const fromYm = shiftYm(toYm, -1);
+const periods = [fromYm, toYm].filter((v, i, a) => a.indexOf(v) === i);
+const fetchJobs = buildFetchParseJobs(periods);
 
 const outDir = defaultHoldingsOutDir(ROOT);
 const report = {
@@ -122,6 +160,7 @@ const report = {
   mode: doPush ? "push" : "dry-run",
   holdings_out: outDir,
   periods,
+  fetch_jobs: fetchJobs,
   fetch: [],
   baseline_files: countAsOfFiles(outDir),
   after_files: {},
@@ -129,6 +168,9 @@ const report = {
   new_portfolio_files: 0,
   fetch_totals: null,
   openfin_filings: null,
+  push_error: null,
+  edelweiss_secret_present: Boolean(process.env.EDELWEISS_API_SECRET),
+  holdings_token_present: Boolean(holdingsToken),
 };
 
 console.log(
@@ -136,6 +178,7 @@ console.log(
     {
       mode: report.mode,
       periods,
+      fetch_jobs: fetchJobs,
       fetch_timeout_ms: Number(process.env.FETCH_TIMEOUT_MS),
       fetch_concurrency: Number(fetchConcurrency),
       holdings_owner: "kushagra-agarwal-a",
@@ -146,29 +189,27 @@ console.log(
   ),
 );
 
-for (const period of periods) {
-  for (const type of ["monthly", "fortnightly"]) {
-    run(
-      "npm",
-      [
-        "run",
-        "fetch",
-        "--",
-        `--type=${type}`,
-        `--period=${period}`,
-        `--concurrency=${fetchConcurrency}`,
-      ],
-      { label: `fetch ${type} ${period}` },
-    );
-    const probe = loadFetchProbe(type, period);
-    report.fetch.push({ type, period, ...summarizeFetch(probe) });
+for (const { type, period } of fetchJobs) {
+  run(
+    "npm",
+    [
+      "run",
+      "fetch",
+      "--",
+      `--type=${type}`,
+      `--period=${period}`,
+      `--concurrency=${fetchConcurrency}`,
+    ],
+    { label: `fetch ${type} ${period}` },
+  );
+  const probe = loadFetchProbe(type, period);
+  report.fetch.push({ type, period, ...summarizeFetch(probe) });
 
-    run(
-      "npm",
-      ["run", "parse:amc", "--", `--type=${type}`, `--period=${period}`, "--all"],
-      { label: `parse ${type} ${period}` },
-    );
-  }
+  run(
+    "npm",
+    ["run", "parse:amc", "--", `--type=${type}`, `--period=${period}`, "--all"],
+    { label: `parse ${type} ${period}` },
+  );
 }
 
 run("npm", ["run", "holdings:enrich", "--", "--allow-incomplete"], {
@@ -176,19 +217,24 @@ run("npm", ["run", "holdings:enrich", "--", "--allow-incomplete"], {
 });
 run("npm", ["run", "holdings:assert-locks"], { label: "assert mapping locks" });
 
-const syncArgs = [
-  join(ROOT, "scripts/sync-asof-window.mjs"),
-  `--from=${fromYm}`,
-  `--to=${toYm}`,
-  "--merge",
-  ...(doPush ? ["--push"] : ["--dry-run"]),
-];
-run(process.execPath, syncArgs, { label: `sync window ${fromYm}..${toYm} (merge)` });
+try {
+  const syncArgs = [
+    join(ROOT, "scripts/sync-asof-window.mjs"),
+    `--from=${fromYm}`,
+    `--to=${toYm}`,
+    "--merge",
+    ...(doPush ? ["--push"] : ["--dry-run"]),
+  ];
+  run(process.execPath, syncArgs, { label: `sync window ${fromYm}..${toYm} (merge)` });
 
-if (doPush) {
-  run(process.execPath, [join(ROOT, "scripts/refresh-filings-catalog.mjs"), "--push"], {
-    label: "refresh filings catalog",
-  });
+  if (doPush) {
+    run(process.execPath, [join(ROOT, "scripts/refresh-filings-catalog.mjs"), "--push"], {
+      label: "refresh filings catalog",
+    });
+  }
+} catch (e) {
+  report.push_error = String(e.message || e);
+  console.error("\nSync/push failed:", report.push_error);
 }
 
 report.after_files = countAsOfFiles(outDir);
@@ -207,8 +253,9 @@ report.fetch_totals = report.fetch.reduce(
     amcs_empty: a.amcs_empty + r.empty,
     amcs_error: a.amcs_error + r.error,
     files_downloaded: a.files_downloaded + r.files,
+    files_rejected: a.files_rejected + (r.rejected || 0),
   }),
-  { amcs_checked: 0, amcs_ok: 0, amcs_empty: 0, amcs_error: 0, files_downloaded: 0 },
+  { amcs_checked: 0, amcs_ok: 0, amcs_empty: 0, amcs_error: 0, files_downloaded: 0, files_rejected: 0 },
 );
 
 const verify = spawnSync(
@@ -234,4 +281,8 @@ const reportPath = join(ROOT, "data/probes", `cloud-holdings-report-${Date.now()
 writeFileSync(reportPath, JSON.stringify(report, null, 2) + "\n");
 console.log("\nReport:", reportPath);
 console.log(JSON.stringify(report, null, 2));
+if (report.push_error) {
+  console.error("\ncloud-holdings-update: finished with push failure");
+  process.exit(1);
+}
 console.log("\ncloud-holdings-update: done");
