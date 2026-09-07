@@ -208,37 +208,22 @@ export function enforceCatalogIntegrity(outDir, catalog, {
   return { phantom, coverage };
 }
 
-/**
- * Fail when catalog as-of metadata does not match on-disk portfolio files.
- * Phantom link check is zero-tolerance; latest-file gaps allow a small legacy floor.
- */
-export function enforceCatalogIntegrity(outDir, catalog, {
-  label = "catalog integrity",
-  maxMissingLatest = 5,
-} = {}) {
-  const phantom = assertNoPhantomAsOfLinks(outDir, catalog);
-  if (!phantom.ok) {
-    const sample = phantom.phantom.slice(0, 8);
-    throw new Error(
-      `${label}: ${phantom.phantom.length} phantom available_as_of link(s). ` +
-        `Examples: ${sample.map((p) => `${p.portfolio_id}@${p.as_of}`).join(", ")}`,
-    );
+/** Pin meta.json CDN URLs to an immutable git commit (OpenFin reads these). */
+export function pinMetaCdnUrls(meta, commit, { owner, repo } = {}) {
+  const o = owner || process.env.HOLDINGS_DATA_OWNER || "kushagra-agarwal-a";
+  const r = repo || process.env.HOLDINGS_DATA_REPO || "fund-holdings-data";
+  const sha = String(commit || "").trim();
+  if (!/^[0-9a-f]{7,40}$/i.test(sha)) {
+    throw new Error(`pinMetaCdnUrls: invalid commit ${commit}`);
   }
-
-  const coverage = assertCatalogPortfolioCoverage(outDir, catalog);
-  if (!coverage.ok && coverage.missing.length > maxMissingLatest) {
-    const sample = coverage.missing.slice(0, 8);
-    throw new Error(
-      `${label}: ${coverage.missing.length} portfolio(s) missing latest as-of file. ` +
-        `Examples: ${sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", ")}`,
-    );
-  }
-  if (!coverage.ok) {
-    const sample = coverage.missing.slice(0, 8);
-    console.warn(
-      `Warning (${label}): ${coverage.missing.length} portfolio(s) without latest file: ` +
-        sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", "),
-    );
-  }
-  return { phantom, coverage };
+  return {
+    ...meta,
+    commit: sha,
+    raw_base: `https://raw.githubusercontent.com/${o}/${r}/${sha}`,
+    cdn_catalog: `https://cdn.jsdelivr.net/gh/${o}/${r}@${sha}/catalog/amfi-lookup.json`,
+    cdn_filings: `https://cdn.jsdelivr.net/gh/${o}/${r}@${sha}/catalog/filings.json`,
+    cdn_portfolio_template: `https://cdn.jsdelivr.net/gh/${o}/${r}@${sha}/portfolios/asof/{as_of}/{portfolio_id}.json`,
+    cdn_asof_template: `https://cdn.jsdelivr.net/gh/${o}/${r}@${sha}/portfolios/asof/{as_of}/{portfolio_id}.json`,
+    catalog_pinned_at: new Date().toISOString(),
+  };
 }
