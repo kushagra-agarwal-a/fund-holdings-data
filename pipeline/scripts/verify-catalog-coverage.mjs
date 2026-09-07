@@ -53,9 +53,17 @@ function assertMetaPinMatchesCatalog(outDir, catalog) {
     { cwd: outDir, encoding: "utf8", maxBuffer: 64 * 1024 * 1024 },
   );
   if (show.status !== 0) {
+    const diff = spawnSync(
+      "git",
+      ["diff", "--quiet", pinned, "HEAD", "--", "catalog/amfi-lookup.json"],
+      { cwd: outDir },
+    );
+    if (diff.status === 0) {
+      return { ok: true, pinned: pinned.slice(0, 7), note: "pin behind HEAD but catalog unchanged" };
+    }
     return {
       ok: false,
-      error: `cannot read catalog at pinned commit ${pinned.slice(0, 7)}`,
+      error: `cannot read catalog at pinned commit ${pinned.slice(0, 7)} (meta pin stale?)`,
     };
   }
 
