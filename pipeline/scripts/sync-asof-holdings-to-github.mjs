@@ -161,8 +161,10 @@ function schemeFromMeta(meta, portfolioId) {
 
 function refreshFilings(catalog, { baselineCatalog = null } = {}) {
   const beforeCatalog = baselineCatalog || loadRepoCatalog(outDir);
+  // Only dates with on-disk portfolio files — do not stamp every historical
+  // portfolio with the current sync slice (partial fortnightly runs caused
+  // catalog.latest_as_of drift vs missing asof files).
   const asOfMap = scanExistingAsOfDirs(outDir, catalog);
-  for (const dates of asOfMap.values()) dates.add(asof);
 
   const withDates = attachAvailableAsOf(catalog, asOfMap, {
     cdnUrlFn: cdnUrl,
