@@ -8,6 +8,8 @@ import {
   countDedupedAsOfDir,
   parentPortfolioIds,
   scanExistingAsOfDirs,
+  assertCatalogPortfolioCoverage,
+  assertNoPhantomAsOfLinks,
 } from "./asof-portfolios.mjs";
 
 const AS_OF_RE = /^\d{4}-\d{2}-\d{2}$/;
@@ -104,6 +106,12 @@ export function assertNoHoldingsRegression(
           `${date}: catalog scheme links ${formatDelta(prevSchemes, nextSchemes)}`,
         );
       }
+      const diskFiles = afterDirs.get(date) || 0;
+      if (diskFiles > 0 && nextSchemes > diskFiles + 10) {
+        regressions.push(
+          `${date}: catalog links (${nextSchemes}) exceed on-disk portfolios (${diskFiles})`,
+        );
+      }
     }
   }
 
@@ -163,4 +171,74 @@ export function mergeCatalogAsOfFromRepo(outDir, freshCatalog, repoCatalog) {
     };
   }
   return out;
+}
+
+/**
+ * Fail when catalog as-of metadata does not match on-disk portfolio files.
+ * Phantom link check is zero-tolerance; latest-file gaps allow a small legacy floor.
+ */
+export function enforceCatalogIntegrity(outDir, catalog, {
+  label = "catalog integrity",
+  maxMissingLatest = 5,
+} = {}) {
+  const phantom = assertNoPhantomAsOfLinks(outDir, catalog);
+  if (!phantom.ok) {
+    const sample = phantom.phantom.slice(0, 8);
+    throw new Error(
+      `${label}: ${phantom.phantom.length} phantom available_as_of link(s). ` +
+        `Examples: ${sample.map((p) => `${p.portfolio_id}@${p.as_of}`).join(", ")}`,
+    );
+  }
+
+  const coverage = assertCatalogPortfolioCoverage(outDir, catalog);
+  if (!coverage.ok && coverage.missing.length > maxMissingLatest) {
+    const sample = coverage.missing.slice(0, 8);
+    throw new Error(
+      `${label}: ${coverage.missing.length} portfolio(s) missing latest as-of file. ` +
+        `Examples: ${sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", ")}`,
+    );
+  }
+  if (!coverage.ok) {
+    const sample = coverage.missing.slice(0, 8);
+    console.warn(
+      `Warning (${label}): ${coverage.missing.length} portfolio(s) without latest file: ` +
+        sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", "),
+    );
+  }
+  return { phantom, coverage };
+}
+
+/**
+ * Fail when catalog as-of metadata does not match on-disk portfolio files.
+ * Phantom link check is zero-tolerance; latest-file gaps allow a small legacy floor.
+ */
+export function enforceCatalogIntegrity(outDir, catalog, {
+  label = "catalog integrity",
+  maxMissingLatest = 5,
+} = {}) {
+  const phantom = assertNoPhantomAsOfLinks(outDir, catalog);
+  if (!phantom.ok) {
+    const sample = phantom.phantom.slice(0, 8);
+    throw new Error(
+      `${label}: ${phantom.phantom.length} phantom available_as_of link(s). ` +
+        `Examples: ${sample.map((p) => `${p.portfolio_id}@${p.as_of}`).join(", ")}`,
+    );
+  }
+
+  const coverage = assertCatalogPortfolioCoverage(outDir, catalog);
+  if (!coverage.ok && coverage.missing.length > maxMissingLatest) {
+    const sample = coverage.missing.slice(0, 8);
+    throw new Error(
+      `${label}: ${coverage.missing.length} portfolio(s) missing latest as-of file. ` +
+        `Examples: ${sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", ")}`,
+    );
+  }
+  if (!coverage.ok) {
+    const sample = coverage.missing.slice(0, 8);
+    console.warn(
+      `Warning (${label}): ${coverage.missing.length} portfolio(s) without latest file: ` +
+        sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", "),
+    );
+  }
+  return { phantom, coverage };
 }
