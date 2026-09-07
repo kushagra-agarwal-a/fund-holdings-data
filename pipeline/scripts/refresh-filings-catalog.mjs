@@ -25,6 +25,7 @@ import {
   assertNoHoldingsRegression,
   enforceCatalogIntegrity,
   loadRepoCatalog,
+  pinMetaCdnUrls,
 } from "./lib/holdings-guard.mjs";
 import { defaultHoldingsOutDir } from "./lib/resolve-holdings-out-dir.mjs";
 
@@ -173,10 +174,8 @@ writeJson(metaPath, meta);
 if (doPush) {
   const commit = pushWithPin("fix: rebuild filings.json from on-disk as-of counts");
   if (commit) {
-    meta.commit = commit;
-    meta.raw_base = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${commit}`;
-    meta.cdn_filings = `${meta.raw_base}/catalog/filings.json`;
-    writeJson(metaPath, meta);
+    const pinned = pinMetaCdnUrls(meta, commit, { owner: OWNER, repo: REPO });
+    writeJson(metaPath, pinned);
     run("git", ["-C", outDir, "add", "meta.json"]);
     run("git", [
       "-C",
