@@ -34,7 +34,6 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import {
   attachAvailableAsOf,
-  assertCatalogPortfolioCoverage,
   buildFilingsFromAsOfDirs,
   collectAsOfPortfolios,
   mirrorLatestPortfolios,
@@ -46,6 +45,7 @@ import {
 } from "./lib/asof-portfolios.mjs";
 import {
   assertNoHoldingsRegression,
+  enforceCatalogIntegrity,
   loadRepoCatalog,
   mergeCatalogAsOfFromRepo,
 } from "./lib/holdings-guard.mjs";
@@ -360,17 +360,10 @@ function writeFilingsAndCatalogAvailability(
   const merged = buildFilingsFromAsOfDirs(outDir, withDates);
   writeJson(join(outDir, "catalog/filings.json"), merged);
 
-  const coverage = assertCatalogPortfolioCoverage(outDir, withDates);
-  if (!coverage.ok) {
-    const sample = coverage.missing.slice(0, 8);
-    const msg =
-      `Catalog/asof mismatch: ${coverage.missing.length} portfolio(s) missing on disk. ` +
-      `Examples: ${sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", ")}`;
-    if (coverage.missing.length > 20) {
-      throw new Error(msg);
-    }
-    console.warn(`Warning: ${msg}`);
-  }
+  enforceCatalogIntegrity(outDir, withDates, {
+    label: "writeFilingsAndCatalogAvailability",
+    maxMissingLatest: 20,
+  });
 
   const mirrored = mirrorLatestPortfolios(outDir, withDates);
   if (mirrored) console.log(`Mirrored ${mirrored} portfolio(s) to portfolios/latest/.`);

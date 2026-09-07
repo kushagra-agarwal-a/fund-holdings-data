@@ -1,0 +1,22 @@
+name: Verify catalog coverage
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Assert catalog matches on-disk as-of files
+        run: node pipeline/scripts/verify-catalog-coverage.mjs --out=.
+
+      - name: Unit tests (as-of catalog guards)
+        run: node --test pipeline/scripts/lib/asof-portfolios.test.mjs

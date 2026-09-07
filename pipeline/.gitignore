@@ -46,11 +46,13 @@ scripts/*.mjs
 !scripts/prune-retention-asof.mjs
 !scripts/sync-asof-window.mjs
 !scripts/refresh-filings-catalog.mjs
+!scripts/verify-catalog-coverage.mjs
 !scripts/cloud-holdings-update.mjs
 !scripts/push-parser-both.mjs
 !scripts/push-pipeline-to-holdings.mjs
 !scripts/run-portfolio-update-report.mjs
 !scripts/lib/resolve-holdings-out-dir.mjs
+!scripts/lib/asof-portfolios.test.mjs
 
 # Local wrangler / probe AMC scratch (never ship)
 .wrangler/
