@@ -1,1 +1,22 @@
-{"generated_at":"2026-09-01T06:41:32.561Z","owner":"kushagra-agarwal-a","repo":"fund-holdings-data","branch":"main","model":"deduped-portfolios","last_asof_sync":{"as_of":"2026-08-31","cadence":"monthly","source_period":"2026-08","update_latest":false},"filings_count":6,"cdn_catalog":"https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@5236f82905fec7951d88b76c95fc123b410de48f/catalog/amfi-lookup.json","cdn_filings":"https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@5236f82905fec7951d88b76c95fc123b410de48f/catalog/filings.json","cdn_portfolio_template":"https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@5236f82905fec7951d88b76c95fc123b410de48f/portfolios/asof/{as_of}/{portfolio_id}.json","cdn_asof_template":"https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@5236f82905fec7951d88b76c95fc123b410de48f/portfolios/asof/{as_of}/{portfolio_id}.json","commit":"5236f82905fec7951d88b76c95fc123b410de48f","raw_base":"https://raw.githubusercontent.com/kushagra-agarwal-a/fund-holdings-data/5236f82905fec7951d88b76c95fc123b410de48f","filings_refreshed_at":"2026-09-11T14:43:17.157Z","catalog_pinned_at":"2026-09-07T10:56:55.581Z"}
+{
+  "generated_at": "2026-09-01T06:41:32.561Z",
+  "owner": "kushagra-agarwal-a",
+  "repo": "fund-holdings-data",
+  "branch": "main",
+  "model": "deduped-portfolios",
+  "last_asof_sync": {
+    "as_of": "2026-08-31",
+    "cadence": "monthly",
+    "source_period": "2026-08",
+    "update_latest": false
+  },
+  "filings_count": 6,
+  "cdn_catalog": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@409f5b3b22e6c66148136b71be6adc8953d75bd7/catalog/amfi-lookup.json",
+  "cdn_filings": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@409f5b3b22e6c66148136b71be6adc8953d75bd7/catalog/filings.json",
+  "cdn_portfolio_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@409f5b3b22e6c66148136b71be6adc8953d75bd7/portfolios/asof/{as_of}/{portfolio_id}.json",
+  "cdn_asof_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@409f5b3b22e6c66148136b71be6adc8953d75bd7/portfolios/asof/{as_of}/{portfolio_id}.json",
+  "commit": "409f5b3b22e6c66148136b71be6adc8953d75bd7",
+  "raw_base": "https://raw.githubusercontent.com/kushagra-agarwal-a/fund-holdings-data/409f5b3b22e6c66148136b71be6adc8953d75bd7",
+  "filings_refreshed_at": "2026-09-11T16:15:54.137622+00:00",
+  "catalog_pinned_at": "2026-09-07T10:56:55.581Z"
+}
