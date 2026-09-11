@@ -11,12 +11,12 @@
     "update_latest": false
   },
   "filings_count": 6,
-  "cdn_catalog": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@66a8c72e1e5c4136e6182b3f7f7aea53b740fe85/catalog/amfi-lookup.json",
-  "cdn_filings": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@66a8c72e1e5c4136e6182b3f7f7aea53b740fe85/catalog/filings.json",
-  "cdn_portfolio_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@66a8c72e1e5c4136e6182b3f7f7aea53b740fe85/portfolios/asof/{as_of}/{portfolio_id}.json",
-  "cdn_asof_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@66a8c72e1e5c4136e6182b3f7f7aea53b740fe85/portfolios/asof/{as_of}/{portfolio_id}.json",
-  "commit": "66a8c72e1e5c4136e6182b3f7f7aea53b740fe85",
-  "raw_base": "https://raw.githubusercontent.com/kushagra-agarwal-a/fund-holdings-data/66a8c72e1e5c4136e6182b3f7f7aea53b740fe85",
+  "cdn_catalog": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@8b4c2b7d85e4a08bbc68d32c4cf7f0ae9b804018/catalog/amfi-lookup.json",
+  "cdn_filings": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@8b4c2b7d85e4a08bbc68d32c4cf7f0ae9b804018/catalog/filings.json",
+  "cdn_portfolio_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@8b4c2b7d85e4a08bbc68d32c4cf7f0ae9b804018/portfolios/asof/{as_of}/{portfolio_id}.json",
+  "cdn_asof_template": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@8b4c2b7d85e4a08bbc68d32c4cf7f0ae9b804018/portfolios/asof/{as_of}/{portfolio_id}.json",
+  "commit": "8b4c2b7d85e4a08bbc68d32c4cf7f0ae9b804018",
+  "raw_base": "https://raw.githubusercontent.com/kushagra-agarwal-a/fund-holdings-data/8b4c2b7d85e4a08bbc68d32c4cf7f0ae9b804018",
   "filings_refreshed_at": "2026-09-11T16:15:54.137622+00:00",
   "catalog_pinned_at": "2026-09-07T10:56:55.581Z"
 }
