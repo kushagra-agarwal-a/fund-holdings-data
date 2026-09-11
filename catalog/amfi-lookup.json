@@ -12381,12 +12381,12 @@
   },
   "102448": {
     "amfi_code": "102448",
-    "name": "DSP Regular Savings Fund- Regular Plan - Growth",
+    "name": "DSP Conservative Hybrid Fund- Regular Plan - Growth",
     "amc_id": "dsp-mutual-fund",
     "amc_name": "DSP Mutual Fund",
     "parent_name": "DSP Savings Fund",
-    "parent_amfi": "100087",
-    "portfolio_id": "100087",
+    "parent_amfi": "102448",
+    "portfolio_id": "102448",
     "nav": "61.0738",
     "nav_date": "31-Jul-2026",
     "isin": "INF740K01441",
@@ -12407,17 +12407,17 @@
       "2026-06-15"
     ],
     "latest_as_of": "2026-08-31",
-    "portfolio_key": "portfolios/asof/2026-08-31/100087.json",
+    "portfolio_key": "portfolios/asof/2026-08-31/102448.json",
     "portfolio_url": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/portfolios/asof/2026-08-31/100087.json"
   },
   "102450": {
     "amfi_code": "102450",
-    "name": "DSP Regular Savings Fund - Regular Plan - IDCW - Monthly",
+    "name": "DSP Conservative Hybrid Fund - Regular Plan - IDCW - Monthly",
     "amc_id": "dsp-mutual-fund",
     "amc_name": "DSP Mutual Fund",
     "parent_name": "DSP Savings Fund",
-    "parent_amfi": "100087",
-    "portfolio_id": "100087",
+    "parent_amfi": "102448",
+    "portfolio_id": "102448",
     "nav": "10.9737",
     "nav_date": "31-Jul-2026",
     "isin": "INF740K01458",
@@ -12438,17 +12438,17 @@
       "2026-06-15"
     ],
     "latest_as_of": "2026-08-31",
-    "portfolio_key": "portfolios/asof/2026-08-31/100087.json",
+    "portfolio_key": "portfolios/asof/2026-08-31/102448.json",
     "portfolio_url": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/portfolios/asof/2026-08-31/100087.json"
   },
   "102451": {
     "amfi_code": "102451",
-    "name": "DSP Regular Savings Fund - Regular Plan - IDCW - Quarterly",
+    "name": "DSP Conservative Hybrid Fund - Regular Plan - IDCW - Quarterly",
     "amc_id": "dsp-mutual-fund",
     "amc_name": "DSP Mutual Fund",
     "parent_name": "DSP Savings Fund",
-    "parent_amfi": "100087",
-    "portfolio_id": "100087",
+    "parent_amfi": "102448",
+    "portfolio_id": "102448",
     "nav": "11.3023",
     "nav_date": "31-Jul-2026",
     "isin": "INF740K01474",
@@ -12469,7 +12469,7 @@
       "2026-06-15"
     ],
     "latest_as_of": "2026-08-31",
-    "portfolio_key": "portfolios/asof/2026-08-31/100087.json",
+    "portfolio_key": "portfolios/asof/2026-08-31/102448.json",
     "portfolio_url": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/portfolios/asof/2026-08-31/100087.json"
   },
   "102452": {
@@ -46772,12 +46772,12 @@
   },
   "118992": {
     "amfi_code": "118992",
-    "name": "DSP Regular Savings Fund - Direct Plan - IDCW - Monthly",
+    "name": "DSP Conservative Hybrid Fund - Direct Plan - IDCW - Monthly",
     "amc_id": "dsp-mutual-fund",
     "amc_name": "DSP Mutual Fund",
     "parent_name": "DSP Savings Fund",
-    "parent_amfi": "100087",
-    "portfolio_id": "100087",
+    "parent_amfi": "102448",
+    "portfolio_id": "102448",
     "nav": "14.1594",
     "nav_date": "31-Jul-2026",
     "isin": "INF740K01NP2",
@@ -46798,17 +46798,17 @@
       "2026-06-15"
     ],
     "latest_as_of": "2026-08-31",
-    "portfolio_key": "portfolios/asof/2026-08-31/100087.json",
+    "portfolio_key": "portfolios/asof/2026-08-31/102448.json",
     "portfolio_url": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/portfolios/asof/2026-08-31/100087.json"
   },
   "118993": {
     "amfi_code": "118993",
-    "name": "DSP Regular Savings Fund - Direct Plan - IDCW - Quarterly",
+    "name": "DSP Conservative Hybrid Fund - Direct Plan - IDCW - Quarterly",
     "amc_id": "dsp-mutual-fund",
     "amc_name": "DSP Mutual Fund",
     "parent_name": "DSP Savings Fund",
-    "parent_amfi": "100087",
-    "portfolio_id": "100087",
+    "parent_amfi": "102448",
+    "portfolio_id": "102448",
     "nav": "13.9883",
     "nav_date": "31-Jul-2026",
     "isin": "INF740K01NQ0",
@@ -46829,17 +46829,17 @@
       "2026-06-15"
     ],
     "latest_as_of": "2026-08-31",
-    "portfolio_key": "portfolios/asof/2026-08-31/100087.json",
+    "portfolio_key": "portfolios/asof/2026-08-31/102448.json",
     "portfolio_url": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/portfolios/asof/2026-08-31/100087.json"
   },
   "118994": {
     "amfi_code": "118994",
-    "name": "DSP Regular Savings Fund - Direct Plan - Growth",
+    "name": "DSP Conservative Hybrid Fund - Direct Plan - Growth",
     "amc_id": "dsp-mutual-fund",
     "amc_name": "DSP Mutual Fund",
     "parent_name": "DSP Savings Fund",
-    "parent_amfi": "100087",
-    "portfolio_id": "100087",
+    "parent_amfi": "102448",
+    "portfolio_id": "102448",
     "nav": "69.2517",
     "nav_date": "31-Jul-2026",
     "isin": "INF740K01NO5",
@@ -46860,7 +46860,7 @@
       "2026-06-15"
     ],
     "latest_as_of": "2026-08-31",
-    "portfolio_key": "portfolios/asof/2026-08-31/100087.json",
+    "portfolio_key": "portfolios/asof/2026-08-31/102448.json",
     "portfolio_url": "https://cdn.jsdelivr.net/gh/kushagra-agarwal-a/fund-holdings-data@main/portfolios/asof/2026-08-31/100087.json"
   },
   "119015": {
