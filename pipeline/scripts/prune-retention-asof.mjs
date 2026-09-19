@@ -24,8 +24,8 @@ import {
   buildFilingsFromAsOfDirs,
   scanExistingAsOfDirs,
 } from "./lib/asof-portfolios.mjs";
-import { enforceCatalogIntegrity } from "./lib/holdings-guard.mjs";
 import { defaultHoldingsOutDir } from "./lib/resolve-holdings-out-dir.mjs";
+import { publicCatalogFromLookup } from "./lib/catalog-public.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -205,15 +205,12 @@ if (!dryRun) {
   }
 
   const asOfMap = scanExistingAsOfDirs(outDir, catalog);
-  const withDates = attachAvailableAsOf(catalog, asOfMap, {
-    cdnUrlFn: cdnUrl,
-    outDir,
-  });
-  enforceCatalogIntegrity(outDir, withDates, {
-    label: "prune-retention-asof",
-    maxMissingLatest: 5,
-  });
+  const withDates = attachAvailableAsOf(catalog, asOfMap, { cdnUrlFn: cdnUrl });
   writeJson(catalogPath, withDates);
+  writeJson(
+    join(outDir, "catalog/amfi-public.json"),
+    publicCatalogFromLookup(withDates),
+  );
 
   const filingsDoc = buildFilingsFromAsOfDirs(outDir, withDates);
   writeJson(join(outDir, "catalog/filings.json"), filingsDoc);

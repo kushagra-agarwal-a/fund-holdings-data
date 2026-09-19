@@ -28,6 +28,7 @@ aditya-birla-sun-life-mutual-fund,ABSLQF,,152684,Aditya Birla Sun Life Quant Fun
 aditya-birla-sun-life-mutual-fund,ABSLSO,,148539,Aditya Birla Sun Life Special Opportunities Fund,ADITYA BIRLA SUN LIFE SPECIAL OPPORTUNITIES FUND,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,ABSLTNLF,,152158,Aditya Birla Sun Life Transportation and Logistics Fund,ABSLTNLF,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,ABSLUS03,,152140,Aditya Birla Sun Life US Treasury 1 - 3 Year Bond ETFs Fund Of Funds,ABSLUS03,seeded,shortcode,2026-06,latest
+aditya-birla-sun-life-mutual-fund,ABSLUS10,,152150,Aditya Birla Sun Life US Treasury 3 - 10 Year Bond ETFs Fund Of Funds,ADITYA BIRLA SUN LIFE US TREASURY 3-10 YEAR BONDS ETFS PASSIVE FOF,manual,gap_fix,2026-07,2026-07
 aditya-birla-sun-life-mutual-fund,ADVG,,119436,Aditya Birla Sun Life Large & Mid Cap Fund,ADITYA BIRLA SUN LIFE LARGE & MID CAP FUND,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,BANKETF,,147735,Aditya Birla Sun Life Nifty Bank ETF,ADITYA BIRLA SUN LIFE NIFTY BANK ETF,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,BBIF,,119498,Aditya Birla Sun Life Short Term Fund,ADITYA BIRLA SUN LIFE SHORT TERM FUND,seeded,shortcode,2026-06,latest
@@ -96,7 +97,7 @@ aditya-birla-sun-life-mutual-fund,GOLDETF,,115127,Aditya Birla Sun Life Gold ETF
 aditya-birla-sun-life-mutual-fund,GOLDFOF,,120546,Aditya Birla Sun Life Gold Fund,ADITYA BIRLA SUN LIFE GOLD FUND,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,INV,,119606,Aditya Birla Sun Life Govenment Securities Fund,ADITYA BIRLA SUN LIFE GOVERNMENT SECURITIES FUND,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,MIDCAP,,119620,Aditya Birla Sun Life Midcap Fund,ADITYA BIRLA SUN LIFE MIDCAP FUND,seeded,shortcode,2026-06,latest
-aditya-birla-sun-life-mutual-fund,MIP25,,119501,Aditya Birla Sun Life Savings Fund,ADITYA BIRLA SUN LIFE REGULAR SAVINGS FUND,seeded,shortcode,2026-06,latest
+aditya-birla-sun-life-mutual-fund,MIP25,,120705,Aditya Birla Sun Life Regular Savings Fund,ADITYA BIRLA SUN LIFE REGULAR SAVINGS FUND,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,MNC,,119646,Aditya Birla Sun Life MNC Fund,ADITYA BIRLA SUN LIFE MNC FUND,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,MSCIETF,,154220,Aditya Birla Sun Life MSCI India ETF,ADITYA BIRLA SUN LIFE MSCI INDIA ETF,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,N30MTETF,,150498,Aditya Birla Sun Life Nifty 200 Momentum 30 ETF,N30MTETF,seeded,shortcode,2026-06,latest
@@ -121,15 +122,15 @@ aditya-birla-sun-life-mutual-fund,PSUEQ,,147844,Aditya Birla Sun Life PSU Equity
 aditya-birla-sun-life-mutual-fund,PURE,,119659,Aditya Birla Sun Life Value Fund,ADITYA BIRLA SUN LIFE VALUE FUND,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,SENSXETF,,139581,Aditya Birla Sun Life BSE Sensex ETF,SENSXETF,seeded,shortcode,2026-06,latest
 aditya-birla-sun-life-mutual-fund,SILVRETF,,149779,Aditya Birla Sun Life Silver ETF,SILVRETF,seeded,shortcode,2026-06,latest
-aditya-birla-sun-life-mutual-fund,SILVRFOF,,152150,Aditya Birla Sun Life US Treasury 3 - 10 Year Bond ETFs Fund Of Funds,SILVRFOF,seeded,shortcode,2026-06,latest
+aditya-birla-sun-life-mutual-fund,SILVRFOF,,149780,Aditya Birla Sun Life Silver ETF FOF,ADITYA BIRLA SUN LIFE SILVER ETF FUND OF FUND,manual,gap_fix,2026-06,2026-07
 angel-one-mutual-fund,Angel One Gold ETF,,153826,ANGEL ONE GOLD ETF,Angel One Gold ETF,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,Angel One Gold ETF FOF,,153827,ANGEL ONE GOLD ETF FOF,Angel One Gold ETF FOF,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,Angel One Nifty 50 ETF,,153531,ANGEL ONE NIFTY 50 ETF,Angel One Nifty 50 ETF,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,Angel One Nifty 50 Index Fund,,153529,ANGEL ONE NIFTY 50 INDEX FUND,Angel One Nifty 50 Index Fund,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,Angel One Nifty Total Market ETF,,153332,ANGEL ONE NIFTY TOTAL MARKET ETF,Angel One Nifty Total Market ETF,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,Angel One Nifty Total Market Index Fund,,153330,ANGEL ONE NIFTY TOTAL MARKET INDEX FUND,Angel One Nifty Total Market Index Fund,seeded,shortcode,2026-07,latest
-angel-one-mutual-fund,Angel One Nifty Total Market Momentum Quality 50 ETF,,153957,ANGEL ONE NIFTY TOTAL MARKET MOMENTUM QUALITY 50 ETF,Angel One Nifty Total Market Momentum Quality 50 ETF,seeded,shortcode,2026-07,latest
-angel-one-mutual-fund,Angel One Nifty Total Market Momentum Quality 50 Index Fund,,153956,ANGEL ONE NIFTY TOTAL MARKET MOMENTUM QUALITY 50 INDEX FUND,Angel One Nifty Total Market Momentum Quality 50 Index Fund,seeded,shortcode,2026-07,latest
+angel-one-mutual-fund,Angel One Nifty Total Market Momentum Quality 50 ETF,Angel One Nifty Total Market Momentum Quality 50 ETF,153957,ANGEL ONE NIFTY TOTAL MARKET MOMENTUM QUALITY 50 ETF,Angel One Nifty Total Market Momentum Quality 50 ETF,seeded,shortcode,2026-07,latest
+angel-one-mutual-fund,Angel One Nifty Total Market Momentum Quality 50 Index Fund,Angel One Nifty Total Market Mo|Angel One Nifty Total Market Momentum Quality 50 INDEX|Angel One Nifty Total Market Momentum Quality 50 Index,153956,ANGEL ONE NIFTY TOTAL MARKET MOMENTUM QUALITY 50 INDEX FUND,Angel One Nifty Total Market Momentum Quality 50 Index Fund,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,Angel One Silver ETF,,154205,ANGEL ONE SILVER ETF,Angel One Silver ETF,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,Angel One Silver ETF FOF,,154206,ANGEL ONE SILVER ETF FOF,Angel One Silver ETF FOF,seeded,shortcode,2026-07,latest
 angel-one-mutual-fund,AngelOne Nifty 1D Rate Liquid ETF GROWTH,Angel One Nifty 1D Rate Liquid ETF GROWTH,153451,ANGEL ONE NIFTY 1D RATE LIQUID ETF - GROWTH,AngelOne Nifty 1D Rate Liquid ETF GROWTH,seeded,shortcode,2026-07,latest
@@ -214,7 +215,7 @@ axis-mutual-fund,AXISSTF,,120510,Axis Short Duration Fund,Axis Short Duration Fu
 axis-mutual-fund,AXISTAA,,120513,Axis Treasury Advantage Fund,Axis Treasury Advantage Fund,seeded,shortcode,2026-06,latest
 axis-mutual-fund,AXISTAF,,120524,Axis Multi Asset Allocation Fund,Axis Multi Asset Allocation Fund,seeded,shortcode,2026-06,latest
 axis-mutual-fund,AXISTDB,,152240,Axis US Specific Treasury Dynamic Debt Passive FOF,Axis US Specific Treasury Dynamic Debt Passive FOF,seeded,shortcode,2026-06,latest
-axis-mutual-fund,AXISTETF,,141545,Axis Nifty 50 ETF,AXISTETF,seeded,shortcode,2026-06,latest
+axis-mutual-fund,AXISTETF,,148799,Axis IT ETF,Axis NIFTY IT ETF,manual,gap_fix,2026-06,2026-07
 axis-mutual-fund,AXISTSF,,120503,Axis ELSS Tax Saver Fund,Axis ELSS Tax Saver Fund,seeded,shortcode,2026-06,latest
 axis-mutual-fund,AXISUSF,,144754,Axis Ultra Short Duration Fund,Axis Ultra Short Duration Fund,seeded,shortcode,2026-06,latest
 axis-mutual-fund,AXISVAL,,149166,Axis Value Fund,Axis Value Fund,seeded,shortcode,2026-06,latest
@@ -422,19 +423,19 @@ canara-robeco-mutual-fund,OF,,147531,CANARA ROBECO OVERNIGHT FUND,CANARA ROBECO 
 canara-robeco-mutual-fund,SC,,146130,CANARA ROBECO SMALL CAP FUND,CANARA ROBECO SMALL CAP FUND,seeded,shortcode,latest,latest
 canara-robeco-mutual-fund,TA,,118317,CANARA ROBECO ULTRA SHORT TERM FUND,CANARA ROBECO ULTRA SHORT TERM FUND,seeded,shortcode,latest,latest
 canara-robeco-mutual-fund,VF,,149085,Canara Robeco Value Fund,CANARA ROBECO VALUE FUND,seeded,shortcode,latest,latest
-capitalmind-mutual-fund,CMARB,,154236,Capitalmind Arbitrage Fund,Capitalmind Arbitrage Fund,seeded,shortcode,2026-06,latest
-capitalmind-mutual-fund,CMFLEXI,,153738,CAPITALMIND FLEXI CAP FUND,Capitalmind Flexi Cap Fund,seeded,shortcode,2026-06,latest
-capitalmind-mutual-fund,CMLIQ,,154011,Capitalmind Liquid Fund,Capitalmind Liquid Fund,seeded,shortcode,2026-06,latest
-capitalmind-mutual-fund,CMMAAF,,154232,Capitalmind Multi Asset Allocation Fund,Capitalmind Multi Asset Allocation Fund,seeded,shortcode,2026-06,latest
+capitalmind-mutual-fund,CMARB,"CMARB_30th June 2026|CMARB_July 31, 2026",154236,Capitalmind Arbitrage Fund,Capitalmind Arbitrage Fund,seeded,shortcode,2026-06,latest
+capitalmind-mutual-fund,CMFLEXI,"CMFCF|CMFCF_June 30, 2026|CMFCF_June 30_ 2026|CMFLEXI_July 31, 2026",153738,CAPITALMIND FLEXI CAP FUND,Capitalmind Flexi Cap Fund,seeded,shortcode,2026-06,latest
+capitalmind-mutual-fund,CMLIQ,"CMLF|CMLF_August 15, 2026|CMLF_July 15, 2026|CMLF_July 31, 2026|CMLF_June 15, 2026|CMLF_June 15_ 2026|CMLF_June 30, 2026|CMLF_June 30_ 2026",154011,Capitalmind Liquid Fund,Capitalmind Liquid Fund,seeded,shortcode,2026-06,latest
+capitalmind-mutual-fund,CMMAAF,"CMMAAF_30th June 2026|CMMAAF_July 31, 2026",154232,Capitalmind Multi Asset Allocation Fund,Capitalmind Multi Asset Allocation Fund,seeded,shortcode,2026-06,latest
 choice-mutual-fund,CGETF,,153933,Choice Gold ETF,Choice Gold ETF,seeded,shortcode,2026-06,latest
 choice-mutual-fund,CH002,,154301,Choice Nifty 50 Index Fund,Choice Nifty 50 Index Fund,seeded,shortcode,2026-06,latest
 choice-mutual-fund,CH003,,154304,Choice Nifty Next 50 Index Fund,Choice Nifty Next 50 Index Fund,seeded,shortcode,2026-06,latest
 choice-mutual-fund,CLONTF,,154413,Choice Overnight Fund,Choice Overnight Fund,seeded,shortcode,latest,latest
-dsp-mutual-fund,10YGF,,131301,DSP 10Y G - Sec Fund,DSP 10Y G-Sec Fund,seeded,shortcode,2026-06,latest
+dsp-mutual-fund,10YGF,10 year Constant Maturity Gilt Fund|DSP 10 year Constant Maturity Gilt Fund|DSP 10 year Constant Maturity Gilt Fund (Ex: DSP 10Y G-Sec Fund )|DSP 10Y G-Sec Fund,131301,DSP 10Y G - Sec Fund,DSP 10Y G-Sec Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,ARBITRAGE,,142283,DSP Arbitrage Fund,DSP Arbitrage Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,Aggressive Hybrid,,119019,DSP Aggressive Hybrid Fund,DSP Aggressive Hybrid Fund,seeded,shortcode,latest,latest
 dsp-mutual-fund,BANKING & PSU,,124175,DSP Banking & PSU Debt Fund,DSP Banking and PSU Debt Fund,seeded,shortcode,latest,latest
-dsp-mutual-fund,BOND,,118924,DSP Bond Fund,DSP Bond Fund,seeded,shortcode,2026-06,latest
+dsp-mutual-fund,BOND,DSP Bond Fund|DSP Medium Term Fund|DSP Medium Term Fund (Ex:DSP Bond Fund)|Medium Term Fund,118924,DSP Bond Fund,DSP Bond Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,BSE Liquid Rate ETF,,152555,DSP BSE Liquid Rate ETF,DSP BSE Liquid Rate ETF,seeded,shortcode,latest,latest
 dsp-mutual-fund,BSE Sensex ETF,,151886,DSP BSE Sensex ETF,DSP BSE SENSEX ETF,seeded,shortcode,latest,latest
 dsp-mutual-fund,BSE Top 10 Banks ETF,,154256,DSP BSE Top 10 Banks ETF,DSP BSE Top 10 Banks ETF,seeded,shortcode,latest,latest
@@ -449,7 +450,7 @@ dsp-mutual-fund,DSP Short Term Fund,,119226,DSP Short Term Fund,DSP Short Term F
 dsp-mutual-fund,DSP Value Fund,,148595,DSP Value Fund,DSP Value Fund,seeded,shortcode,latest,latest
 dsp-mutual-fund,EQUALNIFTY50,,141877,DSP Nifty 50 Equal Weight Index Fund,DSP Nifty 50 Equal Weight Index Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,ESF,,136567,DSP Equity Savings Fund,DSP Equity Savings Fund,seeded,shortcode,2026-06,latest
-dsp-mutual-fund,FLOATER,,148771,DSP Floater Fund,DSP Floater Fund,seeded,shortcode,2026-06,latest
+dsp-mutual-fund,FLOATER,DSP Floater Fund|DSP Floating Interest Rates Fund|DSP Floating Interest Rates Fund(Ex: DSP Floater Fund)|Floating Interest Rates Fund,148771,DSP Floater Fund,DSP Floater Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,FMP Series 267-1172D,,150842,DSP FMP Series - 267 - 1172 Days,DSP FMP Series - 267 -,seeded,shortcode,latest,latest
 dsp-mutual-fund,FMP Series 270-1172D,,151449,DSP FMP Series - 270 - 1172 Days,DSP FMP Series - 270 -,seeded,shortcode,latest,latest
 dsp-mutual-fund,FOCUSED,,119096,DSP Focused Fund,DSP Focused Fund,seeded,shortcode,2026-06,latest
@@ -462,8 +463,8 @@ dsp-mutual-fund,Global Innovation,,149816,DSP Global Innovation Overseas Equity 
 dsp-mutual-fund,HEALTHCARE,,145454,DSP Healthcare Fund,DSP Healthcare Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,Healthcare ETF,,152306,DSP Nifty Healthcare ETF,DSP Nifty Healthcare ETF,seeded,shortcode,latest,latest
 dsp-mutual-fund,Income Plus Arbitrage FOF,,130493,DSP Income Plus Arbitrage Omni FoF,DSP Income Plus Arbitrage Omni FoF,seeded,shortcode,latest,latest
-dsp-mutual-fund,LDF,,133925,DSP Low Duration Fund,DSP Low Duration Fund,seeded,shortcode,2026-06,latest
-dsp-mutual-fund,LIQUID,,119125,DSP Liquidity Fund,DSP Liquidity Fund,seeded,shortcode,latest,latest
+dsp-mutual-fund,LDF,DSP Low Duration Fund|DSP Ultra Short to Short Term Fund|DSP Ultra Short to Short Term Fund(Ex:DSP Low Duration Fund )|Ultra Short to Short Term Fund,133925,DSP Low Duration Fund,DSP Low Duration Fund,seeded,shortcode,2026-06,latest
+dsp-mutual-fund,LIQUID,DSP Liquid Fund|DSP Liquid Fund (Ex: DSP Liquidity Fund)|DSP Liquidity Fund|Liquid Fund,119125,DSP Liquidity Fund,DSP Liquidity Fund,seeded,shortcode,latest,latest
 dsp-mutual-fund,LIQUIDETF,,142589,DSP NIFTY 1D Rate Liquid ETF,DSP NIFTY 1D Rate Liquid ETF,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,Large & Mid Cap,,119218,DSP Large & Mid Cap Fund,DSP Large & Mid Cap Fund,seeded,shortcode,latest,latest
 dsp-mutual-fund,Large Cap,,119250,DSP Large Cap Fund,DSP Large Cap Fund,seeded,shortcode,latest,latest
@@ -502,18 +503,18 @@ dsp-mutual-fund,Nifty Top 10 Equal ETF,,152812,DSP Nifty Top 10 Equal Weight ETF
 dsp-mutual-fund,Nifty500 Flexicap Qlty30,,153801,DSP Nifty500 Flexicap Quality 30 Index Fund,DSP Nifty500 Flexicap Quality 30 Index Fund,seeded,shortcode,latest,latest
 dsp-mutual-fund,Nifty500 Flexicap Qlty30 ETF,,153874,DSP Nifty500 Flexicap Quality 30 ETF,DSP Nifty500 Flexicap Quality 30 ETF,seeded,shortcode,latest,latest
 dsp-mutual-fund,OVERNIGHT,,146062,DSP Overnight Fund,DSP Overnight Fund,seeded,shortcode,2026-06,latest
-dsp-mutual-fund,REGULARSAVINGS,,118994,DSP Savings Fund,DSP Regular Savings Fund,seeded,shortcode,2026-06,latest
-dsp-mutual-fund,SAVINGS,,118994,DSP Savings Fund,DSP Savings Fund,seeded,shortcode,2026-06,latest
+dsp-mutual-fund,REGULARSAVINGS,Conservative Hybrid Fund|DSP Conservative Hybrid Fund|DSP Conservative Hybrid Fund(Ex:DSP Regular Savings Fund )|DSP Regular Savings Fund,102448,DSP Conservative Hybrid Fund,DSP Conservative Hybrid Fund,seeded,shortcode,2026-06,2026-08
+dsp-mutual-fund,SAVINGS,DSP Money Market Fund|DSP Money Market Fund(Ex:DSP Savings Fund )|DSP Savings Fund|Money Market Fund,100087,DSP Savings Fund,DSP Savings Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,SILVER ETF,,150523,DSP Silver ETF,DSP SILVER ETF,seeded,shortcode,latest,latest
 dsp-mutual-fund,SMALLCAP,,119212,DSP Small Cap Fund,DSP Small Cap Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,SR 264 - 60M - 17D,,149190,DSP FMP Series - 264 - 60M - 17D,DSP FMP Series 264 - 60M - 17D,seeded,shortcode,latest,latest
-dsp-mutual-fund,STR,,119239,DSP Strategic Bond Fund,DSP Strategic Bond Fund,seeded,shortcode,2026-06,latest
+dsp-mutual-fund,STR,DSP Dynamic Term Fund|DSP Dynamic Term Fund(Ex:DSP Strategic Bond Fund )|DSP Strategic Bond Fund|Dynamic Term Fund,119239,DSP Strategic Bond Fund,DSP Strategic Bond Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,Sensex Next 30 ETF,,153228,DSP BSE SENSEX Next 30 ETF,DSP BSE Sensex Next 30 ETF,seeded,shortcode,latest,latest
 dsp-mutual-fund,Sensex Next 30 Index,,153219,DSP BSE SENSEX Next 30 Index Fund,DSP BSE Sensex Next 30 Index Fund,seeded,shortcode,latest,latest
 dsp-mutual-fund,Silver ETF FOF,,153487,DSP Silver ETF Fund of Fund,DSP Silver ETF Fund of Fund,seeded,shortcode,latest,latest
 dsp-mutual-fund,TAX,,119242,DSP ELSS Tax Saver Fund,DSP ELSS Tax Saver Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,TIGER,,119247,DSP India T.I.G.E.R. Fund,DSP India T.I.G.E.R. Fund,seeded,name_match,latest,latest
-dsp-mutual-fund,ULTRA,,119205,DSP Ultra Short Fund,DSP Ultra Short Fund,seeded,shortcode,2026-06,latest
+dsp-mutual-fund,ULTRA,DSP Ultra Short Fund|DSP Ultra Short Term Fund|DSP Ultra Short Term Fund(Ex: DSP Ultra Short Fund)|Ultra Short Term Fund,119205,DSP Ultra Short Fund,DSP Ultra Short Fund,seeded,shortcode,2026-06,latest
 dsp-mutual-fund,US Debt Passive FoF,,152528,DSP US Specific Debt Passive FoF,DSP US Specific Debt Passive FoF,seeded,shortcode,latest,latest
 dsp-mutual-fund,US Specific Equity FoF,,119252,DSP US Specific Equity Omni FoF,DSP US Specific Equity Omni FoF,seeded,shortcode,latest,latest
 dsp-mutual-fund,World Gold Mining FOF,,119277,DSP World Gold Mining Overseas Equity Omni FoF,DSP World Gold Mining Overseas Equity Omni FoF,seeded,shortcode,latest,latest
@@ -535,18 +536,19 @@ edelweiss-mutual-fund,EDFF31,,148450,BHARAT Bond FOF - April 2031,BHARAT Bond FO
 edelweiss-mutual-fund,EDFF32,,149401,BHARAT Bond ETF FOF - April 2032,BHARAT Bond ETF FOF - April 2032,seeded,shortcode,2026-07,2026-07
 edelweiss-mutual-fund,EDFF33,,150989,BHARAT Bond ETF FOF - April 2033,BHARAT Bond ETF FOF - April 2033,seeded,shortcode,2026-06,2026-07
 edelweiss-mutual-fund,EDGSEC,,140298,Edelweiss Government Securities Fund,Edelweiss Government Securities Fund,seeded,shortcode,2026-06,latest
-edelweiss-mutual-fund,EDLDUF,,153416,Edelweiss Low Duration Fund,Edelweiss Low Duration Fund,seeded,shortcode,2026-06,latest
+edelweiss-mutual-fund,EDLDUF,EDELWEISS ULTRA SHORT TO SHORT TERM FUND|Edelweiss Ultra Short to Short Term Fund,153416,Edelweiss Ultra Short to Short Term Fund,EDELWEISS ULTRA SHORT TO SHORT TERM FUND,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EDN1LE,,153920,Edelweiss Nifty 1D Rate Liquid ETF - Growth,Edelweiss Nifty 1D Rate Liquid ETF,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EDNP27,,149247,Edelweiss NIFTY PSU Bond Plus SDL Apr 2027 50:50 Index Fund,EDELWEISS NIFTY PSU BOND PLUS SDL APR 2027 50 50 INDEX,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EDONTF,,147570,Edelweiss Overnight Fund,EDELWEISS OVERNIGHT FUND,seeded,shortcode,2026-06,latest
+edelweiss-mutual-fund,EDUSTF,EDELWEISS ULTRA SHORT TERM FUND|Edelweiss Ultra Short Term Fund,154620,Edelweiss Ultra Short Term Fund,EDELWEISS ULTRA SHORT TERM FUND,seeded,shortcode,2026-08,latest
 edelweiss-mutual-fund,EEALVF,,152616,Edelweiss Nifty Alpha Low Volatility 30 Index Fund,Edelweiss Nifty Alpha Low Volatility 30 Index Fund,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EEARBF,,130206,Edelweiss Arbitrage Fund,Edelweiss Arbitrage Fund,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EEARFD,,118615,Edelweiss Balanced Advantage Fund,Edelweiss Balanced Advantage Fund,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EEBCIE,,153180,Edelweiss BSE Capital Markets & Insurance ETF - Growth,Edelweiss BSE Capital Markets & Insurance ETF,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EEBCYF,,152710,Edelweiss Business Cycle Fund,Edelweiss Business Cycle Fund,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EEBIEF,,153497,Edelweiss BSE Internet Economy Index Fund,Edelweiss BSE Internet Economy Index Fund,seeded,shortcode,2026-06,latest
-edelweiss-mutual-fund,EEBSDE,,154535,Edelweiss BSE LargeMid (60:40) Stable dividend 50 ETF,Edelweiss BSE LargeMid (60:40) Stable dividend 50 ETF,seeded,shortcode,2026-07,2026-07
-edelweiss-mutual-fund,EEBTBE,,154524,Edelweiss BSE Top 10 Bank ETF,Edelweiss BSE Top 10 Bank ETF,seeded,shortcode,2026-07,2026-07
+edelweiss-mutual-fund,EEBSDE,,154535,Edelweiss BSE LargeMid (60:40) Stable dividend 50 ETF,Edelweiss BSE LargeMid (60:40) Stable dividend 50 ETF,seeded,ingest_new_launch,2026-07,2026-07
+edelweiss-mutual-fund,EEBTBE,,154524,Edelweiss BSE Top 10 Bank ETF,Edelweiss BSE Top 10 Bank ETF,seeded,ingest_new_launch,2026-07,2026-07
 edelweiss-mutual-fund,EECONF,,153214,Edelweiss Consumption Fund,Edelweiss Consumption Fund,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EEDGEF,,118617,Edelweiss Large Cap Fund,Edelweiss Large Cap Fund,seeded,shortcode,2026-06,latest
 edelweiss-mutual-fund,EEECRF,,140353,Edelweiss Flexi Cap Fund,Edelweiss Flexi-Cap Fund,seeded,shortcode,2026-06,latest
@@ -599,6 +601,7 @@ franklin-templeton-mutual-fund,FF,,118543,Franklin India Dynamic Asset Allocatio
 franklin-templeton-mutual-fund,FIAF,,153043,Franklin India Arbitrage Fund,Franklin India Arbitrage Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIAHF,,118546,Franklin India Aggressive Hybrid Fund,Franklin India Aggressive Hybrid Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIBAF,,150481,Franklin India Balanced Advantage Fund,Franklin India Balanced Advantage Fund,seeded,shortcode,2026-06,latest
+franklin-templeton-mutual-fund,FICBF,FICDF|Franklin India Corporate Bond Fund (Formerly known as Franklin India Corporate Debt Fund)|Franklin India Corporate Debt Fund,118569,Franklin India Corporate Debt Fund,Franklin India Corporate Bond Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FICDF,,118569,Franklin India Corporate Debt Fund,Franklin India Corporate Debt Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FICHF,,118574,Franklin India Conservative Hybrid Fund,Franklin India Conservative Hybrid Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FICRF,,148304,Franklin India Credit Risk Fund - Segregated Portfolio 3 (9.50% Yes bank Ltd CO 23Dec21,Franklin India Credit Risk Fund - Segregated Portfolio 3 - 9.50% Yes Bank Ltd CO 23 Dec 2021,seeded,shortcode,2026-06,latest
@@ -607,19 +610,23 @@ franklin-templeton-mutual-fund,FIDYF,,118527,Franklin India Dividend Yield Fund,
 franklin-templeton-mutual-fund,FIEF,,118535,Franklin India Flexi Cap Fund,Franklin India Flexi Cap Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIESF,,144466,Franklin India Equity Savings Fund,Franklin India Equity Savings Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIFEF,,118564,Franklin India Focused Equity Fund,Franklin India Focused Equity Fund,seeded,shortcode,2026-06,latest
+franklin-templeton-mutual-fund,FIFIRF,FIFRF|Franklin India Floating Interest Rates Fund (Formerly known as Franklin India Floating Rate Fund)|Franklin India Floating Rate Fund,118508,Franklin India Floating Rate Fund,Franklin India Floating Interest Rates Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIFRF,,118508,Franklin India Floating Rate Fund,Franklin India Floating Rate Fund,seeded,shortcode,2026-06,latest
+franklin-templeton-mutual-fund,FIGF,FIGSF|Franklin India Gilt Fund (Formerly known as Franklin India Government Securities Fund)|Franklin India Government Securities Fund,118498,Franklin India Government Securities Fund,Franklin India Gilt Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIGSF,,118498,Franklin India Government Securities Fund,Franklin India Government Securities Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIIF-NSE,,118581,Franklin India INDEX FUND - NSE NIFTY 50 INDEX FUND,Franklin India NSE Nifty 50 Index Fund,seeded,shortcode,latest,latest
 franklin-templeton-mutual-fund,FILCF,,118531,Franklin India Large Cap Fund,Franklin India Large Cap Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FILF,,100538,Franklin India Liquid Fund,Franklin India Liquid Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FILMCF,,118510,Franklin India Large & Mid Cap Fund,Franklin India Large & Mid Cap Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FILNGDF,,153102,Franklin India Long Duration Fund,Franklin India Long Duration Fund,seeded,shortcode,2026-06,latest
+franklin-templeton-mutual-fund,FILTF,FILNGDF|Franklin India Long Duration Fund|Franklin India Long Term Fund (Formerly known as Franklin India Long Duration Fund),153102,Franklin India Long Duration Fund,Franklin India Long Term Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FILWD,,153368,Franklin India Low Duration Fund,Franklin India Low Duration Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIMAAF,,153731,Franklin India Multi Asset Allocation Fund,Franklin India Multi Asset Allocation Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIMCF,,152739,Franklin India Multi Cap Fund,Franklin India Multi Cap Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIMF,,153942,Franklin India Multi - Factor Fund,Franklin India Multi-Factor Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIMICF,,118533,Franklin India Mid Cap Fund,Franklin India Mid Cap Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIMLDF,,152851,Franklin India Medium to Long Duration Fund,Franklin India Medium to Long Duration Fund,seeded,shortcode,2026-06,latest
+franklin-templeton-mutual-fund,FIMLTF,FIMLDF|Franklin India Medium to Long Duration Fund|Franklin India Medium to Long Term Fund (Formerly known as Franklin India Medium to Long Duration Fund),152851,Franklin India Medium to Long Duration Fund,Franklin India Medium to Long Term Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIMMF,,118506,Franklin India Money Market Fund,Franklin India Money Market Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIOF,,118539,Franklin India Opportunities Fund,Franklin India Opportunities Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIONF,,147214,Franklin India Overnight Fund,Franklin India Overnight Fund,seeded,shortcode,2026-06,latest
@@ -631,6 +638,8 @@ franklin-templeton-mutual-fund,FITF,,118537,Franklin India Technology Fund,Frank
 franklin-templeton-mutual-fund,FITX,,118540,Franklin India ELSS Tax Saver Fund,Franklin India ELSS Tax Saver Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIUS,,118551,Franklin U.S. Opportunities Equity Active Fund of Funds,Franklin U.S. Opportunities Equity Active Fund of Funds,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,FIUSDF,,152825,Franklin India Ultra Short Duration Fund,Franklin India Ultra Short Duration Fund,seeded,shortcode,2026-06,latest
+franklin-templeton-mutual-fund,FIUSST,FILWD|Franklin India Low Duration Fund|Franklin India Ultra Short to Short Term Fund (Formerly known as Franklin India Low Duration Fund),153368,Franklin India Low Duration Fund,Franklin India Ultra Short to Short Term Fund,seeded,shortcode,2026-06,latest
+franklin-templeton-mutual-fund,FIUSTF,FIUSDF|Franklin India Ultra Short Duration Fund|Franklin India Ultra Short Term Fund (Formerly known as Franklin India Ultra Short Duration Fund),152825,Franklin India Ultra Short Duration Fund,Franklin India Ultra Short Term Fund,seeded,shortcode,2026-06,latest
 franklin-templeton-mutual-fund,TIVF,,118494,Templeton India Value Fund,Templeton India Value Fund,seeded,shortcode,2026-06,latest
 groww-mutual-fund,2E,IB33,153329,Groww Nifty 200 ETF,GROWW NIFTY 200 ETF,seeded,shortcode,2026-06,latest
 groww-mutual-fund,2F,IB34,153328,Groww Nifty 200 ETF FOF,Groww Nifty 200 ETF FOF,seeded,shortcode,2026-06,latest
@@ -822,6 +831,7 @@ hdfc-mutual-fund,MAR1269D23,,151565,HDFC FMP 1269D March 2023,HDFC FMP 1269D,see
 hdfc-mutual-fund,MAR1861D22,,149924,HDFC FMP 1861D March 2022,HDFC FMP 1861D,seeded,shortcode,2026-06,latest
 hdfc-mutual-fund,MAR1876D22,,150002,HDFC FMP 1876D March 2022,HDFC FMP 1876D,seeded,shortcode,2026-06,latest
 hdfc-mutual-fund,MIDCAP,,118989,HDFC Mid Cap Fund,HDFC Mid Cap Fund,seeded,shortcode,2026-06,latest
+hdfc-mutual-fund,MY2005,HDFC Multi Asset Allocation Fund|HDFC Multi-Asset Allocation Fund|HDFC Multi-Asset Fund|Monthly HDFC Multi-Asset Allocation Fund,103130,HDFC Multi-Asset Fund,HDFC Multi-Asset Allocation Fund,manual,manual_fix,2026-07-31,2026-07-31
 helios-mutual-fund,H01,,152152,Helios Overnight Fund,Helios Overnight Fund,seeded,name_match,2026-06,2026-06
 helios-mutual-fund,HARF,,154257,Helios Arbitrage Fund,Helios Arbitrage Fund,seeded,shortcode,2026-06,latest
 helios-mutual-fund,HBAF,,152509,Helios Balanced Advantage Fund,Helios Balanced Advantage Fund,seeded,shortcode,2026-06,latest
@@ -834,7 +844,7 @@ helios-mutual-fund,HSCF,,153912,Helios Small Cap Fund,Helios Small Cap Fund,seed
 hsbc-mutual-fund,HDCGIF,,149966,HSBC CRISIL IBX 50:50 Gilt Plus SDL Apr 2028 Index Fund,HSBC CRISIL IBX 50:50 Gilt Plus SDL Apr 2028 Index Fund,seeded,shortcode,2026-06,latest
 hsbc-mutual-fund,HDCGIF2,,151479,HSBC CRISIL IBX Gilt June 2027 Index Fund,HSBC CRISIL IBX Gilt June 2027 Index Fund,seeded,shortcode,2026-06,latest
 hsbc-mutual-fund,HDFLXI,,151087,HSBC Dynamic Bond Fund,HSBC Dynamic Bond Fund,seeded,shortcode,2026-06,latest
-hsbc-mutual-fund,HDINCF,,150996,HSBC Corporate Bond Fund,HSBC Medium to Long Duration Fund,seeded,shortcode,2026-06,latest
+hsbc-mutual-fund,HDINCF,,120059,HSBC Medium to Long Duration Fund,HSBC Medium to Long Duration Fund,manual,gap_fix,2026-06,2026-07
 hsbc-mutual-fund,HDLBPDF,,151107,HSBC Banking and PSU Debt Fund,HSBC Banking and PSU Debt Fund,seeded,shortcode,2026-06,latest
 hsbc-mutual-fund,HDLCBF,,150996,HSBC Corporate Bond Fund,HSBC Corporate Bond Fund,seeded,shortcode,latest,latest
 hsbc-mutual-fund,HDLCRF,,151045,HSBC Credit Risk Fund,HSBC Credit Risk Fund,seeded,shortcode,2026-06,latest
@@ -931,10 +941,11 @@ icici-prudential-mutual-fund,GSECETF,,151196,ICICI Prudential Nifty 10 yr Benchm
 icici-prudential-mutual-fund,HEALETF,,148957,ICICI Prudential Nifty Healthcare ETF,ICICI Prudential Nifty Healthcare ETF,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,HOUSING,,150310,ICICI PRUDENTIAL HOUSING OPPORTUNITIES FUND,ICICI PRUDENTIAL HOUSING OPPORTUNITIES FUND,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,ICICI Prudential Children’s Fund,,120579,ICICI Prudential Children's Fund,ICICI Prudential Children’s Fund,seeded,name_match,latest,latest
-icici-prudential-mutual-fund,ICICI Prudential Equity & Debt Fund,,120251,ICICI Prudential Equity & Debt Fund,ICICI Prudential Equity & Debt Fund,seeded,name_match,latest,latest
+icici-prudential-mutual-fund,ICICI Prudential Equity & Debt Fund,Aggressive Hybrid Fund|ICICI Prudential Aggressive Hybrid Fund|ICICI Prudential Equity & Debt Fund,100355,ICICI Prudential Equity & Debt Fund,ICICI Prudential Aggressive Hybrid Fund,seeded,name_match,latest,latest
 icici-prudential-mutual-fund,ICICI Prudential Quant Fund,,148600,ICICI Prudential Quant Fund,ICICI Prudential Quant Fund,seeded,name_match,latest,latest
 icici-prudential-mutual-fund,ICICI Prudential Ultra Short Term Fund,,120676,ICICI Prudential Ultra Short Term Fund,ICICI Prudential Ultra Short Term Fund,seeded,name_match,latest,latest
 icici-prudential-mutual-fund,INDEQTY,,148035,ICICI Prudential Diversified Equity All Cap Omni FOF,ICICI Prudential Diversified Equity All Cap Omni FOF,seeded,shortcode,2026-06,latest
+icici-prudential-mutual-fund,INDEX,,120620,ICICI Prudential Nifty 50 Index Fund,ICICI Prudential Nifty 50 Index Fund,manual,gap_fix,2026-07,2026-07
 icici-prudential-mutual-fund,INDEX500,,153161,ICICI Prudential Nifty 500 Index Fund,ICICI Prudential Nifty 500 Index Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,INDOPP,,145898,ICICI Prudential India Opportunities Fund,ICICI Prudential India Opportunities Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,INFRA,,120621,ICICI Prudential Infrastructure Fund,ICICI Prudential Infrastructure Fund,seeded,shortcode,2026-06,latest
@@ -962,6 +973,7 @@ icici-prudential-mutual-fund,MODER,,120679,ICICI Prudential Dynamic Asset Alloca
 icici-prudential-mutual-fund,MOMACT,,153684,ICICI Prudential Active Momentum Fund,ICICI Prudential Active Momentum Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,MOMDEX,,150452,ICICI Prudential Nifty 200 Momentum 30 Index Fund,ICICI Prudential Nifty 200 Momentum 30 Index Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,MOMETF,,150455,ICICI Prudential Nifty 200 Momentum 30 ETF,ICICI Prudential Nifty 200 Momentum 30 ETF,seeded,shortcode,2026-06,latest
+icici-prudential-mutual-fund,MONEY MARKET,MMF|MONEYMARKET,120209,ICICI Prudential Money Market Fund,ICICI Prudential Money Market Fund,manual,gap_fix,2026-07,2026-07
 icici-prudential-mutual-fund,MULTI,,120334,ICICI Prudential Multi - Asset Fund,ICICI Prudential Multi-Asset Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,MULTICAP,,120599,ICICI Prudential Multicap Fund,ICICI Prudential Multicap Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,MULTIFOF,,154449,ICICI Prudential Multi - Asset Active FOF,ICICI Prudential Multi-Asset Active FOF,seeded,shortcode,latest,latest
@@ -998,7 +1010,7 @@ icici-prudential-mutual-fund,RETIREAG,,146721,ICICI Prudential Retirement Fund -
 icici-prudential-mutual-fund,RETIRECO,,146716,ICICI Prudential Retirement Fund - Hybrid Conservative,ICICI Prudential Retirement Fund - Hybrid Conservative Plan,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,RETIREDE,,146727,ICICI Prudential Retirement Fund - Pure Debt,ICICI Prudential Retirement Fund - Pure Debt Plan,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,RETIREEQ,,146349,ICICI Prudential Retirement Fund - Pure Equity,ICICI Prudential Retirement Fund - Pure Equity Plan,seeded,shortcode,2026-06,latest
-icici-prudential-mutual-fund,RSF,,120398,ICICI Prudential Savings Fund,ICICI Prudential Regular Savings Fund,seeded,shortcode,2026-06,latest
+icici-prudential-mutual-fund,RSF,,120616,ICICI Prudential Regular Savings Fund,ICICI Prudential Regular Savings Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,RURALOPP,,153184,ICICI Prudential Rural Opportunities Fund,ICICI Prudential Rural Opportunities Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,SAVING,,120398,ICICI Prudential Savings Fund,ICICI Prudential Savings Fund,seeded,shortcode,2026-06,latest
 icici-prudential-mutual-fund,SDL2026,,151211,ICICI Prudential Nifty SDL Sep 2026 Index Fund,ICICI Prudential Nifty SDL Sep 2026 Index Fund,seeded,shortcode,2026-06,latest
@@ -1025,7 +1037,7 @@ invesco-mutual-fund,IARBPFOF,,153697,Invesco India Income Plus Arbitrage Active 
 invesco-mutual-fund,IBCF,,153291,Invesco India Business Cycle Fund,Invesco India Business Cycle Fund,seeded,shortcode,2026-06,latest
 invesco-mutual-fund,IBSESXF,,154340,Invesco India BSE Sensex Index Fund,Invesco India BSE Sensex Index Fund,seeded,shortcode,2026-06,latest
 invesco-mutual-fund,IEBF,,143537,Invesco India Aggressive Hybrid Fund,Invesco India Aggressive Hybrid Fund,seeded,shortcode,2026-06,latest
-invesco-mutual-fund,IENEFOF,,149961,Invesco India - Invesco EQQQ Nasdaq - 100 ETF Fund of Fund,Invesco India - Invesco EQQQ NASDAQ-100 ETF Fund of Fund,seeded,shortcode,2026-06,latest
+invesco-mutual-fund,IENEFOF,EQQQ|Invesco EQQQ NASDAQ-100 UCITS ETF|NASDAQ,149961,Invesco India - Invesco EQQQ Nasdaq - 100 ETF Fund of Fund,Invesco India - Invesco EQQQ NASDAQ-100 ETF Fund of Fund,seeded,shortcode,2026-06,2026-07
 invesco-mutual-fund,IESF,,146457,Invesco India Equity Savings Fund,Invesco India Equity Savings Fund,seeded,shortcode,2026-06,latest
 invesco-mutual-fund,IESGEF,,148751,Invesco India ESG Integration Strategy Fund,Invesco India ESG Integration Strategy Fund,seeded,shortcode,2026-06,latest
 invesco-mutual-fund,IFCF,,149763,Invesco India Flexi Cap Fund,Invesco India Flexi Cap Fund,seeded,shortcode,2026-06,latest
@@ -1103,6 +1115,7 @@ jio-blackrock-mutual-fund,JBSHORT,,154079,JioBlackRock Short Duration Fund,JioBl
 jm-financial-mutual-fund,JM Aggressive Hybrid Fund,,120484,JM Aggressive Hybrid Fund,JM Aggressive Hybrid Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Arbitrage Fund,,120482,JM Arbitrage Fund,JM Arbitrage Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Dynamic Bond Fund,,120435,JM Dynamic Bond Fund,JM Dynamic Bond Fund,seeded,shortcode,latest,latest
+jm-financial-mutual-fund,JM Dynamic Term Fund,Dynamic Bond Fund|Dynamic Term Fund|JM Dynamic Bond Fund|Portfolio- JM Dynamic Term Fund,120435,JM Dynamic Bond Fund,JM Dynamic Term Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM ELSS Tax Saver Fund,,120494,JM ELSS Tax Saver Fund,JM ELSS Tax Saver Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Flexicap Fund,,120492,JM Flexicap Fund,JM Flexicap Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Focused Fund,,120488,JM Focused Fund,JM Focused Fund,seeded,shortcode,latest,latest
@@ -1111,11 +1124,14 @@ jm-financial-mutual-fund,JM Large and Midcap Fund,,153629,JM Large & Mid Cap Fun
 jm-financial-mutual-fund,JM Liquid Fund,,120406,JM Liquid Fund,JM Liquid Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Low Duration Fund,,143612,JM Low Duration Fund,JM Low Duration Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Medium to Long Duration Fund,,120430,JM Medium to Long Duration Fund,JM Medium to Long Duration Fund,seeded,shortcode,latest,latest
+jm-financial-mutual-fund,JM Medium to Long Term Fund,JM Medium to Long Duration Fund|Medium to Long Duration Fund|Medium to Long Term Fund|Portfolio- JM Medium to Long Term Fund,120430,JM Medium to Long Duration Fund,JM Medium to Long Term Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Midcap Fund,,150815,JM Midcap Fund,JM Midcap Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Multi Asset Allocation Fund,,154423,JM Multi Asset Allocation Fund,JM Multi Asset Allocation Fund (,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Overnight Fund,,147837,JM Overnight Fund,JM Overnight Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Short Duration Fund,,150545,JM Short Duration Fund,JM Short Duration Fund,seeded,shortcode,latest,latest
+jm-financial-mutual-fund,JM Short Term Fund,JM Short Duration Fund|Portfolio- JM Short Term Fund|Short Duration Fund|Short Term Fund,150545,JM Short Duration Fund,JM Short Term Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Small Cap Fund,,152614,JM Small Cap Fund,JM Small Cap Fund,seeded,shortcode,latest,latest
+jm-financial-mutual-fund,JM Ultra Short to Short Term,JM Low Duration Fund|JM Ultra Short to Short Term Fund|Portfolio- JM Ultra Short to Short Term Fund|Ultra Short to Short Term Fund,143612,JM Low Duration Fund,JM Ultra Short to Short Term Fund,seeded,shortcode,latest,latest
 jm-financial-mutual-fund,JM Value Fund,,120486,JM Value Fund,JM Value Fund,seeded,shortcode,latest,latest
 kotak-mahindra-mutual-fund,A50,,153781,Kotak Nifty Alpha 50 Index Fund,Kotak Nifty Alpha 50 Index Fund,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,AL3,,154388,Kotak Nifty Alpha Low Volatility 30 Index Fund,KOTAK NIFTY ALPHA LOW VOLATILITY 30 INDEX FUND,seeded,shortcode,2026-06,latest
@@ -1147,6 +1163,7 @@ kotak-mahindra-mutual-fund,CPL,,119771,Kotak Arbitrage Fund,Kotak Arbitrage Fund
 kotak-mahindra-mutual-fund,CRO,,119741,Kotak Credit Risk Fund,Kotak Credit Risk Fund,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,CTF,,150492,Kotak Nifty India Consumption ETF,Kotak Nifty India Consumption ETF,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,Common Notes,,151286,Kotak FMP Series 304,Kotak FMP Series 183,seeded,shortcode,latest,latest
+kotak-mahindra-mutual-fund,DOO,,154574,Kotak Diversified Equity All Cap Omni FOF,Kotak Diversified Equity All Cap Omni FOF,manual,manual,2026-08,2026-08
 kotak-mahindra-mutual-fund,DYF,,154097,Kotak Dividend Yield Fund,Kotak Dividend Yield Fund,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,ELS,,119773,Kotak ELSS Tax Saver Fund,Kotak ELSS Tax Saver Fund,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,EME,,119775,Kotak Midcap Fund,Kotak Midcap Fund,seeded,shortcode,2026-06,latest
@@ -1205,6 +1222,7 @@ kotak-mahindra-mutual-fund,N10,,153461,Kotak Nifty Top 10 Equal Weight Index Fun
 kotak-mahindra-mutual-fund,N1E,,153146,Kotak Nifty 100 Equal Weight Index Fund,Kotak Nifty 100 Equal Weight Index Fund,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,N5E,,153150,Kotak Nifty 50 Equal Weight Index Fund,Kotak Nifty 50 Equal Weight Index Fund,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,NAS,,148662,Kotak US Specific Equity Passive FOF,Kotak US Specific Equity Passive FOF,seeded,shortcode,2026-06,latest
+kotak-mahindra-mutual-fund,NBI,,154571,Kotak Nifty Bank Index Fund,Kotak Nifty Bank Index Fund,manual,manual,2026-08,2026-08
 kotak-mahindra-mutual-fund,NCI,,153353,Kotak Nifty Commodities Index Fund,Kotak Nifty Commodities Index Fund,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,NEF,,153315,Kotak Nifty 100 Equal Weight ETF,Kotak Nifty 100 Equal Weight ETF,seeded,shortcode,2026-06,latest
 kotak-mahindra-mutual-fund,NFS,,151911,Kotak Nifty Financial Services Ex - Bank Index Fund,Kotak Nifty Financial Services Ex-Bank Index Fund,seeded,shortcode,2026-06,latest
@@ -1321,6 +1339,8 @@ mirae-asset-mutual-fund,ENERGY,,153945,Mirae Asset Nifty Energy ETF,Mirae Asset 
 mirae-asset-mutual-fund,EVETF,,152715,Mirae Asset Nifty EV and New Age Automotive ETF,Mirae Asset Nifty EV and New Age Automotive ETF,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,GLSLFOF,,153812,Mirae Asset Gold Silver Passive FoF,Mirae Asset Gold Silver Passive FoF,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,HEALTH,,154169,Mirae Asset Nifty 500 Healthcare ETF,Mirae Asset Nifty 500 Healthcare ETF,seeded,shortcode,2026-06,latest
+mirae-asset-mutual-fund,HYBETF,,154497,Mirae Asset Nifty200 Momentum 30 Plus 8 - 13 yr G - Sec 50:50 ETF,Mirae Asset Nifty200 Momentum 30 Plus 8-13 yr G-Sec 50:50 ETF,manual,shortcode,2026-07,2026-07
+mirae-asset-mutual-fund,HYBIF,,154493,Mirae Asset Nifty200 Momentum 30 Plus 8 - 13yr G - Sec 75:25 Index Fund,Mirae Asset Nifty200 Momentum 30 Plus 8-13yr G-Sec 75:25 Index Fund,manual,shortcode,2026-07,2026-07
 mirae-asset-mutual-fund,INFRA,,153983,Mirae Asset Infrastructure Fund,Mirae Asset Infrastructure Fund,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,INFRAETF,,154181,Mirae Asset Nifty India Infrastructure & Logistics ETF,Mirae Asset Nifty India Infrastructure & Logistics ETF,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,INTERNET,,153642,Mirae Asset Nifty India Internet ETF,Mirae Asset Nifty India Internet ETF,seeded,shortcode,2026-06,latest
@@ -1346,7 +1366,7 @@ mirae-asset-mutual-fund,MAFF,,147206,Mirae Asset Focused Fund,Mirae Asset Focuse
 mirae-asset-mutual-fund,MAFGF,,151416,Mirae Asset Gold ETF,Mirae Asset Gold ETF,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MAFPF,,148928,Mirae Asset NYSE FANG + ETF Fund of Fund,Mirae Asset NYSE FANG + ETF Fund of Fund,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MAFTF,,148927,Mirae Asset NYSE FANG + ETF,Mirae Asset NYSE FANG + ETF,seeded,shortcode,2026-06,latest
-mirae-asset-mutual-fund,MAGEF,,150595,Mirae Asset Global Electric & Autonomous Vehicles Equity Passive FOF,Mirae Asset Global Electric & Autonomous Vehicles Equity Passive FOF,seeded,shortcode,2026-06,latest
+mirae-asset-mutual-fund,MAGEF,Global Electric & Autonomous Vehicles Equity Passive FOF|MAGEF|Mirae Asset Global Electric & Autonomous Vehicles ETFs Fund of Fund|Mirae Asset Global Electric & Autonomous Vehicles Equity Passive FOF|magef,150594,Mirae Asset Global Electric & Autonomous Vehicles Equity Passive FOF,Mirae Asset Global Electric & Autonomous Vehicles Equity Passive FOF,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MAHCF,,143783,Mirae Asset Healthcare Fund,Mirae Asset Healthcare Fund,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MAHSF,,149380,Mirae Asset Hang Seng TECH ETF Fund of Fund,Mirae Asset Hang Seng TECH ETF Fund of Fund,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MAHTF,,149379,Mirae Asset Hang Seng TECH ETF,Mirae Asset Hang Seng TECH ETF,seeded,shortcode,2026-06,latest
@@ -1381,6 +1401,8 @@ mirae-asset-mutual-fund,METALETF,,152924,Mirae Asset Nifty Metal ETF,Mirae Asset
 mirae-asset-mutual-fund,METALFOF,,154216,Mirae Asset Nifty Metal ETF FOF,Mirae Asset Nifty Metal ETF FOF,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MGOLDFOF,,153007,Mirae Asset Gold ETF Fund of Fund,Mirae Asset Gold ETF Fund of Fund,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MICCF,,118837,Mirae Asset Great Consumer Fund,Mirae Asset Great Consumer Fund,seeded,shortcode,2026-06,latest
+mirae-asset-mutual-fund,MIDMFOF,,154474,Mirae Asset BSE Midcap 150 Momentum 30 ETF FOF,Mirae Asset BSE Midcap 150 Momentum 30 ETF FOF,manual,shortcode,2026-07,2026-07
+mirae-asset-mutual-fund,MIDMOM,,154471,Mirae Asset BSE Midcap 150 Momentum 30 ETF,Mirae Asset BSE Midcap 150 Momentum 30 ETF,manual,shortcode,2026-07,2026-07
 mirae-asset-mutual-fund,MIDSMALL,,152634,Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF,Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MIIOF,,118825,Mirae Asset Large Cap Fund,Mirae Asset Large Cap Fund,seeded,shortcode,2026-06,latest
 mirae-asset-mutual-fund,MILPF,,118840,Mirae Asset Low Duration Fund,Mirae Asset Low Duration Fund,seeded,shortcode,2026-06,latest
@@ -1537,7 +1559,7 @@ nippon-india-mutual-fund,IB,,140102,Nippon India ETF Nifty Infrastructure BeES,N
 nippon-india-mutual-fund,ID,,152992,Nippon India CRISIL - IBX AAA Financial Services - Dec 2026 Index Fund,Nippon India CRISIL - IBX AAA Financial Services - Dec 2026 Index Fund,seeded,shortcode,latest,latest
 nippon-india-mutual-fund,IF,,118687,Nippon India Medium to Long Duration Fund,Nippon India Medium to Long Duration Fund,seeded,shortcode,latest,latest
 nippon-india-mutual-fund,IH,,154271,Nippon India CRISIL - IBX Financial Services 3 - 6 Months Debt Index Fund,Nippon India CRISIL-IBX Financial Services 3-6 Months Debt Index Fund,seeded,shortcode,latest,latest
-nippon-india-mutual-fund,IJ,,152992,Nippon India CRISIL - IBX AAA Financial Services - Dec 2026 Index Fund,Nippon India CRISIL - IBX AAA Financial,seeded,shortcode,latest,latest
+nippon-india-mutual-fund,IJ,,152996,Nippon India CRISIL - IBX AAA Financial Services - Jan 2028 Index Fund,Nippon India CRISIL - IBX AAA Financial Services - Jan 2028 Index Fund,manual,gap_fix,latest,2026-07
 nippon-india-mutual-fund,IP,,118814,Nippon India Corporate Bond Fund,Nippon India Corporate Bond Fund,seeded,shortcode,latest,latest
 nippon-india-mutual-fund,IT,,152033,Nippon India Innovation Fund,Nippon India Innovation Fund,seeded,shortcode,latest,latest
 nippon-india-mutual-fund,IX,,152392,Nippon India Nifty IT Index Fund,Nippon India Nifty IT Index Fund,seeded,shortcode,latest,latest
@@ -1615,8 +1637,8 @@ nj-mutual-fund,NJELSTCH,,151611,NJ ELSS Tax Saver Scheme,NJ ELSS Tax Saver Schem
 nj-mutual-fund,NJFCP,,151917,NJ Flexi Cap Fund,NJ Flexi Cap Fund,seeded,shortcode,2026-06,latest
 nj-mutual-fund,NJOVERFD,,150369,NJ Overnight Fund,NJ Overnight Fund,seeded,shortcode,2026-06,latest
 old-bridge-mutual-fund,OBAF,,153979,Old Bridge Arbitrage Fund,Old Bridge Arbitrage Fund,seeded,shortcode,2026-06,latest
-old-bridge-mutual-fund,OBFE,,152358,Old Bridge Focused Fund,Old Bridge Focused Fund,seeded,shortcode,2026-06,latest
-old-bridge-mutual-fund,OBFX,,154225,Old Bridge Flexi Cap Fund,Old Bridge Flexi Cap Fund,seeded,shortcode,2026-06,latest
+old-bridge-mutual-fund,OBFE,OBFCE|OBFE,152358,Old Bridge Focused Fund,Old Bridge Focused Fund,seeded,shortcode,2026-06,latest
+old-bridge-mutual-fund,OBFX,OBFLX|OBFX,154225,Old Bridge Flexi Cap Fund,Old Bridge Flexi Cap Fund,seeded,shortcode,2026-06,latest
 pgim-india-mutual-fund,ARBITRAGE,,138875,PGIM India Arbitrage Fund,PGIM INDIA ARBITRAGE FUND,seeded,shortcode,2026-06,latest
 pgim-india-mutual-fund,Asset Allocation,,153987,PGIM India Multi Asset Allocation Fund,PGIM INDIA MULTI ASSET ALLOCATION FUND,seeded,shortcode,latest,latest
 pgim-india-mutual-fund,Balanced Advantage,,148658,PGIM India Balanced Advantage Fund,PGIM INDIA BALANCED ADVANTAGE FUND,seeded,shortcode,latest,latest
@@ -1627,14 +1649,15 @@ pgim-india-mutual-fund,Equity Savings,,138376,PGIM India Equity Savings Fund,PGI
 pgim-india-mutual-fund,Flexi Cap,,133839,PGIM India Flexi Cap Fund,PGIM INDIA FLEXI CAP FUND,seeded,shortcode,latest,latest
 pgim-india-mutual-fund,GILT,,138472,PGIM India Gilt Fund,PGIM INDIA GILT FUND,seeded,shortcode,2026-06,latest
 pgim-india-mutual-fund,Global Equity,,138528,PGIM India Global Equity Opportunities Fund of Fund,PGIM INDIA GLOBAL EQUITY OPPORTUNITIES FUND OF FUND,seeded,shortcode,latest,latest
-pgim-india-mutual-fund,HEALTHCARE,,153039,PGIM India Healthcare Fund,PGIM INDIA HEALTHCARE FUND,seeded,shortcode,2026-06,latest
+pgim-india-mutual-fund,HEALTHCARE,PGIM INDIA HEALTHCARE FUND,153039,PGIM India Healthcare Fund,PGIM INDIA HEALTHCARE FUND,seeded,shortcode,2026-06,latest
 pgim-india-mutual-fund,Hybrid Equity,,138386,PGIM India Aggressive Hybrid Equity Fund,PGIM INDIA AGGRESSIVE HYBRID EQUITY FUND,seeded,shortcode,latest,latest
-pgim-india-mutual-fund,IBX GILT,,151407,PGIM India CRISIL IBX Gilt Index - Apr 2028 Fund,PGIM INDIA CRISIL IBX GILT INDEX - APR 2028,seeded,shortcode,latest,latest
+pgim-india-mutual-fund,IBX GILT,CRISIL IBX GILT INDEX - APR 2028|IBX GILT|PGIM INDIA CRISIL IBX GILT INDEX - APR 2028|PGIM India CRISIL IBX Gilt Index - Apr 2028 Fund,151407,PGIM India CRISIL IBX Gilt Index - Apr 2028 Fund,PGIM INDIA CRISIL IBX GILT INDEX - APR 2028,seeded,shortcode,latest,latest
 pgim-india-mutual-fund,LIQUID,,138299,PGIM India Liquid Fund,PGIM INDIA LIQUID FUND,seeded,shortcode,latest,latest
 pgim-india-mutual-fund,Large Cap,,138312,PGIM India Large Cap Fund,PGIM INDIA LARGE CAP FUND,seeded,shortcode,latest,latest
 pgim-india-mutual-fund,Large Mid,,152382,PGIM India Large and Midcap Fund,PGIM INDIA LARGE AND MIDCAP FUND,seeded,shortcode,latest,latest
 pgim-india-mutual-fund,MULTICAP,,152815,PGIM India Multi Cap Fund,PGIM INDIA MULTI CAP FUND,seeded,shortcode,2026-06,latest
 pgim-india-mutual-fund,Mid Cap,,125307,PGIM India Midcap Fund,PGIM INDIA MIDCAP FUND,seeded,shortcode,latest,latest
+pgim-india-mutual-fund,Money Market,PGIM INDIA MONEY MARKET FUND,148161,PGIM India Money Market Fund,PGIM INDIA MONEY MARKET FUND,seeded,shortcode,2026-07,latest
 pgim-india-mutual-fund,OVERNIGHT,,147606,PGIM India Overnight Fund,PGIM INDIA OVERNIGHT FUND,seeded,shortcode,2026-06,latest
 pgim-india-mutual-fund,RETIREMENT,,152537,PGIM India Retirement Fund,PGIM INDIA RETIREMENT FUND,seeded,shortcode,2026-06,latest
 pgim-india-mutual-fund,Real Estate,,149298,PGIM India Global Select Real Estate Securities Fund of Fund,PGIM INDIA GLOBAL SELECT REAL ESTATE SEC. FOF,seeded,shortcode,latest,latest
@@ -1988,7 +2011,7 @@ union-mutual-fund,Childrens Fund,,152219,Union Children's Fund,UNION CHILDREN'S 
 union-mutual-fund,Consumption Fund,,154020,Union Consumption Fund,UNION CONSUMPTION FUND^^,seeded,shortcode,latest,latest
 union-mutual-fund,Corporate Bond,,143241,Union Corporate Bond Fund,UNION CORPORATE BOND FUND,seeded,shortcode,latest,latest
 union-mutual-fund,DEF,,153824,Union Diversified Equity All Cap Active FOF,UNION DIVERSIFIED EQUITY ALL CAP ACTIVE FOF,seeded,shortcode,2026-06,latest
-union-mutual-fund,Dynamic Bond Fund,,119311,Union Dynamic Bond Fund,UNION DYNAMIC BOND FUND,seeded,shortcode,latest,latest
+union-mutual-fund,Dynamic Bond Fund,Dynamic Term Fund|UNION DYNAMIC TERM FUND|UNION DYNAMIC TERM FUND (FORMERLY UNION DYNAMIC BOND FUND),119311,Union Dynamic Bond Fund,UNION DYNAMIC BOND FUND,seeded,shortcode,latest,latest
 union-mutual-fund,ELSS Tax Saver,,119307,Union ELSS Tax Saver Fund,UNION ELSS TAX SAVER FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Equity Savings,,144312,Union Equity Savings Fund,UNION EQUITY SAVINGS FUND,seeded,shortcode,latest,latest
 union-mutual-fund,FOD,,153575,Union Income Plus Arbitrage Active FOF,UNION INCOME PLUS ARBITRAGE ACTIVE FOF,seeded,shortcode,2026-06,latest
@@ -1997,21 +2020,21 @@ union-mutual-fund,Focused Fund,,147492,Union Focused Fund,UNION FOCUSED FUND,see
 union-mutual-fund,Gold ETF,,153337,Union Gold ETF,UNION GOLD ETF,seeded,shortcode,latest,latest
 union-mutual-fund,Gold FOF,,153340,Union Gold ETF Fund of Fund,UNION GOLD ETF FUND OF FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Innovation & Opportunities,,151905,Union Innovation & Opportunities Fund,UNION INNOVATION & OPPORTUNITIES FUND,seeded,shortcode,latest,latest
-union-mutual-fund,LARGECAP,,141248,Union Largecap Fund,UNION LARGECAP FUND,seeded,shortcode,2026-06,latest
+union-mutual-fund,LARGECAP,Large Cap|Largecap,141248,Union Largecap Fund,UNION LARGECAP FUND,seeded,shortcode,2026-06,latest
 union-mutual-fund,Large & Midcap,,147750,Union Large & Midcap Fund,UNION LARGE & MIDCAP FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Liquid Scheme,,119303,Union Liquid Fund,UNION LIQUID FUND,seeded,shortcode,latest,latest
-union-mutual-fund,Low Duration,,153654,Union Low Duration Fund,UNION LOW DURATION FUND,seeded,shortcode,latest,latest
-union-mutual-fund,MIDCAP,,148073,Union Midcap Fund,UNION MIDCAP FUND,seeded,shortcode,2026-06,latest
+union-mutual-fund,Low Duration,UNION ULTRA SHORT TO SHORT TERM FUND|UNION ULTRA SHORT TO SHORT TERM FUND (FORMERLY UNION LOW DURATION FUND)|Ultra Short to Short Term,153654,Union Low Duration Fund,UNION LOW DURATION FUND,seeded,shortcode,latest,latest
+union-mutual-fund,MIDCAP,Mid Cap|Midcap,148073,Union Midcap Fund,UNION MIDCAP FUND,seeded,shortcode,2026-06,latest
 union-mutual-fund,Money Market,,149117,Union Money Market Fund,UNION MONEY MARKET FUND,seeded,shortcode,2026-07,2026-07
 union-mutual-fund,Multi Asset Allocation,,152787,Union Multi Asset Allocation Fund,UNION MULTI ASSET ALLOCATION FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Multicap Fund,,150858,Union Multicap Fund,UNION MULTICAP FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Overnight Fund,,147003,Union Overnight Fund,UNION OVERNIGHT FUND^^,seeded,shortcode,latest,latest
-union-mutual-fund,Short Duration,,153242,Union Short Duration Fund,UNION SHORT DURATION FUND,seeded,shortcode,latest,latest
+union-mutual-fund,Short Duration,Short Term|UNION SHORT TERM FUND|UNION SHORT TERM FUND (FORMERLY UNION SHORT DURATION FUND),153242,Union Short Duration Fund,UNION SHORT DURATION FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Small Cap,,129649,Union Small Cap Fund,UNION SMALL CAP FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Union Gilt Fund,,150407,Union Gilt Fund,UNION GILT FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Union Retirement Fund,,150554,Union Retirement Fund,UNION RETIREMENT FUND,seeded,shortcode,latest,latest
 union-mutual-fund,Value Fund,,145473,Union Value Fund,UNION VALUE FUND,seeded,shortcode,latest,latest
-uti-mutual-fund,002,,120784,UTI - Unit Linked Insurance,Unit Linked Insurance Plan,seeded,shortcode,2026-06,latest
+uti-mutual-fund,002,SCHEME: UTI - Unit Linked Insurance Plan|UTI - Unit Linked Insurance|UTI - Unit Linked Insurance Plan|Unit Linked Insurance Plan,100646,UTI - Unit Linked Insurance,Unit Linked Insurance Plan,manual,shortcode,2026-06,latest
 uti-mutual-fund,017,,120656,UTI Large Cap Fund,Large Cap Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,042,,120662,UTI - Flexi Cap Fund,Flexi Cap Fund.,seeded,shortcode,2026-06,latest
 uti-mutual-fund,049,,120665,UTI Large & Mid Cap Fund,UTI Large & Mid Cap Fund,seeded,shortcode,2026-06,latest
@@ -2020,22 +2043,22 @@ uti-mutual-fund,064,,120766,UTI Retirement Fund,UTI Retirement Fund,seeded,short
 uti-mutual-fund,066,,120674,UTI Aggressive Hybrid Fund,UTI Aggressive Hybrid Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,078,,120299,UTI MMF,Money Market Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,101,,120682,UTI - MNC Fund,MNC Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,103,,120689,UTI Medium to Long Duration Fund,UTI Medium to Long Duration Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,103,Medium to Long Term Fund|UTI - Medium to Long Term Fund|UTI Medium to Long Term Fund,120689,UTI Medium to Long Duration Fund,UTI Medium to Long Duration Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,118,,120782,UTI Healthcare Fund,Healthcare Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,125,,120715,UTI ELSS Tax Saver Fund,UTI ELSS Tax Saver Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,128,,120716,UTI Nifty 50 Index Fund,UTI Nifty 50 Index Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,151,,101834,UTI - Master Equity Unit Scheme,Master Equity Plan Unit Scheme,seeded,shortcode,2026-06,latest
+uti-mutual-fund,151,Master Equity Plan Unit Scheme|Master Equity Unit Scheme|UTI - Master Equity Plan Unit Scheme|UTI - Master Equity Unit Scheme,101834,UTI - Master Equity Unit Scheme,Master Equity Plan Unit Scheme,manual,shortcode,2026-06,latest
 uti-mutual-fund,153,,120304,UTI Liquid Fund,Liquid Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,154,,120718,UTI Short Duration Fund,UTI Short Duration Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,154,Short Term Fund|UTI - Short Term Fund|UTI Short Term Fund,120718,UTI Short Duration Fund,UTI Short Duration Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,156,,120785,UTI - Overnight Fund,Overnight Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,157,,120724,UTI Children's Equity Fund,UTI Children's Equity Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,160,,120726,UTI Mid Cap Fund,Mid Cap Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,161,,120728,UTI Infrastructure Fund,Infrastructure Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,162,,120731,UTI - Transportation and Logistics Fund,Transportation and Logistics Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,163,,120733,UTI Banking and Financial Services Fund,Banking and Financial Services Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,165,,120735,UTI Low Duration Fund,UTI Low Duration Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,165,UTI - Ultra Short to Short Term Fund|UTI Low Term Fund|UTI Ultra Short to Short Term Fund|Ultra Short to Short Term Fund,120735,UTI Low Duration Fund,UTI Low Duration Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,171,,120792,UTI - GILT FUND,Gilt Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,176,,120746,UTI Ultra Short Duration Fund,UTI Ultra Short Duration Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,176,UTI - Ultra Short Term Fund|UTI Ultra Short Term Fund|Ultra Short Term Fund,120746,UTI Ultra Short Duration Fund,UTI Ultra Short Duration Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,177,,120779,UTI Conservative Hybrid Fund,UTI Conservative Hybrid Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,190,,120749,UTI - Dividend Yield Fund.,Dividend Yield Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,193,,120751,UTI Value Fund,UTI Value Fund,seeded,shortcode,2026-06,latest
@@ -2047,17 +2070,17 @@ uti-mutual-fund,253,,106183,UTI Interval Fund - I,UTI Annual Interval Fund - I,s
 uti-mutual-fund,262,,106183,UTI Interval Fund - I,UTI Annual Interval Fund - II,seeded,shortcode,2026-06,latest
 uti-mutual-fund,307,,106183,UTI Interval Fund - I,UTI Quarterly Interval Fund - II,seeded,shortcode,2026-06,latest
 uti-mutual-fund,322,,120760,UTI Multi Asset Allocation Fund,UTI Multi Asset Allocation Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,340,,120762,UTI Dynamic Bond Fund,Dynamic Bond Fund.,seeded,shortcode,2026-06,latest
+uti-mutual-fund,340,Dynamic Term Fund|UTI - Dynamic Term Fund|UTI Dynamic Term Fund,120762,UTI Dynamic Bond Fund,Dynamic Bond Fund.,seeded,shortcode,2026-06,latest
 uti-mutual-fund,399,,148242,UTI - Credit Risk Fund (Segregated - 06032020,Credit Risk Fund.,seeded,shortcode,2026-06,latest
-uti-mutual-fund,446,,126940,UTI Banking & PSU Fund,UTI Banking & PSU Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,540,,134503,UTI Medium Duration Fund,UTI Medium Duration Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,446,Banking & PSU Debt Fund|UTI - Banking & PSU Debt Fund|UTI Banking & PSU Debt Fund|UTI Banking and PSU Debt Fund,126940,UTI Banking & PSU Fund,UTI Banking & PSU Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,540,Medium Term Fund|UTI - Medium Term Fund|UTI Medium Term Fund,134503,UTI Medium Duration Fund,UTI Medium Duration Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,561,,135320,UTI Nifty 50 ETF,UTI Nifty 50 ETF,seeded,shortcode,2026-06,latest
 uti-mutual-fund,562,,135321,UTI BSE Sensex ETF,UTI S&P BSE Sensex ETF,seeded,shortcode,2026-06,latest
 uti-mutual-fund,656,,141665,UTI Nifty Next 50 Exchange Traded Fund,Nifty Next 50 Exchange Traded Fund.,seeded,shortcode,2026-06,latest
 uti-mutual-fund,691,,143341,UTI Nifty Next 50 Index Fund,Nifty Next 50 Index Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,703,,144339,UTI Corporate Bond Fund,Corporate Bond Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,704,,144490,UTI Equity Savings Fund,Equity Savings Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,713,,145295,UTI - Floater Fund,Floater Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,713,Floating Interest Rates Fund|UTI - Floating Interest Rates Fund|UTI Floater Fund|UTI Floating Interest Rates Fund,145295,UTI - Floater Fund,Floater Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,728,,146388,UTI - BSE Sensex Next 50 Exchange Traded Fund,S&P BSE Sensex Next 50 Exchange Traded Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,745,,148173,UTI Nifty Bank ETF,UTI Nifty Bank ETF,seeded,shortcode,2026-06,latest
 uti-mutual-fund,751,,148618,UTI Small Cap Fund,UTI Small Cap Fund,seeded,shortcode,2026-06,latest
@@ -2066,7 +2089,7 @@ uti-mutual-fund,753,,149091,UTI Focused Fund,UTI Focused Fund,seeded,shortcode,2
 uti-mutual-fund,754,,149803,UTI BSE Sensex Index Fund,UTI S&P BSE Sensex Index Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,755,,149881,UTI BSE Low Volatility Index Fund,UTI S&P BSE Low Volatility Index Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,756,,150313,UTI Nifty Midcap 150 Quality 50 Index Fund,UTI Nifty Midcap 150 Quality 50 Index Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,757,,150410,UTI Gilt Fund with 10 year Constant Duration,UTI Gilt Fund with 10 year Constant Duration,seeded,shortcode,2026-06,latest
+uti-mutual-fund,757,10 year Constant Maturity Gilt Fund|UTI - 10 year Constant Maturity Gilt Fund|UTI 10 year Constant Maturity Gilt Fund,150410,UTI Gilt Fund with 10 year Constant Duration,UTI Gilt Fund with 10 year Constant Duration,seeded,shortcode,2026-06,latest
 uti-mutual-fund,758,,150714,UTI Gold ETF Fund of Fund,UTI Gold ETF Fund of Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,759,,151485,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days,UTI Fixed Term Income Fund - Series XXXV-I (1260Days),seeded,shortcode,2026-06,latest
 uti-mutual-fund,760,,151485,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days,UTI Fixed Term Income Fund - Series XXXV-II (1223 Days),seeded,shortcode,2026-06,latest
@@ -2075,7 +2098,7 @@ uti-mutual-fund,762,,151239,UTI CRISIL SDL Maturity June 2027 Index Fund,UTI CRI
 uti-mutual-fund,763,,151485,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days,UTI Fixed Term Income Fund - Series XXXV-III (1176 days),seeded,shortcode,2026-06,latest
 uti-mutual-fund,765,,151485,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days),seeded,shortcode,2026-06,latest
 uti-mutual-fund,766,,151487,UTI NIFTY SDL Plus AAA PSU Bond Apr 2028 - 75:25 Index Fund,UTI NIFTY SDL Plus AAA PSU Bond Apr 2028- 75:25 Index Fund,seeded,shortcode,2026-06,latest
-uti-mutual-fund,767,,151523,UTI Long Duration Fund,UTI Long Duration Fund,seeded,shortcode,2026-06,latest
+uti-mutual-fund,767,Long Term Fund|UTI - Long Term Fund|UTI Long Term Fund,151523,UTI Long Duration Fund,UTI Long Duration Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,768,,151730,UTI Silver Exchange Traded Fund,UTI Silver Exchange Traded Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,769,,151731,UTI Silver ETF Fund of Fund,UTI Silver ETF Fund of Fund,seeded,shortcode,2026-06,latest
 uti-mutual-fund,770,,151739,UTI Nifty 500 Value 50 Index Fund,UTI Nifty 500 Value 50 Index Fund,seeded,shortcode,2026-06,latest
@@ -2102,7 +2125,8 @@ uti-mutual-fund,SHEET2,,120749,UTI - Dividend Yield Fund.,Dividend,seeded,shortc
 uti-mutual-fund,UTI - Credit Risk Fund.,UTI - Credit Risk Fund,117981,UTI - Credit Risk Fund.,UTI - Credit Risk Fund.,manual,fortnightly_label,2026-07-15,2026-07-15
 uti-mutual-fund,UTI - Medium Term Fund ( Segregated - 06032020),,148246,UTI - Medium Term Fund ( Segregated - 06032020,UTI - Medium Term Fund ( Segregated - 06032020),manual,fortnightly_label,2026-07-15,2026-07-15
 uti-mutual-fund,UTI - Money Market Fund,,100723,UTI - Money Market Fund,UTI - Money Market Fund,manual,fortnightly_label,2026-07-15,2026-07-15
-uti-mutual-fund,exposure,,120784,UTI - Unit Linked Insurance,SCHEME: UTI - Unit Linked Insurance Plan,seeded,shortcode,latest,latest
+uti-mutual-fund,UTI Nifty 1D Rate Liquid ETF - Growth,Nifty 1D Rate Liquid ETF - Growth|UTI Nifty 1D Rate Liquid ETF|UTI Nifty 1D Rate Liquid ETF - Growth,154466,UTI Nifty 1D Rate Liquid ETF - Growth,UTI Nifty 1D Rate Liquid ETF - Growth,manual,manual_fix,2026-07-31,2026-07-31
+uti-mutual-fund,exposure,SCHEME: UTI - Unit Linked Insurance Plan|UTI - Unit Linked Insurance|UTI - Unit Linked Insurance Plan|Unit Linked Insurance Plan,100646,UTI - Unit Linked Insurance,SCHEME: UTI - Unit Linked Insurance Plan,manual,shortcode,latest,latest
 whiteoak-capital-mutual-fund,WOAHF,,154392,WhiteOak Capital Aggressive Hybrid Fund,WhiteOak Capital Aggressive Hybrid Fund,seeded,shortcode,2026-06,latest
 whiteoak-capital-mutual-fund,WOARB,,152849,WhiteOak Capital Arbitrage Fund,WhiteOak Capital Arbitrage Fund,seeded,shortcode,2026-06,latest
 whiteoak-capital-mutual-fund,WOBAF,,151267,WhiteOak Capital Balanced Advantage Fund,WhiteOak Capital Balanced Advantage Fund,seeded,shortcode,2026-06,latest
@@ -2134,14 +2158,14 @@ zerodha-mutual-fund,ZGFOF,,153011,Zerodha Gold ETF FoF,ZERODHA GOLD ETF FoF,seed
 zerodha-mutual-fund,ZGOLD,,152476,Zerodha Gold ETF,ZERODHA GOLD ETF,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZLC36,,154436,Zerodha Life Cycle Fund 2036,Zerodha Life Cycle Fund 2036,seeded,shortcode,2026-07,2026-07
 zerodha-mutual-fund,ZLC41,,154437,Zerodha Life Cycle Fund 2041,Zerodha Life Cycle Fund 2041,seeded,shortcode,2026-07,2026-07
-zerodha-mutual-fund,ZLIQD,,152327,Zerodha Nifty 1D Rate Liquid ETF - Growth,ZERODHA NIFTY 1D RATE LIQUID ETF,seeded,shortcode,2026-06,latest
-zerodha-mutual-fund,ZLTGC,,153811,Zerodha Nifty 8 - 13 Yr G - Sec ETF,ZERODHA NIFTY 8-13 Yr G-Sec ETF,seeded,shortcode,2026-06,latest
+zerodha-mutual-fund,ZLIQD,ZERODHA NIFTY 1D RATE LIQUID ETF|Zerodha Nifty 1D Rate Liquid ETF|Zerodha Nifty 1D Rate Liquid ETF - Growth,152327,Zerodha Nifty 1D Rate Liquid ETF - Growth,ZERODHA NIFTY 1D RATE LIQUID ETF,seeded,shortcode,2026-06,latest
+zerodha-mutual-fund,ZLTGC,ZERODHA NIFTY 8-13 YR G-SEC ETF|ZERODHA NIFTY 8-13 Yr G-Sec ETF|Zerodha Nifty 8 - 13 Yr G - Sec ETF|Zerodha Nifty 8-13 Yr G-Sec ETF,153811,Zerodha Nifty 8 - 13 Yr G - Sec ETF,ZERODHA NIFTY 8-13 Yr G-Sec ETF,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZMIDS,,154306,Zerodha Nifty MidSmallcap400 50:50 Index Fund,Zerodha Nifty MidSmallcap400 50:50 Index Fund,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZMLTI,,153757,Zerodha Multi Asset Passive FoF,ZERODHA MULTI ASSET PASSIVE FoF,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZN250,,152156,Zerodha Nifty LargeMidcap 250 Index Fund,ZERODHA NIFTY LARGE MIDCAP 250 INDEX FUND,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZNFTY,,153906,Zerodha Nifty 50 Index Fund,ZERODHA NIFTY 50 INDEX FUND,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZNH73,,154321,Zerodha Nifty LargeMidcap250 Plus 8 - 13 Yr G - Sec 70:30 Index Fund,Zerodha Nifty LargeMidcap250 Plus 8-13 yr G-Sec 70:30 Index Fund,seeded,shortcode,2026-06,latest
-zerodha-mutual-fund,ZNSDG,,154109,Zerodha Nifty Short Duration G - Sec Index Fund,ZERODHA NIFTY SHORT DURATION G-SEC INDEX FUND,seeded,shortcode,2026-06,latest
-zerodha-mutual-fund,ZOVER,,153436,Zerodha Overnight Fund,ZERODHA OVERNIGHT FUND,seeded,shortcode,2026-06,latest
+zerodha-mutual-fund,ZNSDG,ZERODHA NIFTY SHORT DURATION G-SEC INDEX FUND|Zerodha Nifty Short Duration G - Sec Index Fund|Zerodha Nifty Short Duration G-Sec Index Fund,154109,Zerodha Nifty Short Duration G - Sec Index Fund,ZERODHA NIFTY SHORT DURATION G-SEC INDEX FUND,seeded,shortcode,2026-06,latest
+zerodha-mutual-fund,ZOVER,ZERODHA OVERNIGHT FUND|Zerodha Overnight Fund,153436,Zerodha Overnight Fund,ZERODHA OVERNIGHT FUND,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZSFOF,,153656,Zerodha Silver ETF FoF,ZERODHA SILVER ETF FoF,seeded,shortcode,2026-06,latest
 zerodha-mutual-fund,ZSLVR,,153413,Zerodha Silver ETF,ZERODHA SILVER ETF,seeded,shortcode,2026-06,latest

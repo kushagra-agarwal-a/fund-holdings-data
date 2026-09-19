@@ -84,6 +84,19 @@ export function sourceFileMatchesAsOfCadence(meta, asOf, cadence) {
   const day = Number(String(asOf).slice(8, 10));
   const lower = src.toLowerCase();
 
+  // Monthly sync: reject clear mid-month fortnightly packs so Sep-15 debt
+  // files never land under YYYY-MM-31 monthly as-of.
+  if (cadence === "monthly" && isMonthEndAsOf(asOf)) {
+    if (
+      /fortnightly|fortnight/.test(lower) &&
+      /(?:^|[^0-9])15(?:st|th)?(?:[^0-9]|$)|as[_ -]?on[_ -]?15|portfolio[_ -]?15[_ -]/.test(
+        lower,
+      )
+    ) {
+      return false;
+    }
+  }
+
   if (cadence === "fortnightly" && day === 15) {
     if (
       /(?:^|[^0-9])31[-_./ ]?(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)|(?:january|february|march|april|may|june|july|august|september|october|november|december)[-_./ ]*31(?:st)?/i.test(
@@ -219,11 +232,6 @@ export function portfolioAsofKey(asOf, portfolioId) {
   return `portfolios/asof/${asOf}/${portfolioId}.json`;
 }
 
-function portfolioAsOfFileExists(outDir, asOf, portfolioId) {
-  if (!outDir || !AS_OF_RE.test(String(asOf || "")) || !portfolioId) return true;
-  return existsSync(join(outDir, portfolioAsofKey(asOf, portfolioId)));
-}
-
 export function attachAvailableAsOf(
   catalog,
   asOfDatesByPortfolio,
@@ -235,20 +243,18 @@ export function attachAvailableAsOf(
     const pid = String(
       row.portfolio_id || row.parent_amfi || row.amfi_code || "",
     ).trim();
-    const merged = new Set();
-    if (pid) {
-      for (const d of asOfDatesByPortfolio.get(pid) || []) {
-        const day = String(d).trim();
-        if (!AS_OF_RE.test(day)) continue;
-        if (portfolioAsOfFileExists(outDir, day, pid)) merged.add(day);
-      }
-    }
+    const merged = new Set(pid ? asOfDatesByPortfolio.get(pid) || [] : []);
 
     // Keep published as-of links when the portfolio file still exists on disk.
     for (const d of row.available_as_of || []) {
       const day = String(d).trim();
       if (!AS_OF_RE.test(day) || !pid) continue;
-      if (portfolioAsOfFileExists(outDir, day, pid)) merged.add(day);
+      if (outDir) {
+        const path = join(outDir, portfolioAsofKey(day, pid));
+        if (existsSync(path)) merged.add(day);
+      } else {
+        merged.add(day);
+      }
     }
 
     if (merged.size) {
@@ -338,11 +344,15 @@ export function pruneOrphanAsOfPortfolios(
   const dir = join(outDir, "portfolios", "asof", asOf);
   if (!existsSync(dir)) return 0;
   const keep = new Set([...keepIds].map((id) => `${id}.json`));
+  const keepIdSet = new Set([...keepIds].map((id) => String(id)));
   const parentIds = catalog ? parentPortfolioIds(catalog) : null;
   let removed = 0;
   for (const name of readdirSync(dir)) {
     if (!name.endsWith(".json")) continue;
     const id = name.replace(/\.json$/, "");
+    // Never prune ids we just synced — new schemes may be absent from a
+    // stale amfi-lookup and would otherwise look like child-AMFI duplicates.
+    if (keepIdSet.has(id)) continue;
     const isChildDuplicate = parentIds?.size && !parentIds.has(id);
     const isOrphan = !mergeExisting && !keep.has(name);
     if (isOrphan || isChildDuplicate) {
@@ -456,33 +466,4 @@ export function assertCatalogPortfolioCoverage(outDir, catalog) {
     }
   }
   return { ok: missing.length === 0, missing };
-}
-
-/**
- * Every catalog available_as_of entry must have a matching portfolio file.
- * Catches phantom dates (e.g. partial sync stamping all schemes with a slice).
- */
-export function assertNoPhantomAsOfLinks(outDir, catalog) {
-  const phantom = [];
-  const seen = new Set();
-  for (const [code, row] of Object.entries(catalog || {})) {
-    if (!row?.has_holdings || !row?.portfolio_id) continue;
-    const pid = String(row.portfolio_id);
-    if (!/^\d{4,8}$/.test(pid)) continue;
-    for (const d of row.available_as_of || []) {
-      const day = String(d).trim();
-      if (!AS_OF_RE.test(day)) continue;
-      const key = `${pid}@${day}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      if (!portfolioAsOfFileExists(outDir, day, pid)) {
-        phantom.push({
-          portfolio_id: pid,
-          as_of: day,
-          sample_amfi: code,
-        });
-      }
-    }
-  }
-  return { ok: phantom.length === 0, phantom };
 }

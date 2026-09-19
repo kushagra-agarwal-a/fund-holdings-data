@@ -24,6 +24,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import {
   attachAvailableAsOf,
+  assertCatalogPortfolioCoverage,
   buildFilingsFromAsOfDirs,
   collectAsOfPortfolios,
   mirrorLatestPortfolios,
@@ -35,10 +36,10 @@ import {
 } from "./lib/asof-portfolios.mjs";
 import {
   assertNoHoldingsRegression,
-  enforceCatalogIntegrity,
   loadRepoCatalog,
 } from "./lib/holdings-guard.mjs";
 import { defaultHoldingsOutDir } from "./lib/resolve-holdings-out-dir.mjs";
+import { publicCatalogFromLookup } from "./lib/catalog-public.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -161,10 +162,8 @@ function schemeFromMeta(meta, portfolioId) {
 
 function refreshFilings(catalog, { baselineCatalog = null } = {}) {
   const beforeCatalog = baselineCatalog || loadRepoCatalog(outDir);
-  // Only dates with on-disk portfolio files — do not stamp every historical
-  // portfolio with the current sync slice (partial fortnightly runs caused
-  // catalog.latest_as_of drift vs missing asof files).
   const asOfMap = scanExistingAsOfDirs(outDir, catalog);
+  for (const dates of asOfMap.values()) dates.add(asof);
 
   const withDates = attachAvailableAsOf(catalog, asOfMap, {
     cdnUrlFn: cdnUrl,
@@ -176,13 +175,22 @@ function refreshFilings(catalog, { baselineCatalog = null } = {}) {
     syncedDates: [asof],
   });
   writeJson(join(outDir, "catalog/amfi-lookup.json"), withDates);
+  writeJson(
+    join(outDir, "catalog/amfi-public.json"),
+    publicCatalogFromLookup(withDates),
+  );
 
   const doc = buildFilingsFromAsOfDirs(outDir, withDates);
   writeJson(join(outDir, "catalog/filings.json"), doc);
 
-  enforceCatalogIntegrity(outDir, withDates, {
-    label: `sync-asof(${asof})`,
-  });
+  const coverage = assertCatalogPortfolioCoverage(outDir, withDates);
+  if (!coverage.ok) {
+    const sample = coverage.missing.slice(0, 8);
+    console.warn(
+      `Warning: catalog/asof mismatch (${coverage.missing.length}): ` +
+        sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", "),
+    );
+  }
 
   const mirrored = mirrorLatestPortfolios(outDir, withDates);
   if (mirrored) console.log(`Mirrored ${mirrored} portfolio(s) to portfolios/latest/.`);

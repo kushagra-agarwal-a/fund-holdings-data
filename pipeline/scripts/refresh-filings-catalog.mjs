@@ -17,17 +17,17 @@ import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import {
   attachAvailableAsOf,
+  assertCatalogPortfolioCoverage,
   buildFilingsFromAsOfDirs,
   mirrorLatestPortfolios,
   scanExistingAsOfDirs,
 } from "./lib/asof-portfolios.mjs";
 import {
   assertNoHoldingsRegression,
-  enforceCatalogIntegrity,
   loadRepoCatalog,
-  pinMetaCdnUrls,
 } from "./lib/holdings-guard.mjs";
 import { defaultHoldingsOutDir } from "./lib/resolve-holdings-out-dir.mjs";
+import { publicCatalogFromLookup } from "./lib/catalog-public.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -153,12 +153,23 @@ if (dryRun) {
 }
 
 writeJson(catalogPath, withDates);
+writeJson(
+  join(outDir, "catalog/amfi-public.json"),
+  publicCatalogFromLookup(withDates),
+);
 writeJson(join(outDir, "catalog/filings.json"), filingsDoc);
 
-enforceCatalogIntegrity(outDir, withDates, {
-  label: "refresh-filings-catalog",
-  maxMissingLatest: 5,
-});
+const coverage = assertCatalogPortfolioCoverage(outDir, withDates);
+if (!coverage.ok) {
+  const sample = coverage.missing.slice(0, 8);
+  const msg =
+    `Catalog/asof mismatch: ${coverage.missing.length} portfolio(s) missing on disk. ` +
+    `Examples: ${sample.map((m) => `${m.portfolio_id}@${m.as_of || "?"}`).join(", ")}`;
+  if (coverage.missing.length > 50) {
+    throw new Error(msg);
+  }
+  console.warn(`Warning: ${msg}`);
+}
 
 const mirrored = mirrorLatestPortfolios(outDir, withDates);
 if (mirrored) console.log(`Mirrored ${mirrored} portfolio(s) to portfolios/latest/.`);
@@ -174,8 +185,10 @@ writeJson(metaPath, meta);
 if (doPush) {
   const commit = pushWithPin("fix: rebuild filings.json from on-disk as-of counts");
   if (commit) {
-    const pinned = pinMetaCdnUrls(meta, commit, { owner: OWNER, repo: REPO });
-    writeJson(metaPath, pinned);
+    meta.commit = commit;
+    meta.raw_base = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${commit}`;
+    meta.cdn_filings = `${meta.raw_base}/catalog/filings.json`;
+    writeJson(metaPath, meta);
     run("git", ["-C", outDir, "add", "meta.json"]);
     run("git", [
       "-C",

@@ -30,7 +30,8 @@ DISC_ROOT = ROOT / "data" / "disclosures"
 PARSED_ROOT = ROOT / "data" / "parsed"
 
 JUNK_FOLDER = re.compile(
-    r"(?i)^(common notes|contents|cover|notes|disclaimer|risk.?o.?meter)$"
+    r"(?i)^(common notes|contents|cover|notes|disclaimer|risk.?o.?meter|"
+    r"portfolio overlap.*)$"
 )
 
 
@@ -53,9 +54,16 @@ def load_amc_names() -> dict[str, dict]:
 def name_key(s: str | None) -> str:
     if not s:
         return ""
+    # Keep "segregated" in the key so side-pocket labels like
+    # "UTI - Medium Term Fund ( Segregated - 06032020)" do not collide with
+    # the live scheme after Aug 2026 Duration→Term renames.
+    has_segregated = bool(re.search(r"segregat", s, flags=re.I))
     t = re.sub(r"\(.*?\)", " ", s, flags=re.S)
     t = re.sub(r"[^a-z0-9 ]", " ", t.lower())
-    return re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"\s+", " ", t).strip()
+    if has_segregated and "segregat" not in t:
+        t = f"{t} segregated".strip()
+    return t
 
 
 def _register_map_keys(
