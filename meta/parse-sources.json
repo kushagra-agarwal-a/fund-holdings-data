@@ -1,7 +1,7 @@
 {
   "version": 1,
   "fingerprint": "git:425b0f11f7511bca",
-  "updated_at": "2026-11-15T08:34:48.466Z",
+  "updated_at": "2026-11-15T14:21:29.790Z",
   "slices": {
     "fortnightly/2026-10-31": {
       "360-one-mutual-fund": "4debe2c5626613c8d645db5ba93a539570c840fdebb23ac14baa1d9c38216b36",
@@ -90,7 +90,7 @@
       "quant-mutual-fund": "16a3802d01aead96b211239ab46d323b0b20e2e8fb75a36542dc716fbff8e74b",
       "quantum-mutual-fund": "d1140d81f4172b9ac99906575bb7b96153e0160da62a6ebc5a48904d540ca5b7",
       "samco-mutual-fund": "b6aa242567e6f6858394c9cdba302d49789e001515c6d2175529dce4d20692c9",
-      "sbi-mutual-fund": "a6ec41e6113415c6547c33b1f9ec3e8264afd9b5f1f508fc7d7c101f157ab265",
+      "sbi-mutual-fund": "018e7ffcf4b275f244deaaf6952a37ead0bdef71393f3743768df9bff6dd4691",
       "shriram-mutual-fund": "6b26fed0bef351983d2450076fe04a369b9e40fdfa412c020b37e10e4627bfe3",
       "sundaram-mutual-fund": "ad5e5cae14d69878e4824a76acccb95de05bc6cb41be10009e675567cb3edc79",
       "tata-mutual-fund": "274ba54851b5fc0fbd14e4515b89516bbe8fc22b5bed651aedf38ad555d197d2",
