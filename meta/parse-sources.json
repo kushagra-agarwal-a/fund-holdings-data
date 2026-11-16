@@ -1,7 +1,7 @@
 {
   "version": 1,
   "fingerprint": "git:425b0f11f7511bca",
-  "updated_at": "2026-11-15T14:21:29.790Z",
+  "updated_at": "2026-11-16T14:07:18.859Z",
   "slices": {
     "fortnightly/2026-10-31": {
       "360-one-mutual-fund": "4debe2c5626613c8d645db5ba93a539570c840fdebb23ac14baa1d9c38216b36",
@@ -153,7 +153,9 @@
       "zerodha-mutual-fund": "acb3c0a703aa89739d6ab7f23b9996a350302e3f046880f8d345d37daf0ed941"
     },
     "fortnightly/2026-11-15": {
-      "union-mutual-fund": "f9a231c9ce8306759852625e9c1c4049f2824021f67f2480264f602070402e48"
+      "union-mutual-fund": "f9a231c9ce8306759852625e9c1c4049f2824021f67f2480264f602070402e48",
+      "helios-mutual-fund": "a60ec19f70c31e8178f98c21c207cb1556c39de19296c44a18a19fb63fcdca6a",
+      "shriram-mutual-fund": "04f9c7b66f2c72a70daeed93d8546beb565fbf5c931c1a8ce135864c7b2531d2"
     }
   },
   "urls": {
@@ -306,7 +308,9 @@
       "zerodha-mutual-fund": "2bb3506a4072a1535d1a870f"
     },
     "fortnightly/2026-11-15": {
-      "union-mutual-fund": "b937c266e5c83d44b1c8187b"
+      "union-mutual-fund": "b937c266e5c83d44b1c8187b",
+      "helios-mutual-fund": "704b06b929e30cf3f1bdbc32",
+      "shriram-mutual-fund": "8fe6df94e41ab14a2889faef"
     }
   }
 }
