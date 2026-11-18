@@ -1,7 +1,7 @@
 {
   "version": 1,
   "fingerprint": "git:425b0f11f7511bca",
-  "updated_at": "2026-11-17T14:12:14.546Z",
+  "updated_at": "2026-11-18T14:07:39.684Z",
   "slices": {
     "fortnightly/2026-10-31": {
       "360-one-mutual-fund": "4debe2c5626613c8d645db5ba93a539570c840fdebb23ac14baa1d9c38216b36",
@@ -156,7 +156,27 @@
       "union-mutual-fund": "f9a231c9ce8306759852625e9c1c4049f2824021f67f2480264f602070402e48",
       "helios-mutual-fund": "a60ec19f70c31e8178f98c21c207cb1556c39de19296c44a18a19fb63fcdca6a",
       "shriram-mutual-fund": "04f9c7b66f2c72a70daeed93d8546beb565fbf5c931c1a8ce135864c7b2531d2",
-      "unifi-mutual-fund": "2fae67c88fed1243c386b971cc8cb1fd9ce9b35070a8f801f6199c98f61c0982"
+      "unifi-mutual-fund": "2fae67c88fed1243c386b971cc8cb1fd9ce9b35070a8f801f6199c98f61c0982",
+      "aditya-birla-sun-life-mutual-fund": "a216daa61b4b5aeec67598bff4c9c4616ad52c77adfc9b9d12558d4be0774a55",
+      "bajaj-finserv-mutual-fund": "128a848a373852ada51d9299bc8a3f17bb6052bde309cf03d927a4638991b000",
+      "canara-robeco-mutual-fund": "fa99244a17db8407c6b6775426c4504e2d3c4bd6ea4f217ddf0fc8e9c3ca1cfc",
+      "capitalmind-mutual-fund": "115c3062c58283ff5e57dcf672175e8699f2c72b8e77864a949e650868696c4d",
+      "hdfc-mutual-fund": "83638991ca8fa6068da13e5f4626416e207dd2bbe3b67b11d742d683847e7a1e",
+      "hsbc-mutual-fund": "b348a35640b3a5da1816ea8faccc592ce448a610971dab1ea7d22fc963ea03c3",
+      "icici-prudential-mutual-fund": "8885d32a03fa5cd3b25c918e88aebe0566b37591478a2b9126f58b1a32f1755e",
+      "jm-financial-mutual-fund": "de4e9f6ae8ce46db51e5d1a32af5439b23364c18578e677c8c95f0999fef23d2",
+      "lic-mutual-fund": "d00e788e4a542dd904398247f3f4a86a7ab328d50637f9abfa19d4766a3121b1",
+      "mahindra-manulife-mutual-fund": "c0ffc136e7963510ec8066dd4c750495460ae2e10f9847cac9abca0e9489f01b",
+      "nippon-india-mutual-fund": "88a2cb54f0fcbcf1630ce075ab3d668b0b89615f94b4d34bb7fc44c45e22d0a7",
+      "nj-mutual-fund": "c43ce4c93ad6cb66672f076141d367b7f61a02875a3450d549b14418ac0c18ea",
+      "pgim-india-mutual-fund": "176f066c3252e247e865b20e1565ed6768b921633fee600233950d48819cb4b6",
+      "ppfas-mutual-fund": "ffa5fe6f4684d6cb24a52299e30404a4716d1b3c04db424fc9e3e380c6b41344",
+      "quant-mutual-fund": "5c5713ec0c2263d35d3789aab6794436385530a2ceeca70719fb095d98e746f4",
+      "samco-mutual-fund": "3c2a0004f542c3e96b17b6724574ec1c33febd12ca0786d839dab257ce4a591e",
+      "sbi-mutual-fund": "323424fd9b7d22d6edb4866f2da84ed9f8fdf8a38e7da7adc4864caeedd4b68a",
+      "tata-mutual-fund": "301d51738d3a1d1f295158d0e909b99baffb88e8522c28b6b62cebff4ff280ec",
+      "uti-mutual-fund": "ceced94df106d15a9fe87375218483c3c1a3cfdd1f04e884aa2a17789f2c2a8e",
+      "zerodha-mutual-fund": "81114b77bec618274a4358cca5cdb14764c963e811e21bcdec450e8273290551"
     }
   },
   "urls": {
@@ -312,7 +332,26 @@
       "union-mutual-fund": "b937c266e5c83d44b1c8187b",
       "helios-mutual-fund": "704b06b929e30cf3f1bdbc32",
       "shriram-mutual-fund": "8fe6df94e41ab14a2889faef",
-      "unifi-mutual-fund": "e36d5c042d1ed0adba7c160d"
+      "unifi-mutual-fund": "e36d5c042d1ed0adba7c160d",
+      "aditya-birla-sun-life-mutual-fund": "8d84bc26be5d4ff9d5a5d1f6",
+      "bajaj-finserv-mutual-fund": "7595104fd6d7670ce46c33bd",
+      "canara-robeco-mutual-fund": "8ee6af0c8b32680420467e5b",
+      "capitalmind-mutual-fund": "6a179e78e98c5c9d287f573d",
+      "hdfc-mutual-fund": "c23d550aa73c4ce14f4e09de",
+      "hsbc-mutual-fund": "301b2f821daa59ffb69f4d82",
+      "icici-prudential-mutual-fund": "8eeb8b02d50cb68a0538fb4f",
+      "jm-financial-mutual-fund": "8c1019bb2e3fdb4fcecc00fd",
+      "mahindra-manulife-mutual-fund": "ab726fc478951f3e99ad1367",
+      "nippon-india-mutual-fund": "3587acce86882bd2b4001e9a",
+      "nj-mutual-fund": "5f3fe65c70b1936c4b52d239",
+      "pgim-india-mutual-fund": "53c2c24b6045ce317bb81202",
+      "ppfas-mutual-fund": "4e6789ad8a4e9b9715c79128",
+      "quant-mutual-fund": "49363b528c55934df410f68e",
+      "samco-mutual-fund": "f2e3d681c8ac2aa7b9517de6",
+      "sbi-mutual-fund": "f2af85f086094aebcf1ef181",
+      "tata-mutual-fund": "42abe5617d19f0effe5d128f",
+      "uti-mutual-fund": "65b4d6c8f8268e1e73ba1d91",
+      "zerodha-mutual-fund": "5de34eb11caedc30869639d7"
     }
   }
 }
