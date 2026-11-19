@@ -1,7 +1,7 @@
 {
   "version": 1,
   "fingerprint": "git:425b0f11f7511bca",
-  "updated_at": "2026-11-18T14:07:39.684Z",
+  "updated_at": "2026-11-19T13:45:14.850Z",
   "slices": {
     "fortnightly/2026-10-31": {
       "360-one-mutual-fund": "4debe2c5626613c8d645db5ba93a539570c840fdebb23ac14baa1d9c38216b36",
@@ -153,9 +153,9 @@
       "zerodha-mutual-fund": "acb3c0a703aa89739d6ab7f23b9996a350302e3f046880f8d345d37daf0ed941"
     },
     "fortnightly/2026-11-15": {
-      "union-mutual-fund": "f9a231c9ce8306759852625e9c1c4049f2824021f67f2480264f602070402e48",
+      "union-mutual-fund": "376cc66d6347445afe2d90c2c2a78bc71a8fba65682c9d9158b84f34ef0f90db",
       "helios-mutual-fund": "a60ec19f70c31e8178f98c21c207cb1556c39de19296c44a18a19fb63fcdca6a",
-      "shriram-mutual-fund": "04f9c7b66f2c72a70daeed93d8546beb565fbf5c931c1a8ce135864c7b2531d2",
+      "shriram-mutual-fund": "be859241f510b17fbc26ddc09fc6d770d0252a5b1cb575f109ba666c89686a4c",
       "unifi-mutual-fund": "2fae67c88fed1243c386b971cc8cb1fd9ce9b35070a8f801f6199c98f61c0982",
       "aditya-birla-sun-life-mutual-fund": "a216daa61b4b5aeec67598bff4c9c4616ad52c77adfc9b9d12558d4be0774a55",
       "bajaj-finserv-mutual-fund": "128a848a373852ada51d9299bc8a3f17bb6052bde309cf03d927a4638991b000",
@@ -176,7 +176,29 @@
       "sbi-mutual-fund": "323424fd9b7d22d6edb4866f2da84ed9f8fdf8a38e7da7adc4864caeedd4b68a",
       "tata-mutual-fund": "301d51738d3a1d1f295158d0e909b99baffb88e8522c28b6b62cebff4ff280ec",
       "uti-mutual-fund": "ceced94df106d15a9fe87375218483c3c1a3cfdd1f04e884aa2a17789f2c2a8e",
-      "zerodha-mutual-fund": "81114b77bec618274a4358cca5cdb14764c963e811e21bcdec450e8273290551"
+      "zerodha-mutual-fund": "81114b77bec618274a4358cca5cdb14764c963e811e21bcdec450e8273290551",
+      "360-one-mutual-fund": "15c570d19b6eff08e356270075b75ef2248d470e23c0f47ad4c8a03832868857",
+      "abakkus-mutual-fund": "bd2f0b73fe996167e428cba5a98ea2ba374194f33b640ce71104a605bc45801f",
+      "axis-mutual-fund": "c0d7c42019b4a142d27047bbd4f4a435f5eb24a66c9ab23f0141066dec05a6cf",
+      "bandhan-mutual-fund": "d6b94d890dfecba302833c82acd057cdc2649c14704849ca166f317be161defd",
+      "bank-of-india-mutual-fund": "7faafc41a3dcf8e919a33f572bb7be5aba3d0e5bb9e03b89d842b18894250fcf",
+      "baroda-bnp-paribas-mutual-fund": "b167633be41b1d2cb4fe46e5e1bf18b077d7a3684e55bc5daca7ddddda66b0e0",
+      "choice-mutual-fund": "d3deb7129c1c7b94b3264a37ce89732aa052ed4ffa9f91b4a88369dc7a7e6abd",
+      "dsp-mutual-fund": "381609e8d35dcfd7596cf876ab820e791a73125afee1d74de5e4aa3fada016c3",
+      "edelweiss-mutual-fund": "1c770b5fb39595bfe6fc64e493f33901fb3c6ffe9c55f3df7bd5c58f0e7f8a5d",
+      "franklin-templeton-mutual-fund": "3fe5fd2bfc58ef7dcc6982dc678e3f301b0dba361b06af7e614729805c952d6c",
+      "groww-mutual-fund": "b25ba6346c469fb98c9bb5e432f6120fe842a8a10b5462decc9930df7d8373ce",
+      "invesco-mutual-fund": "dfc6b67d1198f14d3eb16a1eda2ef6112bcaf393f051f40f9cf6041e282d5f24",
+      "iti-mutual-fund": "7457bfe4d2630d483e6018b3c23e8d75e94a821edbc450d885bb01a45bb4a869",
+      "jio-blackrock-mutual-fund": "4af7e58ac9833a68b6d9cf39bf793e9e43c8b26bc18d17e3a8dbd979aa3f3e53",
+      "kotak-mahindra-mutual-fund": "16ad3eb0200b5ad042972457308588727969e4227a8b58d20f801840ddbc2906",
+      "mirae-asset-mutual-fund": "172d7a2fd45685850baa0fbc27838b73760b99591974be4c843a40833f0c7f58",
+      "navi-mutual-fund": "0cbf4149bb39b8a4b95b37e117eef6473c5fd5876a5a0657e1c49ab261f95309",
+      "quantum-mutual-fund": "688dbded2b2d7ad6ee2487c7936e5d560d1daa904927ec9feb38dedea3ada3ed",
+      "sundaram-mutual-fund": "b75fa82e162950536c9b350413319c78c72a67a5d14e42f5a6e341501aecb66e",
+      "the-wealth-company-mutual-fund": "a5eaaacf23cf35aa220d2783eff6914722f56206f4275c834eac75a6688762d2",
+      "trust-mutual-fund": "180ad190399f073df3aed23f2ce5d5076140018ea4a68ef016718576817f83be",
+      "whiteoak-capital-mutual-fund": "50149b43e8814fec0858ce9f30b078e18ecf121ce61b628bec0aa910152be168"
     }
   },
   "urls": {
@@ -329,9 +351,9 @@
       "zerodha-mutual-fund": "2bb3506a4072a1535d1a870f"
     },
     "fortnightly/2026-11-15": {
-      "union-mutual-fund": "b937c266e5c83d44b1c8187b",
+      "union-mutual-fund": "a43d20924c8e5d8313fca143",
       "helios-mutual-fund": "704b06b929e30cf3f1bdbc32",
-      "shriram-mutual-fund": "8fe6df94e41ab14a2889faef",
+      "shriram-mutual-fund": "9507027b2958da777627b450",
       "unifi-mutual-fund": "e36d5c042d1ed0adba7c160d",
       "aditya-birla-sun-life-mutual-fund": "8d84bc26be5d4ff9d5a5d1f6",
       "bajaj-finserv-mutual-fund": "7595104fd6d7670ce46c33bd",
@@ -351,7 +373,29 @@
       "sbi-mutual-fund": "f2af85f086094aebcf1ef181",
       "tata-mutual-fund": "42abe5617d19f0effe5d128f",
       "uti-mutual-fund": "65b4d6c8f8268e1e73ba1d91",
-      "zerodha-mutual-fund": "5de34eb11caedc30869639d7"
+      "zerodha-mutual-fund": "5de34eb11caedc30869639d7",
+      "360-one-mutual-fund": "6cc6b3db108b4e243afbe194",
+      "abakkus-mutual-fund": "597cafc49a22e453d8693819",
+      "axis-mutual-fund": "bcd4f9eacfaa17db1db1d51b",
+      "bandhan-mutual-fund": "783fd8d6a957f2897037f769",
+      "bank-of-india-mutual-fund": "3673c58df258d8bf15a6a0e4",
+      "baroda-bnp-paribas-mutual-fund": "317cc7677466c067bb320d52",
+      "choice-mutual-fund": "71d1eeb845c3be2c2d3e1918",
+      "dsp-mutual-fund": "5ee30b84f797557ec667642c",
+      "edelweiss-mutual-fund": "7d1facbea732cd5e8fed0afc",
+      "franklin-templeton-mutual-fund": "56d4983740781ac07a0e0204",
+      "groww-mutual-fund": "4f5ed45c0cfba64b3da93f31",
+      "invesco-mutual-fund": "e7a2e40243542cfd7261710a",
+      "iti-mutual-fund": "bcb70e1ffd54f00ad3d63ae4",
+      "jio-blackrock-mutual-fund": "189d34428b3286e4270d6eb5",
+      "kotak-mahindra-mutual-fund": "eefd7ec74acd8b970c28c7d2",
+      "mirae-asset-mutual-fund": "40fdcf3791395b09f246c339",
+      "navi-mutual-fund": "bedfa91466b62b41bf12a1e9",
+      "quantum-mutual-fund": "de316efc19b7ac6399b6c7ad",
+      "sundaram-mutual-fund": "dbeb2797375ed9d60e607c7b",
+      "the-wealth-company-mutual-fund": "014f66f35cb8464643d7f249",
+      "trust-mutual-fund": "d3dd92a07531f46d13fa778b",
+      "whiteoak-capital-mutual-fund": "39ff9b6688e68e3eaf2bbb9c"
     }
   }
 }
